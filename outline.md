@@ -1,3 +1,7 @@
+---
+description: This is an overview of everything that is covered in the following sections.
+---
+
 # Outline
 
 * Brief Notes on Standard Displays
