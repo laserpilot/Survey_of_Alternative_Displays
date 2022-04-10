@@ -1,4 +1,5 @@
 # Introduction
+[2022 Update Note: This is an attempt at migrating this article to github ahead of a more major content update. Most of the current information is from the original writeup from 2015/2016 and needs a pretty serious update. I've been experimenting with different platforms to host a more digestible format that isn't just a wiki.]
 
 An artist has a large range of ways they can display their work. Cave walls gave way to canvas and paper as ways to create portals into another human’s imagination. Stained glass windows were early versions of combining light and imagery. Electronic displays are our next continuation of this same concept. A photon is emitted; it travels until it reflects off of or passes through a medium. That photon then passes into your eyeball and excites some specialized cells — when enough of these cells are excited, your brain turns these into what you perceive as an image.
 
