@@ -26,7 +26,7 @@
 
 * [Overview](techniques/overview.md)
 * [Pepper's Ghost](techniques/peppers-ghost.md)
-* [Projection on Static Material](techniques/projection-on-static-material.md)
+* [Projection on Static Transparent Material](techniques/projection-on-static-material.md)
 * [Volumetric Projection](techniques/volumetric-projection.md)
 * [Projection on Water or Fog](techniques/projection-on-water-or-fog.md)
 * [Electrochromic Paint](techniques/electrochromic-paint.md)
