@@ -6,67 +6,65 @@ description: This is an overview of everything that is covered in the following 
 
 * **Introduction**
 * **Brief Notes on Standard Displays**
-  * LED
-  * Projector&#x20;
-  * LCD&#x20;
-  * OLED ? certainly the dominant smartphone display and transparent display&#x20;
-  * CRT (? - Move to Vintage appendix)&#x20;
-* **Displays&#x20;**
-  * Transparent&#x20;
-    * LCD&#x20;
-    * OLED&#x20;
-    * LED&#x20;
-  * Modified LCD Polarizer&#x20;
-  * Volumetric Displays
-    * &#x20;Mechanical/Persistence of Vision 
+  * [LCD/Standard displays](standard-displays/standard-displays-overview.md)
+  * [LED](standard-displays/led.md)
+  * [Projector](standard-displays/projector.md)
+  * [OLED](standard-displays/oled.md)
+* **Displays**
+  * [Transparent](displays/transparent.md)
+    * LCD
+    * OLED
+    * LED
+  * [Modified LCD Polarizer](displays/modified-polarizers.md)
+  * [Volumetric Displays](displays/volumetric.md)
+    * Mechanical/Persistence of Vision
     * Layered screens
-  * Electronic Paper/E-Ink
-      * Standard
-        * Visionect 
-      * Sculptural/Architectural
-  * Flexible Displays
+  * [Electronic Paper/E-Ink](displays/electronic-paper-e-ink.md)
+    * Standard
+      * Visionect
+    * Sculptural/Architectural
+  * [Flexible Displays](displays/flexible-displays.md)
     * Small Scale
     * Large Scale
-      * LG 
-  * Laser Projectors
+      * LG
+  * [Laser Projectors](displays/laser-projectors.md)
   * Light Field displays
     * Solidlight
     * Looking glass factory
-    * Voxon (maybe under mechanical?) 
-  * Head Mounted Displays (VR/AR/Mixed Reality) 
-* **Techniques:** 
-  * Pepper’s Ghost 
-  * Projection on Static Transparent Materials/Scrims 
-  * Projection on Water or Fog 
-  * Volumetric Projection
+    * Voxon (maybe under mechanical?)
+  * [Head Mounted Displays (VR/AR/Mixed Reality)](displays/head-mounted-displays.md)
+* **Techniques:**
+  * [Pepper’s Ghost](techniques/peppers-ghost.md)
+  * [Projection on Static Transparent Materials/Scrims](techniques/projection-on-static-material.md)
+  * [Projection on Water or Fog](techniques/projection-on-water-or-fog.md)
+  * [Volumetric Projection](techniques/volumetric-projection.md)
     * Kimchi and Chips
     * Hovver Liminal Scope II
-  * Diffusion and Distortion 
-  * Electrochromic Paint 
+  * [Diffusion and Distortion](techniques/diffusion-and-distortion.md)
+  * [Electrochromic Paint](techniques/electrochromic-paint.md)
 * **Experimental/Artistic Exploration/Other**
-  * Physical/Mechanical Displays 
-    * Augmentl Morph 
-    * Mischer 'Traxler Plural 
-  * Drone Displays 
-  * Scanning fiber optics 
-  * Acoustic Levitation 
-  * Plasma Combustion 
-    * Aerial Burton 
-    * Fairy Lights 
-  * High Refresh Rate Displays 
-  * Physical Interaction 
-    * Lickable Display 
-    * TanvasTouch 
-    * Hap2U 
-* **Legacy/Vintage Curiosities** 
-  * CRT 
-  * Eggcrate 
-  * Eidophor Projector 
-  * Pyrotechnics Appendix and Other References 
+  * Physical/Mechanical Displays
+    * Augmentl Morph
+    * Mischer 'Traxler Plural
+    * Lickable Display
+    * TanvasTouch
+    * Hap2U
+  * Drone Displays
+  * Scanning fiber optics
+  * Acoustic Levitation
+  * Plasma Combustion
+    * Aerial Burton
+    * Fairy Lights
+  * High Refresh Rate Displays
+* **Legacy/Vintage Curiosities**
+  * CRT
+  * Eggcrate
+  * Eidophor Projector
+  * Pyrotechnics Appendix and Other References
 * **Appendix and Other References**
-  * Misleading terms 
-    * Hologram 
+  * Misleading terms
+    * Hologram
     * Autostereoscopic Displays/3D TV's
-    * LED TV’s 
+    * LED TV’s
   * XR/"Virtual production"
   * Other References
