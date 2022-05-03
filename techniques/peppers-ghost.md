@@ -21,3 +21,9 @@ Carefully controlled lighting is essential for this effect to look its best. The
 ![Pepper’s Ghost Pyramid — Source](https://miro.medium.com/max/1000/1\*d0L-cF7kPwAnNZOnwNZJCw.jpeg)
 
 Peppers ghost is still very much a 2D effect and does not present an image in three dimensions. It is just a mirror reflecting another flat plane. Parallax between the reflected image and the background is what gives our eyes the illusion of the content floating in mid air. A false sense of 3D can be achieved depending on your source and how the reflecting surfaces are arranged. There are some implementations of the effect that put 4 mirrors in a pyramid shape under a monitor (some have marketed themselves as holograms — [sparking](https://medium.com/@sableraph/is-the-holus-3d-hologram-the-biggest-scam-in-the-history-of-kickstarter-6e86dd5bde7d#.laqsjfr5f) [controversy](http://joanielemercier.com/kickstarter\_is\_broken/)). By having the monitor display a different image for each mirror, the observer gets more of a 3D view as they walk around — even if it is just 4 discrete viewing angles. Head or eye tracking would have to be employed to make the effect a little more convincing, but then it would only work for one observer at a time. As it usually functions, the effect may look best from one vantage point, especially if you are trying to align it with an object behind the surface. This misalignment can be minimized by having your observer be further back so when they move their head, the parallax isn’t as great as if they are right in front of the screen.
+
+
+
+Other reference links:
+
+* [https://hackaday.com/2022/05/03/blending-peppers-ghost-synths-and-vintage-tvs/](https://hackaday.com/2022/05/03/blending-peppers-ghost-synths-and-vintage-tvs/)

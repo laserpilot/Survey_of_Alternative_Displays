@@ -48,7 +48,9 @@ There are a few different types of this type of volumetric display. One type is 
 
 By stacking each display on top of the other, you are able to create volumetric effects with 3 dimensional content, or more slipping parallax effects with 2D content. The depth resolution is limited by how many displays you can stack on top of each other. It also becomes more difficult to backlight all of the stacked displays so that everything is visible. Each display, its components and polarizing film will cost a little bit of luminance and clarity for the viewer. If the screens are far apart, there is also the possibility of internal reflection between two adjacent screens that can impact the contrast.
 
-![](https://miro.medium.com/max/1400/1\*nYBwydNkAEckkCXySMr5uA.jpeg)MIT Media Lab’s Polarization Field Display — [Source](http://alumni.media.mit.edu/\~dlanman/research/polarization-fields/)
+
+
+![MIT Media Lab’s Polarization Field Display — Source](https://miro.medium.com/max/1400/1\*nYBwydNkAEckkCXySMr5uA.jpeg)
 
 When using this type of display technique to show content, there are a few different approaches and challenges. The most straightforward method is to chop up your images into different depth layers so that you can achieve parallax by displaying each layer on a different screen. This is similar to the method of hand drawn cel animation where the background landscapes are on a different layer than the characters. To achieve more of a 3D volume effect with this method, you would have to incorporate viewer eye or head tracking into the display software in order to display multiple viewpoints in real time. The screens are also only viewable on 1 or 2 sides of a cube, instead of 4 or 5 sides. Your Z-dimension is constrained by how many displays you can stack on top of each other. Blending colors across multiple screens is also a challenge. Stacking dark colors will turn muddy at the end and stacking red green and blue won’t necessarily make white as with other additive light methods. Color filters also impact the brightness, and some [projects](http://displayblocks.org/diycompressivedisplays/polarizationfields/) use grayscale monitors instead.
 
@@ -56,12 +58,16 @@ Getting a video signal to each display is another technical challenge, depending
 
 [LightSpace Technologies](http://www.lightspace3d.com/multi-planar-3d-volumetric-imaging.html) has a display that was formerly known as the Depthcube that uses a high speed projector and a series of about 20 LCDs that are used as optical stops, so that each layer of depth can be halted at the correct location. By using special antialiasing techniques, the physical space between the layers can be smoothed so it doesn’t feel so stepped. Here is a [writeup](http://www.photonics.com/Article.aspx?AID=58372) with more technical details on how it works. This display has been in development since the early 2000s and has been commercially available at an unknown price point. The primary use case of one of these displays has been in engineering or medical applications. Here is a [video](https://www.youtube.com/watch?v=RAasdH10Irg) of it in action.
 
-![](https://miro.medium.com/max/904/1\*FJhy53OhLkPlfunvN-b5HQ.jpeg)![](https://miro.medium.com/max/1192/1\*3YbKWdKqdLJM-33N19A3CQ.jpeg)Depthcube Diagram and Image — [Source](http://lightspacetech.com/depthcube-z1024-volumetric-3d-display.html)
+
+
+![Depthcube Diagram and Image — Source](https://miro.medium.com/max/904/1\*FJhy53OhLkPlfunvN-b5HQ.jpeg)
+
+![Depthcube Diagram and Image — Source](https://miro.medium.com/max/1192/1\*3YbKWdKqdLJM-33N19A3CQ.jpeg)
 
 There are some versions of layered screens or display volumes that don’t stack multiple LCDs but combine them with things like layered [Pepper’s Ghost](https://vimeo.com/110670658), multiple projections on scrims, [transparent acrylic](http://blairneal.com/portfolio\_page/crayolascope/), or LED cubes.
 
 Around 2016, [Looking Glass Factory](https://lookingglassfactory.com) developed [Volume](https://www.youtube.com/watch?v=Jv\_OEY2P8MA) which was poised to be an affordable multiplane display. It achieved its effect by means of a projector and about 12 layers of angled material that catches a small sliver of the projector’s raster. They used a custom plugin for Unity that allows you to drop a 3D scene into their renderer and have it slice it up appropriately for their volumetric display. In 2017, Looking Glass Factory changed their technology and introduced the Holoplayer One. The Holoplayer One is more of a lightfield display than a layered screen and it uses a high resolution screen, a high density lenticular film and retroreflective material to create a stereoscopic view with 32 different viewing angles. It uses a depth camera for interaction and a Unity Plugin pipeline for rendering custom content. There is also a version of the Holoplayer they are working on that can be combined with a Pepper’s Ghost effect and they are calling it Super Pepper.
 
-![](https://miro.medium.com/max/1400/1\*NQmo9T2R7n8q1rZGEAC4gQ.png)Diagram for the Holoplayer One
+![Diagram for the Holoplayer One](https://miro.medium.com/max/1400/1\*NQmo9T2R7n8q1rZGEAC4gQ.png)
 
 There are also many [pieces](http://random-international.com/work/future-self/) or products out there that use a 3D volume of individually addressable LEDs to create a layered volume with more viewing angles but a lower visual fidelity.
