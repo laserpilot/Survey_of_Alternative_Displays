@@ -1,5 +1,5 @@
 ---
-description: Paint that can light up and change color with a current
+description: Paint that can light up and change color when a current is applied to it.
 ---
 
 # Electrochromic Paint

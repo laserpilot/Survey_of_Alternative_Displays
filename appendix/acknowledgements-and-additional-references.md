@@ -4,7 +4,11 @@ description: >-
   added to other categories eventually
 ---
 
-# Additional References
+# Acknowledgements and Additional References
+
+## Acknowledgements <a href="#e8aa" id="e8aa"></a>
+
+Thanks to everyone over the years who has contributed ideas, new sources, and edits to my original writeup. Original reviewers were Kyle McDonald, Golan Levin, Elliot Woods, and a few others. Matt Ward has contibuted a bunch of new structural thoughts as well.
 
 ## Other resources, oddballs, optics, and more <a href="#e8aa" id="e8aa"></a>
 

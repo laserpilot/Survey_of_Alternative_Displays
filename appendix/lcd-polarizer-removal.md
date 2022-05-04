@@ -1,6 +1,6 @@
 # LCD Polarizer Removal
 
-## Appendix A: DIY Notes to Remove the Polarizer from your Monitor <a href="#873b" id="873b"></a>
+## DIY Notes to Remove the Polarizer from your Monitor <a href="#873b" id="873b"></a>
 
 ![](https://miro.medium.com/max/1400/1\*1uxPrnutYt2Pfl3prUMtwQ.jpeg)
 

@@ -41,7 +41,7 @@ description: This is an overview of everything that is covered in the following 
     * Kimchi and Chips
     * Hovver Liminal Scope II
   * [Diffusion and Distortion](techniques/diffusion-and-distortion.md)
-  * [Electrochromic Paint](techniques/electrochromic-paint.md)
+  * [Electrochromic Paint](experimental-other/electrochromic-paint.md)
 * **Experimental/Artistic Exploration/Other**
   * Physical/Mechanical Displays
     * Augmentl Morph

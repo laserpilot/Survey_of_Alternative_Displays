@@ -1,6 +1,6 @@
 # DIY Transparent Screens
 
-## Appendix B: Notes on DIY Transparent screens <a href="#fd09" id="fd09"></a>
+## Notes on DIY Transparent screens <a href="#fd09" id="fd09"></a>
 
 You can modify an existing LCD monitor to be transparent by opening up the monitor and removing the backlight yourself. Insert boilerplate copy about how you should not attempt this without understanding that you may completely break your screen or cause personal injury/electrocution and the author assumes no responsibility — please be cautious and safe.
 

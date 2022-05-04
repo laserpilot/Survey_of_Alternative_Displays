@@ -14,7 +14,7 @@
 
 * [Overview](displays/overview.md)
 * [Transparent](displays/transparent.md)
-* [Volumetric](displays/volumetric.md)
+* [Volumetric Displays](displays/volumetric.md)
 * [Modified Polarizers](displays/modified-polarizers.md)
 * [Electronic Paper/E-Ink](displays/electronic-paper-e-ink.md)
 * [Flexible Displays](displays/flexible-displays.md)
@@ -30,13 +30,14 @@
 * [Volumetric Projection](techniques/volumetric-projection.md)
 * [Projection on Water or Fog](techniques/projection-on-water-or-fog.md)
 * [Diffusion and Distortion](techniques/diffusion-and-distortion.md)
-* [Electrochromic Paint](techniques/electrochromic-paint.md)
+* [Switchable Glass](techniques/switchable-glass.md)
 
 ## Experimental/Other
 
 * [Overview](experimental-other/overview.md)
 * [Physical/Mechanical Displays](experimental-other/physical-mechanical-displays.md)
 * [Drone Displays](experimental-other/drone-displays.md)
+* [Electrochromic Paint](experimental-other/electrochromic-paint.md)
 * [Scanning Fiber Optics](experimental-other/scanning-fiber-optics.md)
 * [Acoustic Levitation](experimental-other/acoustic-levitation.md)
 * [Plasma Combustion](experimental-other/plasma-combustion.md)
@@ -56,4 +57,4 @@
 * [Virtual Production and XR](appendix/virtual-production-and-xr.md)
 * [LCD Polarizer Removal](appendix/lcd-polarizer-removal.md)
 * [DIY Transparent Screens](appendix/diy-transparent-screens.md)
-* [Additional References](appendix/additional-references.md)
+* [Acknowledgements and Additional References](appendix/acknowledgements-and-additional-references.md)
