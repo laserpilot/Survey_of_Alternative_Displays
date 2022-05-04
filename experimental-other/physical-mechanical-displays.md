@@ -17,3 +17,11 @@ These physical displays continue to get more sophisticated as the years go on. T
 As mentioned, these kinds of physical actuated displays are also used in conjunction with projection to add haptics as another layer of interaction and collaboration. The [inFORM](http://tangible.media.mit.edu/project/inform/) from MIT has been the classic example of this for the last couple years. Some [researchers](http://www.olivierbau.com/teslatouch.php) are even working on ways to use electrical signals to simulate textures on touch screens — but a full writeup on the future of haptics and displays is one for another article :)
 
 ![MIT’s inform Haptic Display — Source](https://miro.medium.com/max/1400/1\*xX76RXf6Lwn6eVI0WxYnuA.jpeg)
+
+Others:
+
+[Mischer'Traxler's Plural](https://mischertraxler.com/projects/plural-and-spannungsfeld/)
+
+This project uses actuators and elastic thread to create an interactive abstract topography
+
+![](../.gitbook/assets/mischertraxler\_PLURAL\_exclusion-new.gif)

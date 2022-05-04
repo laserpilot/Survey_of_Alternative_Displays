@@ -21,3 +21,11 @@ Realted to the above, in Halo they have also explored the idea of using speciali
 There are also variations on this idea that don’t involve fog or specialized optics. A simple way is to use layers of fabric — the image will be the same on each layer but will get larger or smaller on each pass. There is also the method employed by the [Lumarca](https://www.albert-hwang.com/lumarca) where a grid of thin strings are stretched to make a large volume. Each string in the volume can then be precisely mapped by a few columns of pixels from the projector. When the location of each column is then mapped to a known 3D space, it becomes easy to render simple graphics on the array of strings that appear to have volume. The strings transmit the light a bit, so it is easy to see from all sides. This method also has some density and fidelity limitations but is also easy to scale.
 
 {% embed url="https://www.youtube.com/watch?v=dPaLT80qY3M" %}
+
+There are also abstract applications of projection that could be considered volumetric, like [Liminal Scope II](https://www.chrislunney.com/liminal-scope-ii) by the studio Hovver. This uses a pair of projectors in a fabricated circular structure filled with fog and mirrors. This approach allows them to create a sort of volumetric circular volume of light in an enclosed space.
+
+![Liminal Scope II by Hovver](../.gitbook/assets/liminal+scope+final+image+1+DFN+trimmed.jpg)
+
+{% embed url="https://vimeo.com/260129299?embedded=true&owner=53255680&source=video_title" %}
+Liminal Scope II by Hovver
+{% endembed %}

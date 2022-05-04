@@ -28,10 +28,9 @@ description: This is an overview of everything that is covered in the following 
     * Large Scale
       * LG
   * [Laser Projectors](displays/laser-projectors.md)
-  * Light Field displays
+  * [Light Field displays](displays/light-field-displays.md)
     * Solidlight
     * Looking glass factory
-    * Voxon (maybe under mechanical?)
   * [Head Mounted Displays (VR/AR/Mixed Reality)](displays/head-mounted-displays.md)
 * **Techniques:**
   * [Pepper’s Ghost](techniques/peppers-ghost.md)
@@ -41,30 +40,38 @@ description: This is an overview of everything that is covered in the following 
     * Kimchi and Chips
     * Hovver Liminal Scope II
   * [Diffusion and Distortion](techniques/diffusion-and-distortion.md)
-  * [Electrochromic Paint](experimental-other/electrochromic-paint.md)
 * **Experimental/Artistic Exploration/Other**
-  * Physical/Mechanical Displays
+  * [Physical/Mechanical Displays](experimental-other/physical-mechanical-displays.md)
     * Augmentl Morph
     * Mischer 'Traxler Plural
     * Lickable Display
     * TanvasTouch
     * Hap2U
-  * Drone Displays
-  * Scanning fiber optics
-  * Acoustic Levitation
-  * Plasma Combustion
+  * [Switchable Glass](experimental-other/switchable-glass.md)
+    * PDLC
+    * SPD
+    * Electrochromic
+    * LCD
+  * [Drone Displays](experimental-other/drone-displays.md)
+  * [Electrochromic Paint](experimental-other/electrochromic-paint.md)
+  * [Scanning fiber optics](experimental-other/scanning-fiber-optics.md)
+  * [Acoustic Levitation](experimental-other/acoustic-levitation-display.md)
+  * [Plasma Combustion](experimental-other/plasma-combustion.md)
     * Aerial Burton
     * Fairy Lights
-  * High Refresh Rate Displays
+  * [High Refresh Rate Displays](experimental-other/high-refresh-rate-displays.md)
 * **Legacy/Vintage Curiosities**
-  * CRT
-  * Eggcrate
-  * Eidophor Projector
-  * Pyrotechnics Appendix and Other References
+  * [Cathode Ray Tube](legacy/cathode-ray-tube.md)
+  * [Eggcrate](legacy/eggcrate.md)
+  * [Eidophor Projector](legacy/eidophor-projector.md)
+  * [Pyrotechnics Appendix and Other References](legacy/pyrotechnics-and-other-curiosities.md)
 * **Appendix and Other References**
-  * Misleading terms
+  * [Misleading terms](appendix/misleading-terms.md)
     * Hologram
     * Autostereoscopic Displays/3D TV's
     * LED TV’s
-  * XR/"Virtual production"
-  * Other References
+  * [Touchscreens](appendix/notes-about-touch-screens.md)
+  * [XR/"Virtual production"](appendix/virtual-production-and-xr.md)
+  * [DIY LCD Polarizer Removal](appendix/lcd-polarizer-removal.md)
+  * [DIY Transparent Screens](appendix/diy-transparent-screens.md)
+  * [Acknowledgements and Other References](appendix/acknowledgements-and-additional-references.md)
