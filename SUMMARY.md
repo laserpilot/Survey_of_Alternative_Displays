@@ -54,6 +54,7 @@
 ## Appendix
 
 * [Misleading Terms](appendix/misleading-terms.md)
+* [Notes about Touch Screens](appendix/notes-about-touch-screens.md)
 * [Virtual Production and XR](appendix/virtual-production-and-xr.md)
 * [LCD Polarizer Removal](appendix/lcd-polarizer-removal.md)
 * [DIY Transparent Screens](appendix/diy-transparent-screens.md)
