@@ -22,3 +22,31 @@ Making use of E-ink displays in artworks is unfortunately impeded by the fact th
 
 {% embed url="https://vimeo.com/180645555?embedded=true&owner=994292&source=video_title" %}
 
+### E-Ink Prism
+
+Below are some examples that use some of [E-Ink's Prism](https://www.eink.com/architecture.html?type=application\&id=10) material for large scale architectural installations.
+
+{% embed url="https://www.youtube.com/watch?v=WdyH7u758kA" %}
+Architectural Coral
+{% endembed %}
+
+{% embed url="https://www.youtube.com/watch?v=bfRsmoNDGvg" %}
+Various examples from E-Ink
+{% endembed %}
+
+{% embed url="https://www.youtube.com/watch?v=kZzxmGjN6Gg" %}
+Sped up video of a flower using colored E-Ink
+{% endembed %}
+
+[Dazzle from Ueberall international](https://ueberall.us/portfolio/dazzle/) that actually uses panels on the outside of a building
+
+![](../.gitbook/assets/MG\_1479-Pano.jpg)
+
+[Eºflow interactive sculpture](https://segd.org/e%C2%B0flow-interactive-sculpture) from SEGD
+
+![eºFlow sculpture from SEGD using E-Ink](../.gitbook/assets/E16034.jpg)
+
+
+
+{% embed url="https://vimeo.com/172943345?embedded=true&owner=13001484&source=video_title" %}
+

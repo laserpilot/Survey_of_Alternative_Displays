@@ -35,11 +35,11 @@
 
 * [Overview](experimental-other/overview.md)
 * [Physical/Mechanical Displays](experimental-other/physical-mechanical-displays.md)
-* [Switchable Glass](experimental-other/switchable-glass.md)
+* [Switchable Glass](techniques/switchable-glass.md)
 * [Drone Displays](experimental-other/drone-displays.md)
 * [Electrochromic Paint](experimental-other/electrochromic-paint.md)
 * [Scanning Fiber Optics](experimental-other/scanning-fiber-optics.md)
-* [Acoustic Levitation Display](experimental-other/acoustic-levitation-display.md)
+* [Acoustic Levitation Display](experimental-other/acoustic-levitation.md)
 * [Plasma Combustion](experimental-other/plasma-combustion.md)
 * [High Refresh Rate Displays](experimental-other/high-refresh-rate-displays.md)
 
@@ -48,7 +48,7 @@
 * [Overview](legacy/overview.md)
 * [Cathode Ray Tube](legacy/cathode-ray-tube.md)
 * [Eidophor Projector](legacy/eidophor-projector.md)
-* [Eggcrate](legacy/eggcrate.md)
+* [Eggcrate and other Numeric Displays](legacy/eggcrate-and-other-numeric-displays.md)
 * [Pyrotechnics and Other Curiosities](legacy/pyrotechnics-and-other-curiosities.md)
 
 ## Appendix

@@ -47,7 +47,7 @@ description: This is an overview of everything that is covered in the following 
     * Lickable Display
     * TanvasTouch
     * Hap2U
-  * [Switchable Glass](experimental-other/switchable-glass.md)
+  * [Switchable Glass](techniques/switchable-glass.md)
     * PDLC
     * SPD
     * Electrochromic
@@ -55,14 +55,14 @@ description: This is an overview of everything that is covered in the following 
   * [Drone Displays](experimental-other/drone-displays.md)
   * [Electrochromic Paint](experimental-other/electrochromic-paint.md)
   * [Scanning fiber optics](experimental-other/scanning-fiber-optics.md)
-  * [Acoustic Levitation](experimental-other/acoustic-levitation-display.md)
+  * [Acoustic Levitation](experimental-other/acoustic-levitation.md)
   * [Plasma Combustion](experimental-other/plasma-combustion.md)
     * Aerial Burton
     * Fairy Lights
   * [High Refresh Rate Displays](experimental-other/high-refresh-rate-displays.md)
 * **Legacy/Vintage Curiosities**
   * [Cathode Ray Tube](legacy/cathode-ray-tube.md)
-  * [Eggcrate](legacy/eggcrate.md)
+  * [Eggcrate](legacy/eggcrate-and-other-numeric-displays.md)
   * [Eidophor Projector](legacy/eidophor-projector.md)
   * [Pyrotechnics Appendix and Other References](legacy/pyrotechnics-and-other-curiosities.md)
 * **Appendix and Other References**
