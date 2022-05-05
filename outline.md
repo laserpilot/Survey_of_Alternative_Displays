@@ -39,7 +39,7 @@ description: This is an overview of everything that is covered in the following 
   * [Volumetric Projection](techniques/volumetric-projection.md)
     * Kimchi and Chips
     * Hovver Liminal Scope II
-  * [Diffusion and Distortion](techniques/diffusion-and-distortion-techniques.md)
+  * [Diffusion and Distortion](techniques/diffusion-and-distortion.md)
 * **Experimental/Artistic Exploration/Other**
   * [Physical/Mechanical Displays](experimental-other/physical-mechanical-displays.md)
     * Augmentl Morph

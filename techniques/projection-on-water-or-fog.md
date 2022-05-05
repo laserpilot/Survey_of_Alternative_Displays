@@ -2,7 +2,7 @@
 
 For this technique, instead of a static material like cloth, you can use water, haze or another atomized fluid to catch light and provide a semi-transparent screen.
 
-**Water Screens**
+### **Water Screens**
 
 {% embed url="https://vimeo.com/49029399?embedded=true&owner=570396&source=video_title" %}
 [https://vimeo.com/49029399?embedded=true\&source=video\_title\&owner=570396](https://vimeo.com/49029399?embedded=true\&source=video\_title\&owner=570396)
@@ -14,7 +14,7 @@ Falling water screens are much more manageable to install indoors. These have a 
 
 The effect of water screens is very unique due to the haze of smaller water mist particles causing a halo and giving the 2D image more volume. There is also a textural quality to the water and mist that you should plan on, as it can add some glow and reduce sharpness a bit. Rear projection works best on these screens, so there will be a persistent hotspot behind the content, but this may not impact too much depending on your setup. Front projection is possible, but you run the risk of doubling the image onto other surfaces behind the semi-transparent screen.
 
-**Fog Screens/Laminar Flow**
+### **Fog Screens/Laminar Flow**
 
 {% embed url="https://vimeo.com/121979573?embedded=true&owner=1790761&source=video_title" %}
 [https://vimeo.com/121979573?embedded=true\&source=video\_title\&owner=1790761](https://vimeo.com/121979573?embedded=true\&source=video\_title\&owner=1790761)

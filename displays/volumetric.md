@@ -72,4 +72,14 @@ Around 2016, [Looking Glass Factory](https://lookingglassfactory.com) developed 
 
 ![Diagram for the Holoplayer One](https://miro.medium.com/max/1400/1\*NQmo9T2R7n8q1rZGEAC4gQ.png)
 
+### Volumetric LED
+
 There are also many [pieces](http://random-international.com/work/future-self/) or products out there that use a 3D volume of individually addressable LEDs to create a layered volume with more viewing angles but a lower visual fidelity.
+
+[LEDPulse's Dragon displays](https://www.ledpulse.com/work-with-us/the-body-of-the-dragon) are a productized version of this approach.
+
+{% embed url="https://www.youtube.com/watch?v=X2l46-WhHj0" %}
+LEDPulse Dragon
+{% endembed %}
+
+![LEDPulse Dragon O Display system with volumetric LED's](../.gitbook/assets/5e8cd4a4af937369148b2f0e\_WEBSiTE%20LEDPULSE%20.jpg)

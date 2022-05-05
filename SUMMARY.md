@@ -30,7 +30,7 @@
 * [Projection on Static Transparent Material](techniques/projection-on-static-material.md)
 * [Volumetric Projection](techniques/volumetric-projection.md)
 * [Projection on Water or Fog](techniques/projection-on-water-or-fog.md)
-* [Diffusion and Distortion Techniques](techniques/diffusion-and-distortion-techniques.md)
+* [Diffusion and Distortion Techniques](techniques/diffusion-and-distortion.md)
 
 ## Experimental/Other
 
@@ -43,6 +43,7 @@
 * [Acoustic Levitation Display](experimental-other/acoustic-levitation.md)
 * [Plasma Combustion](experimental-other/plasma-combustion.md)
 * [High Refresh Rate Displays](experimental-other/high-refresh-rate-displays.md)
+* [Other Experiments](experimental-other/other-experiments.md)
 
 ## Legacy
 

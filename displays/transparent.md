@@ -1,5 +1,9 @@
 # Transparent
 
+* Transparent LCD and OLED
+* Transparent LED
+* Spinning Fan Displays/Persistence of Vision
+
 ## Transparent LCD and OLED <a href="#5018" id="5018"></a>
 
 {% embed url="https://vimeo.com/50200308?embedded=true&owner=3549383&source=video_title" %}
@@ -28,5 +32,28 @@ As of the end of 2017, transparent OLED screens are not currently being manufact
 
 Now that Samsung has stopped manufacturing these panels, be extremely wary of anyone offering them for sale since their lifespan and quality could be questionable. There are probably less than 100 currently available globally and there is no telling how pristine they are. Just like standard OLED, there is a big potential for screen burn-in and loss of luminance over their lifetime. Renting is the best suggestion for anyone looking to use them for an installation. Some potential rental sources I’ve come across are [ABComRents](https://www.abcomrents.com) and [Oxygen Eventworks](http://oxygeneventworks.com).
 
-\
-\
+### Transparent LED
+
+There are a few different approaches to Transparent LEDs that are out there in the market.&#x20;
+
+The most common and slightly cheaper solution are products that essentially have rows of LEDs on very thin metal strips that are mounted in large frames. There are resolution limitations with these solutions because of their consruction and the need for gaps to create the "transparent" effect, but they are great solutions for stage shows and architectural installations. [Roe's Vanish](https://www.roevisual.com/en/products/vanish-v18) line is an example of this type of a product.
+
+
+
+The other transparent LED solution out there uses LEDs that have been mounted on special glass panels. These LEDs are powered and controlled using very thin, nearly invisible eletrical leads on the glass. There are limitations on the pixel pitch, brightness and resolution with these products, but they provide a fairly convincing transparent effect. Due to brightness and reoslution limitations, they are best used on large scale architectural installations and intended primarily for evening and nighttime viewing as opposed to full daylight.
+
+GLAAM's G-Glass product is one example of a commercial product in this space:
+
+{% embed url="https://www.youtube.com/watch?v=9NT1ww4nMis" %}
+
+### Spinning Fan Displays
+
+There are a lot of products out there for these kinds of "holographic" spinning fan displays that could be considered a different type of "transparent" display. [Hypervsn](https://hypervsn.com) comes up the most often for a single and multiple unit system. These products use a spinning mechanism and a strip of LEDs on each fan blade. When the fan spins fast enough, the LED's draw each frame and the persistence of vision illusion allows a user to see an image that appears to float in mid air.&#x20;
+
+By their nature, these displays are still just perceptually flat and not true 3D, but with the right content they can provide some convincing visual tricks. One nice element of these displays is that they are scalable in the sense that multiple units can be linked together to create larger images.
+
+![Hypervsn Wall
+
+](../.gitbook/assets/03\_556x400\_00159.jpg)
+
+{% embed url="https://www.youtube.com/watch?v=8ZuoRWRzS_c" %}
