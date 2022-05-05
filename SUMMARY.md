@@ -9,7 +9,6 @@
 * [Standard Displays Overview](standard-displays/standard-displays-overview.md)
 * [LED](standard-displays/led.md)
 * [Projector](standard-displays/projector.md)
-* [OLED](standard-displays/oled.md)
 
 ## Displays
 
