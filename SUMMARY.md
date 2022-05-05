@@ -30,7 +30,7 @@
 * [Projection on Static Transparent Material](techniques/projection-on-static-material.md)
 * [Volumetric Projection](techniques/volumetric-projection.md)
 * [Projection on Water or Fog](techniques/projection-on-water-or-fog.md)
-* [Diffusion and Distortion](techniques/diffusion-and-distortion.md)
+* [Diffusion and Distortion Techniques](techniques/diffusion-and-distortion-techniques.md)
 
 ## Experimental/Other
 

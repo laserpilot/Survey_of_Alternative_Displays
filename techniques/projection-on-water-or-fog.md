@@ -23,3 +23,9 @@ The effect of water screens is very unique due to the haze of smaller water mist
 These screens rely on a steady controlled flow of haze or water mist to create a thin layer of semitransparent fog that can be rear protected. A series of valves directs the mist into a narrow sheet, and the projected light is refracted off the particles. The haze can be water or oil based.
 
 This technique works best indoors because of minimal air currents and the light contrast needed for the best illusion. Due to physics, this technique is limited by the screen size that can be created. A lot of commercially available screens can only get to something like a 2m by 1.5m size. The width can be extended with multiple mist units, but the height is the primary hindrance since the mist gets less dense after a certain distance from the valves and fans. Also, since this screen is so transparent, the viewer will get a strong hotspot from the projector and the content will shoot right through onto adjacent surfaces. Commercially available units are available, but aren’t cheap — [some are almost $20,000 or more](http://www.pcmech.com/article/io2-technology-delivers-three-dimensional-displays/). DIY options also exist, but require a lot of materials. Getting the haze production right in a DIY setup is probably going to be the biggest challenge since most fog machines tend to accumulate in an enclosed space rather than dissipate.
+
+There are several artists exploring applications with fog screens as well. [Joanie Lemercier's Brume](https://joanielemercier.com/brume/) project explores a number of different visual and interactive applications of using a plane of fog as a projection surface.
+
+{% embed url="https://vimeo.com/478103130?embedded=true&owner=16634945&source=video_title" %}
+Joanie Lemercier's _Brume_ project
+{% endembed %}
