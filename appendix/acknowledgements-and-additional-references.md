@@ -8,7 +8,7 @@ description: >-
 
 ## Acknowledgements <a href="#e8aa" id="e8aa"></a>
 
-Thanks to everyone over the years who has contributed ideas, new sources, and edits to my original writeup. Original reviewers were Kyle McDonald, Golan Levin, Elliot Woods, and a few others. Matt Ward has contibuted a bunch of new structural thoughts as well.
+Thanks to a ton of people for taking the time to read this and give me comments and extra content, it is truly appreciated. A partial list: [Kyle McDonald](http://kylemcdonald.net), [Elliot Woods](http://www.kimchiandchips.com), [Deborah Johnson](http://www.candystations.com), [Matthew Ward](https://vimeo.com/superlumenary), [Jesse Garrison](http://takethefort.com), [Matt Parker](http://madparker.com), [Ali Tan Ucer](https://vimeo.com/alitan), [Dan Moore](http://makeitdoathing.com), [Sean Kean](https://about.me/seankean), [Jamie Zigelbaum](http://www.jamiezigelbaum.com) and others.
 
 ## Other resources, oddballs, optics, and more <a href="#e8aa" id="e8aa"></a>
 

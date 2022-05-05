@@ -63,8 +63,8 @@ description: This is an overview of everything that is covered in the following 
 * **Legacy/Vintage Curiosities**
   * [Cathode Ray Tube](legacy/cathode-ray-tube.md)
   * [Eggcrate](legacy/eggcrate-and-other-numeric-displays.md)
-  * [Eidophor Projector](legacy/eidophor-projector.md)
-  * [Pyrotechnics Appendix and Other References](legacy/pyrotechnics-and-other-curiosities.md)
+  * [d](legacy/pyrotechnics-and-other-curiosities.md)
+* [Closing Notes](closing-notes.md)
 * **Appendix and Other References**
   * [Misleading terms](appendix/misleading-terms.md)
     * Hologram

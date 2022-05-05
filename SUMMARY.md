@@ -1,6 +1,7 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [2022 Update Notes](README.md)
+* [Introduction](<README (1).md>)
 * [Outline](outline.md)
 
 ## Standard Displays
@@ -47,9 +48,12 @@
 
 * [Overview](legacy/overview.md)
 * [Cathode Ray Tube](legacy/cathode-ray-tube.md)
-* [Eidophor Projector](legacy/eidophor-projector.md)
 * [Eggcrate and other Numeric Displays](legacy/eggcrate-and-other-numeric-displays.md)
 * [Pyrotechnics and Other Curiosities](legacy/pyrotechnics-and-other-curiosities.md)
+
+***
+
+* [Closing Notes](closing-notes.md)
 
 ## Appendix
 

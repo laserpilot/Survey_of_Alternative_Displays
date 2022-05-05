@@ -25,3 +25,5 @@ In another related direction, some scientists are investigating a technique that
 {% embed url="https://www.youtube.com/watch?v=R00IvqcI9jU" %}
 
 Finally, there are techniques that are just doing a low resolution diffusion or reflection of light like pixel displays. There are tons of examples of this Jason Eppink’s [_Pixelator_](https://jasoneppink.com/pixelator/) is a piece that co-ops public advertising monitors in NYC and distorts them into more pleasant abstract designs using diffusion and foamcore frames. [Jim Campbell](http://www.jimcampbell.tv/portfolio/low\_resolution\_works/home\_movies\_david/)’s work has been a great example of this kind of low resolution image making for a while as well.
+
+Some companies have explored doing diffusion through very thin wood panels, such as this project from [DetaiLED](https://www.detailedsolutions.com/innovation-gallery) that puts LEDs behind a wood veneer. Something to keep in mind with this approach is the color shifting due to the natural wood, and the loss of light/additional heat - as well as the specialized fabrication to install the very thin wood veneer.
