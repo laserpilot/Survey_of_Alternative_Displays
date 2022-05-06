@@ -40,6 +40,10 @@ Orbis by 1024 Architecture
 
 Laser projectors have a very specific aesthetic because of their individual lines and lack of ability to fill in content. There are a few artists and projects that are exploring what happens when you combine either multiple laser projectors or a laser projector and a video projector together to create high contrast content. In the video projector + laser projector camp, you can get the crisp bright lines of lasers and the fill and dynamics of a full video image. To achieve this you need software or content that aligns the light of the two projectors, essentially mapping them together.
 
+{% embed url="https://vimeo.com/432565366" %}
+Lasermapping from Intus
+{% endembed %}
+
 
 
 There have been attempts at using laser projectors to create more "filled"/rasterized content as well. One project below from Alberto Novello uses 4 laser projectors and special software to essentially create a raster image and overcome the limitations of how much of an image a single projector can draw.
@@ -90,7 +94,9 @@ Its also worth mentioning that lasers projecting onto photosensitive surfaces (a
 Albert Novello's Laser Projection on photosensitive surfaces
 {% endembed %}
 
-
+{% embed url="https://www.youtube.com/watch?index=6&list=PLa3fOs1KYGMOy-QVs_p-GXe5U35jK_rQh&v=Mt_4mfuwTAU" %}
+Daito Manabe and Motoi Ishibashi's experiments
+{% endembed %}
 
 To add:
 

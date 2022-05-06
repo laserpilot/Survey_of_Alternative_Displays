@@ -29,3 +29,13 @@ There are several artists exploring applications with fog screens as well. [Joan
 {% embed url="https://vimeo.com/478103130?embedded=true&owner=16634945&source=video_title" %}
 Joanie Lemercier's _Brume_ project
 {% endembed %}
+
+{% embed url="https://youtu.be/XXsfO_jIvg4" %}
+Mistform Adaptive shape screen
+{% endembed %}
+
+See also:
+
+* [Leia Display](http://leiadisplay.com) - Fog Screen product
+
+![Leia Display X300 - Fog Screen for projection](../.gitbook/assets/Leia\_X300\_visual\_7-3.png)

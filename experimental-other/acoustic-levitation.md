@@ -1,5 +1,7 @@
 # Acoustic Levitation Display
 
+{% embed url="https://youtu.be/Tm8JRlJ1q50" %}
+
 Also referred to as an Acoustophoretic Volumetric Display
 
 This area of research uses ultrasonic soundwaves and the principle of standing waves to "levitate" thin and light particles of material and (in some cases) move them at a high enough speed to make coherent images and shapes. The applications of this technology are somewhat limited to small scale particles and small display areas, but it is worth seeing this as another unusual area of display research.

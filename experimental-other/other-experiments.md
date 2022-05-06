@@ -1,6 +1,15 @@
 # Other Experiments
 
+* Photosensitive
 * Wedge Display
+* Lickable Display
+* Electrowetting Display
+
+### Photosensitive Display
+
+Harvey Moon of MBLabs created [Persistence](http://www.mblabs.org/projects#/persistence/), a piece that uses an array of ultraviolet LED's on a radial arm to draw things on a "glow in the dark" canvas. There is some similar work with Lasers on the [laser projector section](../displays/laser-projectors.md#lasers-and-photosensitive-surfaces).
+
+{% embed url="https://youtu.be/IeoKp3sgJsY" %}
 
 ### Wedge Display
 
@@ -17,4 +26,14 @@ A [researcher](https://www.reuters.com/technology/lick-it-up-japan-professor-cre
 ### Liquavista Electrowetting Displays
 
 These displays promised an alternative to E-Ink but with a faster refresh rate but never made it to market. [You can read more about them here](https://lookgadgets.com/liquavista/).
+
+### Deconstructed LCD
+
+{% embed url="https://vimeo.com/248809615" %}
+[Cere Davis's Liquid Loom](https://www.ceredavis.com/liquid-loom)
+{% endembed %}
+
+
+
+
 

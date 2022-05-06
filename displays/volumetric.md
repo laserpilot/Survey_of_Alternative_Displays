@@ -46,6 +46,10 @@ Another example of a mechanical volumetric display is Benjamin Muzzin’s piece 
 
 ## Volumetric Displays (Multiple Layered Screens) <a href="#c28e" id="c28e"></a>
 
+{% embed url="https://youtu.be/sVv1oc14X1w" %}
+Tenex Solid State Volumetric
+{% endembed %}
+
 There are a few different types of this type of volumetric display. One type is known as a Light Field Display or a Polarization Field Display and uses a series of layered LCD’s (or other transparent media) to create an illusion of depth via parallax. This is a simplified explanation because there are a lot of nuanced variations on this concept. The [Nintendo 3DS](http://www.tomsguide.com/us/Nintendo-3DS-3D-Glasses-DS,news-6237.html) is a well known version of this type of display — it uses 2 stacked LCD’s — the bottom one alternates dark bands so that each eye sees the version of the image that is intended for it.
 
 By stacking each display on top of the other, you are able to create volumetric effects with 3 dimensional content, or more slipping parallax effects with 2D content. The depth resolution is limited by how many displays you can stack on top of each other. It also becomes more difficult to backlight all of the stacked displays so that everything is visible. Each display, its components and polarizing film will cost a little bit of luminance and clarity for the viewer. If the screens are far apart, there is also the possibility of internal reflection between two adjacent screens that can impact the contrast.
@@ -68,9 +72,7 @@ Getting a video signal to each display is another technical challenge, depending
 
 There are some versions of layered screens or display volumes that don’t stack multiple LCDs but combine them with things like layered [Pepper’s Ghost](https://vimeo.com/110670658), multiple projections on scrims, [transparent acrylic](http://blairneal.com/portfolio\_page/crayolascope/), or LED cubes.
 
-Around 2016, [Looking Glass Factory](https://lookingglassfactory.com) developed [Volume](https://www.youtube.com/watch?v=Jv\_OEY2P8MA) which was poised to be an affordable multiplane display. It achieved its effect by means of a projector and about 12 layers of angled material that catches a small sliver of the projector’s raster. They used a custom plugin for Unity that allows you to drop a 3D scene into their renderer and have it slice it up appropriately for their volumetric display. In 2017, Looking Glass Factory changed their technology and introduced the Holoplayer One. The Holoplayer One is more of a lightfield display than a layered screen and it uses a high resolution screen, a high density lenticular film and retroreflective material to create a stereoscopic view with 32 different viewing angles. It uses a depth camera for interaction and a Unity Plugin pipeline for rendering custom content. There is also a version of the Holoplayer they are working on that can be combined with a Pepper’s Ghost effect and they are calling it Super Pepper.
-
-![Diagram for the Holoplayer One](https://miro.medium.com/max/1400/1\*NQmo9T2R7n8q1rZGEAC4gQ.png)
+Around 2016, [Looking Glass Factory](https://lookingglassfactory.com) developed [Volume](https://www.youtube.com/watch?v=Jv\_OEY2P8MA) which was poised to be an affordable multiplane display. It achieved its effect by means of a projector and about 12 layers of angled material that catches a small sliver of the projector’s raster. They used a custom plugin for Unity that allows you to drop a 3D scene into their renderer and have it slice it up appropriately for their volumetric display. Eventually the Volume was discontinued for their higher quality Looking Glass Portrait that uses a specialized [light field](light-field-displays.md) approach.
 
 ### Volumetric LED
 

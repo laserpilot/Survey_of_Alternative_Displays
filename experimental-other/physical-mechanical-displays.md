@@ -17,6 +17,10 @@ Some artists also work with display surfaces that don’t emit light or use opti
 
 There are some commercially available physical displays such as [Flipdot](https://en.wikipedia.org/wiki/Flip-disc\_display) displays. There are just a [few](http://www.scoretronics.com/components/) [vendors](http://www.flipdots.com) for these in the world. These work by using electromagnets to flip a metal disk that has different colors on each side. They are capable of fairly simple graphics since they are essentially just binary pixels. There have been a few [installations](http://breakfastny.com/dot-screen) that have figured out how to make them switch fast enough to do full video representations. There is also an audio component to having so many elements mechanically flipping at once, as in [this video](https://www.youtube.com/watch?v=SJU2-1X8kHQ) of a large 588x216 resolution screen. There is also the potential to develop them to have the discs spin completely 360, which when combined with a variable speed, they would be able to represent grayscale values instead of just on-off.
 
+{% embed url="https://youtu.be/Gs_ytk_SDdA" %}
+O by Byeong Sam Jeon uses specialized flip dots to display on a large curved surface
+{% endembed %}
+
 ### Split Flap
 
 {% embed url="https://www.youtube.com/watch?v=F8wx-h_sfR0" %}
@@ -49,6 +53,20 @@ Breakfast also has a number of products like their [Brixels](https://breakfastny
 Breakfast's Brixel product
 {% endembed %}
 
+Studios like Augmentl combine lighting elements and electromechanical elements in projects like [Morph](https://augmentl.com/work/morph-te):
+
+{% embed url="https://vimeo.com/582736765" %}
+Augmentl's Morph TE
+{% endembed %}
+
+{% embed url="https://vimeo.com/318471326" %}
+EQ Teaser from wirmachenbunt [https://www.wirmachenbunt.de/work/eqteaser](https://www.wirmachenbunt.de/work/eqteaser)
+{% endembed %}
+
+{% embed url="https://www.youtube.com/watch?v=7iUdFw9WfrU" %}
+Robotic LED billboard for Coke by Radius Displays
+{% endembed %}
+
 ### Interactive Haptics
 
 As mentioned, these kinds of physical actuated displays are also used in conjunction with projection to add haptics as another layer of interaction and collaboration. The [inFORM](http://tangible.media.mit.edu/project/inform/) from MIT has been the classic example of this for the last couple years. Some [researchers](http://www.olivierbau.com/teslatouch.php) are even working on ways to use electrical signals to simulate textures on touch screens — but a full writeup on the future of haptics and displays is one for another article :)
@@ -60,6 +78,13 @@ As mentioned, these kinds of physical actuated displays are also used in conjunc
 This project uses actuators and elastic thread to create an interactive abstract topography
 
 ![Mischer'Traxler's Plural](../.gitbook/assets/mischertraxler\_PLURAL\_exclusion-new.gif)
+
+See also:
+
+* [https://www.ultraleap.com](https://www.ultraleap.com) - Ultrasonic feedback
+* [TanvasTouch](https://www.theverge.com/ces/2017/1/5/14185134/tanvas-touchscreen-haptic-feedback-ces-2017) - haptic feedback on a touchscreen
+
+
 
 ### Ferrofluid Displays
 
