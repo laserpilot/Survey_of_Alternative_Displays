@@ -5,8 +5,6 @@
 
 ## Laser Projectors <a href="#0eb1" id="0eb1"></a>
 
-
-
 ![Robert Henke’s Deep Web — Source](https://miro.medium.com/max/1400/1\*QvpOJek61D4lrM8IrVfUkg.png)
 
 [Laser projectors](https://en.wikipedia.org/wiki/Laser\_projector) have some really unique visual characteristics that make them ideal for the right content and application. Most of them work by shining a combination of different colored lasers (red, green and blue) onto a motorized mirror that moves incredibly fast. They have been around for a while, but due to several factors they aren’t used very regularly in art pieces and performances. Here is a thirty minute [video](https://www.youtube.com/watch?v=o1b5P\_3OkEc) from the International Laser Display Association ([ILDA](http://www.ilda.com)) showing a range of different visuals that can be achieved with lasers. They are are understandably confused with other [laser video projectors](https://en.wikipedia.org/wiki/Laser\_video\_display) that usually use a more [traditional display and lasers as a light source](http://pro.sony.com/bbsc/ssr/show-projectors/resource.solutions.bbsccms-assets-show-projectors-laserprojectorslandingpage.shtml).
@@ -23,21 +21,27 @@ Additionally, since the laser doesn’t scan left to right, top to bottom like t
 
 The other thing to consider about laser projectors is their contrast and their color reproduction ability. Regular projectors still have issues with their black levels because they are still shining light even when the scene is black, and this lowers their overall dynamic range. Laser projectors don’t have this problem because they only project light where it needs to be, so their lines really pop. However, you’re less likely to have access to a laser projector that can cover a wide color gamut — some cheaper projectors will only give you about 7 colors by mixing red, green and blue lasers. High quality projectors can do a wider range of color mixing. Dimming the beam can also be tricky unless you are using a high quality projector with a good blanking control.
 
-\
-\
-
-
 ![Vanishing Point by United Visual Artists — Source](https://miro.medium.com/max/1400/1\*NQmzbfWD31fI4eD3XsQPjQ.jpeg)
-
-### Laser Diodes and other uses of Lasers
 
 {% embed url="https://vimeo.com/374171958?embedded=true&owner=22060879&source=vimeo_logo" %}
 TUNDRA - The Day We Left Field
 {% endembed %}
 
+### Laser Diodes and other uses of Lasers
+
+![Matthew Schrieber's Guilloche Series](../.gitbook/assets/Studio+Guilloche+2019-2.jpg)
+
+Some projects don't use Laser Projectors but rather use individual laser diodes in different ways, such as in Matthew Schrieber's Guilloche above.&#x20;
+
+This approach requires a bit of custom work to identify the right diode and then create a way to control or position them them. Laser Diodes also typically just stay in one color, hence the very red aesthetic shown in most examples. Other artists that work with lasers in this way are Shohei Fujimoto with their piece Intangible Forms.
+
+![Shohei Fujimoto - Intangible Forms](../.gitbook/assets/artechouse-nyc-Intangible-Forms-by-Shohei-Fujimoto-12-Credit-dubsbydesign-1500x1000.jpg)
+
+{% embed url="https://www.youtube.com/watch?v=2E9zliYHq6g" %}
+
 {% embed url="https://vimeo.com/195369371" %}
 
-To add:
+o add:
 
 * Lasers and Projection mapping
 * Laser diode artist featured at artechouse
