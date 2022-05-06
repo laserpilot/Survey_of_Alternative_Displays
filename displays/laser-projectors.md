@@ -1,7 +1,10 @@
 # Lasers and Laser Projectors
 
 * Laser Projectors
+* Laser Projectors and Video
+* Laser Projectors and film techniques
 * Laser Diodes and other approaches
+* Lasers and photosensitive surfaces
 
 ## Laser Projectors <a href="#0eb1" id="0eb1"></a>
 
@@ -28,6 +31,28 @@ TUNDRA is a studio that has done several laser-based artworks. Their piece _The 
 {% embed url="https://vimeo.com/374171958?embedded=true&owner=22060879&source=vimeo_logo" %}
 TUNDRA - The Day We Left Field
 {% endembed %}
+
+### Laser Projectors with Video
+
+{% embed url="https://vimeo.com/652535281" %}
+Orbis by 1024 Architecture
+{% endembed %}
+
+Laser projectors have a very specific aesthetic because of their individual lines and lack of ability to fill in content. There are a few artists and projects that are exploring what happens when you combine either multiple laser projectors or a laser projector and a video projector together to create high contrast content. In the video projector + laser projector camp, you can get the crisp bright lines of lasers and the fill and dynamics of a full video image. To achieve this you need software or content that aligns the light of the two projectors, essentially mapping them together.
+
+
+
+There have been attempts at using laser projectors to create more "filled"/rasterized content as well. One project below from Alberto Novello uses 4 laser projectors and special software to essentially create a raster image and overcome the limitations of how much of an image a single projector can draw.
+
+{% embed url="https://vimeo.com/590262443" %}
+Alberto Novello's 4 Laser Raster Test
+{% endembed %}
+
+Other artists exploring the laser + video projector aesthetic:
+
+* [Karl Skene](https://www.instagram.com/karlskene/)
+* [1024Architecture](http://instagram.com/1024architecture)
+* [aka\_chang](https://www.instagram.com/aka\_chang/)
 
 ### Laser Projector filming techniques
 
@@ -56,6 +81,16 @@ Shohei Fujimoto's Intangible Forms
 {% embed url="https://vimeo.com/195369371" %}
 TUNDRA's _Outlines_
 {% endembed %}
+
+### Lasers and photosensitive surfaces
+
+Its also worth mentioning that lasers projecting onto photosensitive surfaces (aka glow-in-the-dark paper) can be used for a specialized visualization technique.
+
+{% embed url="https://vimeo.com/386771736" %}
+Albert Novello's Laser Projection on photosensitive surfaces
+{% endembed %}
+
+
 
 To add:
 
