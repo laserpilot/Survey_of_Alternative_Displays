@@ -23,28 +23,41 @@ The other thing to consider about laser projectors is their contrast and their c
 
 ![Vanishing Point by United Visual Artists — Source](https://miro.medium.com/max/1400/1\*NQmzbfWD31fI4eD3XsQPjQ.jpeg)
 
+TUNDRA is a studio that has done several laser-based artworks. Their piece _The Day We Left Field_ uses several projectors to sweep across a hanging field of plans that results in a very volumetric feel.
+
 {% embed url="https://vimeo.com/374171958?embedded=true&owner=22060879&source=vimeo_logo" %}
 TUNDRA - The Day We Left Field
 {% endembed %}
 
+### Laser Projector filming techniques
+
+There are also some tricks that can be pulled off with laser projectors when combined with specialzied filming techniques. [Precision Lasers](https://www.precisionlasers.com) is a company that has pioneered and perfected this tecnique of synchronizing the animation of a laser with the shutter speed of a camera. The results of proper sync are beams of light that appear to be frozen in mid air. Their work for Childish Gambino for SNL is a classic example of the kinds of effects that are possible with this approach. The same visual does not come through to the naked eye in the same way due to the need for tight alignment, but it is still a fascinating application for filmed projects.
+
+{% embed url="https://vimeo.com/279396312" %}
+Precision Lasers with Childish Gambino on SNL.
+{% endembed %}
+
 ### Laser Diodes and other uses of Lasers
 
-![Matthew Schrieber's Guilloche Series](../.gitbook/assets/Studio+Guilloche+2019-2.jpg)
+![Matthew Schreiber's Focal Point](../.gitbook/assets/Ontario.jpg)
 
-Some projects don't use Laser Projectors but rather use individual laser diodes in different ways, such as in Matthew Schrieber's Guilloche above.&#x20;
+Some projects don't use Laser Projectors but rather use individual laser diodes in different sculptural ways, such as in [Matthew Schrieber's Focal Point](https://www.matthewschreiber.com/laser-catalog/focal-point-series) shown above. While these fall more firmly in the "light art" part of the display spectrum, I feel they are worth mentioning because they often involve an animation element.
 
-This approach requires a bit of custom work to identify the right diode and then create a way to control or position them them. Laser Diodes also typically just stay in one color, hence the very red aesthetic shown in most examples. Other artists that work with lasers in this way are Shohei Fujimoto with their piece Intangible Forms.
+This approach requires a bit of custom work to identify the right diode and then create a way to control or position them them in just the right way. Laser Diodes also typically just stay in one color, hence the very red or green aesthetic shown in most examples. Diodes are a specialized lighting element and must be handled with care. Aside from the safety concerns of getting a diode that is too powerful, they also typically have some limitations on their "duty cycle" or how long they are designed to run continuously over a 24 hour period. If they run continuously for too long, they risk burning out or losing some of their overall power. Pieces must take this into account and have a way to power themselves down every few hours to make sure that their lifespan is preserved. Additionally, because of their nature of illumination, laser diode sculptures and display pieces often require the use of fog machines or hazers to fill the space with particles that allow people to see the beams themselves.
+
+Other artists that work with lasers in this way are Shohei Fujimoto. Their piece Intangible Forms uses hundreds of individual diodes mounted on motorized elements that allow them to sweep and create shapes that float in the air (somewhat similar in spirit to [volumetric projection](../techniques/volumetric-projection.md)).
 
 ![Shohei Fujimoto - Intangible Forms](../.gitbook/assets/artechouse-nyc-Intangible-Forms-by-Shohei-Fujimoto-12-Credit-dubsbydesign-1500x1000.jpg)
 
 {% embed url="https://www.youtube.com/watch?v=2E9zliYHq6g" %}
+Shohei Fujimoto's Intangible Forms
+{% endembed %}
 
 {% embed url="https://vimeo.com/195369371" %}
+TUNDRA's _Outlines_
+{% endembed %}
 
-o add:
+To add:
 
 * Lasers and Projection mapping
-* Laser diode artist featured at artechouse
-* Lasers and camera tricks
 * Pangolin Beam Brush [https://pangolin.com/blogs/news/beam-brush-paint-with-laser-light](https://pangolin.com/blogs/news/beam-brush-paint-with-laser-light)
-*
