@@ -1,6 +1,9 @@
-# Laser Projectors
+# Lasers and Laser Projectors
 
-## Laser Projector/Laser Displays <a href="#0eb1" id="0eb1"></a>
+* Laser Projectors
+* Laser Diodes and other approaches
+
+## Laser Projectors <a href="#0eb1" id="0eb1"></a>
 
 
 
@@ -25,3 +28,19 @@ The other thing to consider about laser projectors is their contrast and their c
 
 
 ![Vanishing Point by United Visual Artists — Source](https://miro.medium.com/max/1400/1\*NQmzbfWD31fI4eD3XsQPjQ.jpeg)
+
+### Laser Diodes and other uses of Lasers
+
+{% embed url="https://vimeo.com/374171958?embedded=true&owner=22060879&source=vimeo_logo" %}
+TUNDRA - The Day We Left Field
+{% endembed %}
+
+{% embed url="https://vimeo.com/195369371" %}
+
+To add:
+
+* Lasers and Projection mapping
+* Laser diode artist featured at artechouse
+* Lasers and camera tricks
+* Pangolin Beam Brush [https://pangolin.com/blogs/news/beam-brush-paint-with-laser-light](https://pangolin.com/blogs/news/beam-brush-paint-with-laser-light)
+*

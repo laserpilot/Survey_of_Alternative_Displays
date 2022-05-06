@@ -18,7 +18,7 @@
 * [Modified Polarizers](displays/modified-polarizers.md)
 * [Electronic Paper/E-Ink](displays/electronic-paper-e-ink.md)
 * [Flexible Displays](displays/flexible-displays.md)
-* [Laser Projectors](displays/laser-projectors.md)
+* [Lasers and Laser Projectors](displays/laser-projectors.md)
 * [Light Field Displays](displays/light-field-displays.md)
 * [Head Mounted Displays](displays/head-mounted-displays.md)
 
