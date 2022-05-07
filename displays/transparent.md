@@ -51,7 +51,7 @@ The other transparent LED solution out there uses LEDs that have been mounted on
 
 {% embed url="https://www.youtube.com/watch?v=9NT1ww4nMis" %}
 
-### Spinning Fan Displays
+### Spinning Fan Peristence of Vision Displays
 
 There are a lot of products out there for these kinds of "holographic" spinning fan displays that could be considered a different type of "transparent" display. [Hypervsn](https://hypervsn.com) comes up the most often for a single and multiple unit system. These products use a spinning mechanism and a strip of LEDs on each fan blade. When the fan spins fast enough, the LED's draw each frame and the persistence of vision illusion allows a user to see an image that appears to float in mid air.&#x20;
 
@@ -66,6 +66,10 @@ By their nature, these displays are still just perceptually flat and not true 3D
 Artists such as [TUNDRA](https://wearetundra.org) have found other interesting applications of these technologies by layering them with different content, such as in their piece _Row_
 
 {% embed url="https://vimeo.com/535964694" %}
+
+There are also other ways to create the same persistence of vision effect using lateral motion. In the experiment video below, an engineer experimented with quickly vibrating a thin strip of "FlexLEDs" up and down to create a rough sketch of how this could work.
+
+{% embed url="https://youtu.be/wM_Byrv9iBI" %}
 
 ### Electroluminescent Displays
 

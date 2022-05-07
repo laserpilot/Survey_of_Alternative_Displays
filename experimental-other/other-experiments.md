@@ -4,6 +4,7 @@
 * Wedge Display
 * Lickable Display
 * Electrowetting Display
+* Colloidal Bubble Display
 
 ### Photosensitive Display
 
@@ -33,7 +34,11 @@ These displays promised an alternative to E-Ink but with a faster refresh rate b
 [Cere Davis's Liquid Loom](https://www.ceredavis.com/liquid-loom)
 {% endembed %}
 
+### Colloidal Bubble Display
 
+This experiment involves using a special coilloidal solution and an ultrasonic speaker that can be used to "tune" the transparency and reflectiveness of a bubble when light is projected on it.&#x20;
+
+{% embed url="https://youtu.be/tvxJs_4m0ZE" %}
 
 
 

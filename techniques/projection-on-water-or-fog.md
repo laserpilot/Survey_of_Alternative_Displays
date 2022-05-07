@@ -34,6 +34,8 @@ Joanie Lemercier's _Brume_ project
 Mistform Adaptive shape screen
 {% endembed %}
 
+{% embed url="https://youtu.be/mwsOSaVNXks" %}
+
 See also:
 
 * [Leia Display](http://leiadisplay.com) - Fog Screen product

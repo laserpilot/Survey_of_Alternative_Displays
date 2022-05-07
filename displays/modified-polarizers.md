@@ -1,8 +1,5 @@
 # Modified Polarizers
 
-* Examples
-* How does this work?
-
 {% embed url="https://www.youtube.com/watch?v=9MbwVHUxE-c" %}
 Karina Smigla-Bobinski’s SIMULACRA — [Link](http://www.smigla-bobinski.com/english/works/SIMULACRA/index.html)
 {% endembed %}
