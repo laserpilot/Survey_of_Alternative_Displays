@@ -4,7 +4,9 @@
 * Wedge Display
 * Lickable Display
 * Electrowetting Display
+* Desconstructed LCD
 * Colloidal Bubble Display
+* Parallel Reality Display
 
 ### Photosensitive Display
 
@@ -40,5 +42,15 @@ This experiment involves using a special coilloidal solution and an ultrasonic s
 
 {% embed url="https://youtu.be/tvxJs_4m0ZE" %}
 
+### Parallel Reality Display
 
+The company [Misapplied Sciences](https://www.misappliedsciences.com/home/technology.html) has developed a concept of a Parallel Reality Display that promises the ability to display different pixels to different viewers (in very simplified terms).
+
+> #### These pixels can simultaneously project up to millions of light rays of different colors and brightness. Each ray can then be software-directed to a specific person.
+
+Below is a demonstration of what 12 different viewpoints could look like to different viewers from a single display.
+
+{% embed url="https://www.youtube.com/watch?v=ptXTSuMkuvA" %}
+Misapplied Sciences Parallel Reality Display
+{% endembed %}
 

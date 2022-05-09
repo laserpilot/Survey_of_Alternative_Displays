@@ -59,3 +59,7 @@ Leia 3D Display operating principles
 I'm not sure if this truly fits in the light field category, but it feels close enough in operating principle. This experiment from around 2010 by [Hideki Kakeya](https://opg.optica.org/oe/fulltext.cfm?uri=oe-20-23-25902\&id=244861) utilizes a display that shows multiple angles of some 3D content and an array of microlenses to provide multiple glasses-free angles of that content. [More information here](https://scholar.google.co.jp/citations?user=o8t3EQgAAAAJ\&hl=en).
 
 {% embed url="https://youtu.be/xLWf2P6d8cg" %}
+
+A similar[ experiment from NVIDIA](https://research.nvidia.com/publication/2017-11\_near-eye-light-field-holographic-rendering-spherical-waves-wide-field-view) is below:
+
+{% embed url="https://www.youtube.com/watch?v=NdTycenXID8" %}
