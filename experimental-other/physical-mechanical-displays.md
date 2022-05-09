@@ -67,6 +67,12 @@ EQ Teaser from wirmachenbunt [https://www.wirmachenbunt.de/work/eqteaser](https:
 Robotic LED billboard for Coke by Radius Displays
 {% endembed %}
 
+See also:
+
+* [https://rlfbckr.io/work/interface-i/](https://rlfbckr.io/work/interface-i/)
+
+
+
 ### Interactive Haptics
 
 As mentioned, these kinds of physical actuated displays are also used in conjunction with projection to add haptics as another layer of interaction and collaboration. The [inFORM](http://tangible.media.mit.edu/project/inform/) from MIT has been the classic example of this for the last couple years. Some [researchers](http://www.olivierbau.com/teslatouch.php) are even working on ways to use electrical signals to simulate textures on touch screens — but a full writeup on the future of haptics and displays is one for another article :)

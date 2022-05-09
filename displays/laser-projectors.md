@@ -86,6 +86,10 @@ Shohei Fujimoto's Intangible Forms
 TUNDRA's _Outlines_
 {% endembed %}
 
+See also:
+
+* [https://rlfbckr.io/work/mirage/](https://rlfbckr.io/work/mirage/)
+
 ### Lasers and photosensitive surfaces
 
 Its also worth mentioning that lasers projecting onto photosensitive surfaces (aka glow-in-the-dark paper) can be used for a specialized visualization technique.
