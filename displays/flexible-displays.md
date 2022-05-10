@@ -1,6 +1,6 @@
 # Flexible Displays
 
-🌟(this page is a WIP for 2022 - much has changed since 2015 in terms of flexible display technology and its availability to the public
+🌟(this page is a WIP for 2022 - much has changed since 2015 in terms of flexible display technology and its availability to the public)
 
 * Flexible OLED
 * Flexible LED panels
@@ -15,6 +15,16 @@ While making flexible LCD’s isn’t impossible, there is a limit to the amount
 
 One of the intriguing uses of a flexible display is that it can potentially be utilized as a [user interface](http://www.theverge.com/2016/5/5/11604680/holoflex-flexible-holographic-smartphone) element. The flex of the screen could be sensed by software and used as a gesture in addition to swipe and tap gestures.&#x20;
 
+Actual sources for flexible displays that can be used for artistic or commercial purposes still requires some research.&#x20;
+
+LG is a common manufacturer of flexible displays - they do offer a "roll up TV" that is featured in a video below. They also offer a few different ["open frame"](https://www.lg.com/us/business/oled-displays/lg-55EF5E-L) options for displays that can be bent into certain shapes with a limited radius. These displays come with a pricetag of about $20000-25000 for a 55" display. LG had a 77" version in 2017 that was also [40% transparent](https://www.pocket-lint.com/tv/news/lg/159542-lg-c2-oled-tv-range-includes-world-s-first-42-inch-model-that-s-great-for-gamers), but it looks like it never fully made it to market.
+
+Samsung has released a number of smaller scale flexible OLED products as well. They currently advertise their [FlexOLED](https://oledera.samsungdisplay.com/eng/flex-oled/) as having a very small 1.4R bend radius that allows them to bend the display almost completely flat. They recently announced their new Flex G and S devices that explore different ways of bending a smartphone to transition from a phone to a tablet. A couple years ago they also released the commercially available Galaxy Z Fold3 and Flip3 that offered a sort of flipphone experience. The first test iterations of the Flip and Fold had a number of manufacturing and usage issues that led to a [recall](https://www.gsmarena.com/samsung\_is\_recalling\_all\_galaxy\_fold\_review\_units-news-36706.php).
+
+{% embed url="https://www.youtube.com/watch?v=GxlYOh6L1q4" %}
+
+Royole offers the [RoKit](https://www.google.com/search?client=safari\&rls=en\&q=royole+rokit\&ie=UTF-8\&oe=UTF-8) for about $959 as an open source development kit for working with their Cicada Wing small scale flexible displays. They also have their own Android Smartphone, the [Flexpai](https://global.royole.com/us/flexpai).
+
 Royole's Rokit:
 
 {% embed url="https://www.youtube.com/watch?v=WxgVYCxShvA" %}
@@ -27,11 +37,10 @@ LG Signature OLED R rollable TV:
 Rollable OLED
 {% endembed %}
 
-\
-
-
 ### Flexible LED
 
 (work in progress)
+
+Flexible LED is sort of a different beast - there are large scale flexible LED displays for architectural purposes (like wrapping a column) and there are [microLED displays](https://www.microled-info.com/tags/flexible-microled) that function similarly to OLED.&#x20;
 
 [AmFlex flexible LED product](https://designledpro.com/amflex/)

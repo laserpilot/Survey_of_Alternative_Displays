@@ -4,7 +4,6 @@
 * Split Flap
 * Other Mechanical Approaches
 * Interactive Haptic
-* Ultrasonic
 * Ferrofluid
 
 ![Image of a Flip-dot Display — Source](https://miro.medium.com/max/1200/1\*x82VuZ\_eZPx05cb-o7lNNQ.jpeg)
@@ -85,7 +84,7 @@ This project uses actuators and elastic thread to create an interactive abstract
 
 ![Mischer'Traxler's Plural](../.gitbook/assets/mischertraxler\_PLURAL\_exclusion-new.gif)
 
-See also:
+The technology below is also in the haptics space. Ultraleap uses ultrasonics to create a sort of physical feel above a screen. It feels a bit like a constant puff of air through a straw. TanvasTouch is a technology that essentially uses mild electrical current to simulate different textures on a glass touchscreen.
 
 * [https://www.ultraleap.com](https://www.ultraleap.com) - Ultrasonic feedback
 * [TanvasTouch](https://www.theverge.com/ces/2017/1/5/14185134/tanvas-touchscreen-haptic-feedback-ces-2017) - haptic feedback on a touchscreen
@@ -94,7 +93,7 @@ See also:
 
 ### Ferrofluid Displays
 
-These use a material called ferrofluid (typically a mix of oil and iron particles) that is suspended in another medium (such as salt water). Positioning an array of electromagnets behind the fluid container, the ferrofluid can be manipulated to create basic images and motion.
+Ferrofluid displays use a material called ferrofluid (typically a mix of oil and iron particles) that is suspended in another medium (such as salt water). Positioning an array of electromagnets behind the fluid container, the ferrofluid can be manipulated to create some basic shapes and motion.
 
 {% embed url="https://www.youtube.com/watch?v=5PFgVtzsXHM" %}
 

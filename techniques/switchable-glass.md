@@ -1,8 +1,8 @@
 # Switchable Glass
 
-Using switchable smartglass for creating low fidelity and low energy static displays.
+While this technology is a little further out from traditional display technology, switchable glass feels appropirate to cover in some form here. There are some artworks below that do use switchglass as more of an abstracted display rather than just one large panel. Additionally, it can be combined with traditional display technologies to create something a little more unique.
 
-There are a couple different approaches here:
+When it comes to switchable glass, there are several different technologies.
 
 * [PDLC](switchable-glass.md#pdlc)
 * [SPD](switchable-glass.md#spd)

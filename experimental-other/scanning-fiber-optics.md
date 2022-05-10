@@ -1,10 +1,8 @@
 # Scanning Fiber Optics
 
-(Work in progress page)
-
 {% embed url="https://www.youtube.com/watch?v=c9ZapsZvapM" %}
 
-This technology uses a small element of fiber optics, a light source, and an electromechical method of "jiggling" the fiber optic point of light so that persistence of vision can create a small scale image in front of someone's eye for the purposes of augmented reality.
+There are a few different approaches to this technology, but one form of it uses a small element of fiber optics, a light source, and an electromechical method of quickly vibrating the fiber optic point of light in front of a lens array so that persistence of vision can create a small scale image in front of someone's eye for the purposes of augmented reality.
 
 See a[ research paper on this topic](https://www.researchgate.net/publication/260328828\_Near-to-Eye\_Display\_Using\_Scanning\_Fiber\_Display\_Engine).
 
