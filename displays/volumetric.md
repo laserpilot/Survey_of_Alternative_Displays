@@ -28,21 +28,23 @@ _“This computation is performed on a high-end NVIDIA GPU within the Volume Ren
 
 ![Perspecta Diagram — Source](https://miro.medium.com/max/636/1\*tdOOqzg\_3jznksOmCTjxJg.jpeg)
 
-A more recent version of this type of display is the [Voxiebox](https://www.youtube.com/watch?v=hi1UiGr6Iow) by [VOXON](http://www.voxiebox.com). It uses a high speed scientific projector and a rear projection platform that is moved up and down extremely quickly. The movement of the platform, the refresh rate of the projector and the content that is being drawn are all synced together by software. As the platform moves, a different slice of a 3D image is projected. As these slices are projected, the viewer’s brain assembles them into a persistent volumetric image.
+A more recent version of this type of display is the [Voxon VX1](https://voxon.co/products/) ($9800USD). Their former product was the [Voxiebox](https://www.youtube.com/watch?v=hi1UiGr6Iow). These displays use a high speed scientific projector and a rear projection platform that is moved up and down extremely quickly. The movement of the platform, the refresh rate of the projector and the content that is being drawn are all synced together by software. As the platform moves, a different slice of a 3D image is projected. As these slices are projected, the viewer’s brain assembles them into a persistent volumetric image.
 
-{% embed url="https://www.youtube.com/watch?v=hi1UiGr6Iow" %}
+{% embed url="https://www.youtube.com/watch?v=lQvkn9-ghhs" %}
+Voxon VX1
+{% endembed %}
 
-Currently the Voxiebox system has a perceived volume of about 25cm x 25cm x 12cm. The Z axis resolution of the Voxiebox display is primarily limited by the frame rate of the projector and the lateral motion of the projection platform. There are also challenges with scaling this display to a considerably larger size for a number of reasons. Moving a much larger platform up and down a greater distance at a rapid pace isn’t outside of the realm of mechanical possibility, but it would be a different engineering challenge to make this display several meters wide and move up and down a few meters multiple times in a second. A larger platform also requires a brighter specialized projector, which comes at its own cost.
+The Z axis resolution of the Voxon display is primarily limited by the frame rate of the projector and the lateral motion of the projection platform. There are also challenges with scaling this display to a considerably larger size for a number of reasons. Moving a much larger platform up and down a greater distance at a rapid pace isn’t outside of the realm of mechanical possibility, but it would be a different engineering challenge to make this display several meters wide and move up and down a few meters multiple times in a second. A larger platform also requires a brighter specialized projector, which comes at its own cost.
 
-Perceptually, the Voxiebox style of display is suited to some particular visual aesthetics — it is better at showing certain types of graphics than others. The projected light is additive on each slice, so while one surface appears solid, it also combines with the light behind it — this is similar to the issues faced by volumetric projection in the other section. This makes very dense imagery move towards the white end of the spectrum as different slices add together for the viewer. Vector style imagery with points and lines tend to be more successful ways to represent solid shapes.
+![Voxon VX1](../.gitbook/assets/VX1\_PRODUCT\_SHOT-web-1024x836-e1591252255911.jpg)
 
-Another example of a mechanical volumetric display is Benjamin Muzzin’s piece [Full Turn](https://vimeo.com/74735651). Benjamin took 2 LCD panels, stuck them back to back and spun them at very high speeds. The power and video signals were passed in using a specially designed slip ring. The bottom ring is fixed and has one end of a cable attached to it. The top layer spins with the LCDs and maintains electrical contact via metal brushes that run in circular channels. As the LCD spins faster than the refresh rate of the screen, it allows it to render volumetric images that move and shift. In comparison to the Voxiebox, this particular implementation presents a different challenge when trying to form coherent 3D images because of the radial motion as opposed to lateral motion.
+Perceptually, the Voxon style of display is suited to some particular visual aesthetics — it is better at showing certain types of graphics than others. The projected light is additive on each slice, so while one surface appears solid, it also combines with the light behind it — this is similar to the issues faced by volumetric projection in the other section. This makes very dense imagery move towards the white end of the spectrum as different slices add together for the viewer. Vector style imagery with points and lines tend to be more successful ways to represent solid shapes.
+
+Another more articially focused example of a mechanical volumetric display is Benjamin Muzzin’s piece [Full Turn](https://vimeo.com/74735651). Benjamin took 2 LCD panels, stuck them back to back and spun them at very high speeds. The power and video signals were passed in using a specially designed slip ring. The bottom ring is fixed and has one end of a cable attached to it. The top layer spins with the LCDs and maintains electrical contact via metal brushes that run in circular channels. As the LCD spins faster than the refresh rate of the screen, it allows it to render volumetric images that move and shift. In comparison to the Voxiebox, this particular implementation presents a different challenge when trying to form coherent 3D images because of the radial motion as opposed to lateral motion.
 
 {% embed url="https://vimeo.com/74735651" %}
 [https://vimeo.com/74735651](https://vimeo.com/74735651)
 {% endembed %}
-
-
 
 ## Volumetric Displays (Multiple Layered Screens) <a href="#c28e" id="c28e"></a>
 
