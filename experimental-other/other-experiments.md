@@ -9,6 +9,7 @@
 * Colloidal Bubble Display
 * Parallel Reality Display
 * Phases Mirror Display
+* Robotics and Displays
 
 ### Photosensitive Display
 
@@ -68,6 +69,20 @@ This piece really strays between lighting element and display for me, but I thin
 
 {% embed url="https://vimeo.com/207143053" %}
 Phases by Vincent Houze and AV\&C
+{% endembed %}
+
+### Robotics and Displays
+
+There are a few examples out there of displays on robot arms and moving displays. I'd say these are a little different from the mechanical displays in the other section since this is about moving whole units of a display versus moving individual pixel elements.
+
+{% embed url="https://vimeo.com/644631363?embedded=true&owner=21846195&source=video_title" %}
+Dotdotdash for Adidas and Prada
+{% endembed %}
+
+And while the below project from Bot and Dolly is really a projection mapping example, it really needs to be mentioned in this category.
+
+{% embed url="https://vimeo.com/75361102" %}
+Box by Bot and Dolly
 {% endembed %}
 
 
