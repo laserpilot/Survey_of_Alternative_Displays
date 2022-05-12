@@ -29,3 +29,7 @@ There are also abstract applications of projection that could be considered volu
 {% embed url="https://vimeo.com/260129299?embedded=true&owner=53255680&source=video_title" %}
 Liminal Scope II by Hovver
 {% endembed %}
+
+The technique below for WOW's _Light of Birth_ project from 2015 is somewhat of the inverse of the Kimchi and Chips method. Instead of one projector and an array of mirrors, this project uses an array of over 2 dozen projectors to achieve a similar technique.
+
+{% embed url="https://vimeo.com/148280386?embedded=true&owner=2849000&source=video_title" %}

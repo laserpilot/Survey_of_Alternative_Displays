@@ -63,3 +63,5 @@ I'm not sure if this truly fits in the light field category, but it feels close 
 A similar[ experiment from NVIDIA](https://research.nvidia.com/publication/2017-11\_near-eye-light-field-holographic-rendering-spherical-waves-wide-field-view) is below:
 
 {% embed url="https://www.youtube.com/watch?v=NdTycenXID8" %}
+
+Related to the multi-lens experiments above, take a look at the [Misapplied Science's Parallel Reality LED display](../experimental-other/other-experiments.md#parallel-reality-display) that uses similar principles.

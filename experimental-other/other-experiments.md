@@ -1,18 +1,26 @@
 # Other Experiments
 
 * Photosensitive
+* Light Leaks
 * Wedge Display
 * Lickable Display
 * Electrowetting Display
 * Desconstructed LCD
 * Colloidal Bubble Display
 * Parallel Reality Display
+* Phases Mirror Display
 
 ### Photosensitive Display
 
 Harvey Moon of MBLabs created [Persistence](http://www.mblabs.org/projects#/persistence/), a piece that uses an array of ultraviolet LED's on a radial arm to draw things on a "glow in the dark" canvas. There is some similar work with Lasers on the [laser projector section](../alternative-displays/laser-projectors.md#lasers-and-photosensitive-surfaces).
 
 {% embed url="https://youtu.be/IeoKp3sgJsY" %}
+
+### Light Leaks
+
+Using standard projectors, an array of mirror balls, a lot of math, and a map of the space, Kyle McDonald and Jonas Jongejan created this piece to create spatialized visuals.
+
+{% embed url="https://vimeo.com/66167082" %}
 
 ### Wedge Display
 
@@ -53,4 +61,14 @@ Below is a demonstration of what 12 different viewpoints could look like to diff
 {% embed url="https://www.youtube.com/watch?v=ptXTSuMkuvA" %}
 Misapplied Sciences Parallel Reality Display
 {% endembed %}
+
+### Phases by AV\&C
+
+This piece really strays between lighting element and display for me, but I think it's worth mentioning. It uses an array of mirrors and lights to create controlled reflections around the space - [Phases by Vincent Houze and AV\&C](https://www.av-controls.com/#/phases/)
+
+{% embed url="https://vimeo.com/207143053" %}
+Phases by Vincent Houze and AV\&C
+{% endembed %}
+
+
 

@@ -62,6 +62,10 @@ By stacking each display on top of the other, you are able to create volumetric 
 
 When using this type of display technique to show content, there are a few different approaches and challenges. The most straightforward method is to chop up your images into different depth layers so that you can achieve parallax by displaying each layer on a different screen. This is similar to the method of hand drawn cel animation where the background landscapes are on a different layer than the characters. To achieve more of a 3D volume effect with this method, you would have to incorporate viewer eye or head tracking into the display software in order to display multiple viewpoints in real time. The screens are also only viewable on 1 or 2 sides of a cube, instead of 4 or 5 sides. Your Z-dimension is constrained by how many displays you can stack on top of each other. Blending colors across multiple screens is also a challenge. Stacking dark colors will turn muddy at the end and stacking red green and blue won’t necessarily make white as with other additive light methods. Color filters also impact the brightness, and some [projects](http://displayblocks.org/diycompressivedisplays/polarizationfields/) use grayscale monitors instead.
 
+{% embed url="https://vimeo.com/266093174" %}
+RENDER from WOW uses multiple layered OLED's
+{% endembed %}
+
 Getting a video signal to each display is another technical challenge, depending on how many layers you are trying to drive. If you have 6 stacked displays at 1920x1080 — you need to be able to render six 1080p streams at once and keep them all synced together.
 
 [LightSpace Technologies](http://www.lightspace3d.com/multi-planar-3d-volumetric-imaging.html) has a display that was formerly known as the Depthcube that uses a high speed projector and a series of about 20 LCDs that are used as optical stops, so that each layer of depth can be halted at the correct location. By using special antialiasing techniques, the physical space between the layers can be smoothed so it doesn’t feel so stepped. Here is a [writeup](http://www.photonics.com/Article.aspx?AID=58372) with more technical details on how it works. This display has been in development since the early 2000s and has been commercially available at an unknown price point. The primary use case of one of these displays has been in engineering or medical applications. Here is a [video](https://www.youtube.com/watch?v=RAasdH10Irg) of it in action.
@@ -87,3 +91,17 @@ LEDPulse Dragon
 {% endembed %}
 
 ![LEDPulse Dragon O Display system with volumetric LED's](../.gitbook/assets/5e8cd4a4af937369148b2f0e\_WEBSiTE%20LEDPULSE%20.jpg)
+
+### Other DIY Approaches
+
+[Sofia Aranov's Refraction](https://www.sofiaaronov.com/refraction)
+
+{% embed url="https://vimeo.com/131984694" %}
+Sofia Aranov's Refraction
+{% endembed %}
+
+[Blair Neal's Crayolascope](https://makezine.com/2012/06/25/crayolascope-an-analog-depth-display/)
+
+{% embed url="https://vimeo.com/44497765" %}
+Blair Neal's Crayolascope
+{% endembed %}

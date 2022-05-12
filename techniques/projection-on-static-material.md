@@ -8,6 +8,10 @@ Projecting on semi-transparent materials is essentially a variation on the [Pepp
 
 The implementation of this technique is one of the cheapest and most accessible on this list. You will need a semi transparent material and some means of projecting an image. The material you use depends on the scale or size of the end result and the type of effect you are going for. You also must consider whether you want to use front or rear projection. Rear projection (with the viewer facing the projector lens) will produce a noticeably brighter hotspot depending on the material used and where the projector is, and front projection means the image will spill behind the surface a little bit which may result in some doubling.
 
+{% embed url="https://www.youtube.com/watch?v=T5-QBirTU-M" %}
+Nonotak's Daydream is an example of this technique
+{% endembed %}
+
 As far as materials to use, on a small installation you may be able to get away with just a piece of fabric like tulle or netting — things like bridal veil material. White fabric will catch and transmit light the best, but sometimes black can still work and give you a similar effect with the fabric appearing more “invisible.”
 
 If you are trying to have an image appear on a storefront window or piece of glass, you will need a specially engineered film that is nice and transparent but still collects a lot of light from your projector. The proper film for glass can be very expensive for large pieces, so keep that in mind. One source has it at almost $1200 for a piece that is 2.2m by 1.2m. Here are some possible vendors for this kind of film: \[[One](http://prodisplay.com/products/rear-projection-film/)] \[[Two](http://www.ssidisplays.com)]. You can get away with cheaper materials, of course, but the effect may be very different. Cheaper or DIY material may be either more opaque (yielding a brighter image but less transparency) or too transparent (yielding a faint image). Projecting on glass will certainly show something if there is significant dust on it, but the effect will be very dim.
@@ -19,3 +23,8 @@ To achieve much larger images for theater or stage, fabric is the most economica
 Similar to the requirements for Pepper’s Ghost, this technique requires very controlled lighting. You will need to balance the ambient light that is hitting your fabric so you can preserve the illusion of a floating image — otherwise it can just look like a standard projection screen that you can see through. Contrast is keyhere. It also helps to have the space behind the image not be completely dark to give the image more dimension. If the viewer can see behind the image then they get the layered effect and the sense of parallax that helps it appear more 3D even if it is still just 2D.
 
 Content that works best on any of the semi-transparent materials tends to be imagery that does not fill the entire projected rectangle. The optimal approach is to have your content sit on a field of black, so that that it appears to have no bounds. A vignette or feathering on the edges can also help if you have elements that enter and exit from the sides, otherwise the viewer will see harsh edges. Semi transparent material also causes the projections to have a slight glow to them — the light beams get slightly diffused when passing through the material which tends to soften the sharpness of the image a little bit.
+
+This technique below uses thousands of hanging bits of material to create a sort of volumetric form that is hit with multiple projectors:
+
+{% embed url="https://vimeo.com/105428635" %}
+

@@ -5,6 +5,7 @@
 * Ulexite/TV Stone
 * Computational Caustics
 * LED through wood veneer
+* Others
 
 This is a challenging category to compartmentalize, but there is a lot of great work to consider here. Sometimes you don’t need a cutting edge display or experimental hardware to do something new. By placing different optical materials in front of a monitor, projection or LED video wall you can create something that doesn’t feel like a standard display at all. Of course it can be a little more challenging to show sharp coherent images with a techique like this, but sometimes a piece is much more about playing with texture and motion more than legibility.
 
@@ -14,7 +15,7 @@ There are many examples of this kind of work. Mary Franck’s pieces [_Diffuse O
 
 Another piece in this area is Lucy Hardcastle’s [_Qualia_](https://www.lucyhardcastle.com/qualia/). This is a touch sensitive version of a 3D object that has light passing through it. I’m only speculating on how this works, but from the video it looks like it is projection (note DLP projection rainbow bands) from underneath into a 3d form that has been frosted. I suspect the touch sensitivity is done using IR light and a camera in a similar way to rear projection touch tables.
 
-### Fiber Optics
+### Fiber Optics and Acrylic
 
 If you’re not into diffusion and blur, you can can be a more precise with your light redirection techniques by using fiber optic materials. Yeseul Song’s [Glow Box](https://yeseul.com/Glow-Box) is a fabricated object that uses fiber optics and a projector to produce low resolution images that have been bent through the fiber optic cables.
 
@@ -23,6 +24,10 @@ If you’re not into diffusion and blur, you can can be a more precise with your
 {% endembed %}
 
 Working with fiber optics can be expanded into longer or larger forms as well. [MIT Mobile Experience Lab](http://mobile.mit.edu/projects/fiber-cloud/) made something called [The Cloud](https://vimeo.com/1199539) in 2008 that was a large cloud shaped structure that had hundreds of fiber optic strands coming off of it like hairs. Each strand could be individually illuminated and from the video it seems there is an interaction method to let people touch strands and have them respond. Very basic imagery and text could be rendered across the fiber optic strands with what I hope wasn’t an individual LED per strand, but in 2008 that may have been the only option for a shape that unusual.
+
+This technique below uses clear acrylic/3D printed material on top of a standard display to create a sort of volumetric effect using really basic materials.
+
+{% embed url="https://vimeo.com/185815036" %}
 
 ### Ulexite/TV Rock
 
@@ -64,3 +69,15 @@ Finally, there are techniques that are just doing a low resolution diffusion or 
 Some companies have explored doing diffusion through very thin wood panels, such as this project from [DetaiLED](https://www.detailedsolutions.com/innovation-gallery) that puts LEDs behind a wood veneer. Something to keep in mind with this approach is the color shifting due to the natural wood, and the loss of light/additional heat - as well as the specialized fabrication to install the very thin wood veneer.
 
 ![DetaiLED using LED with wood veneer](../.gitbook/assets/b36f94\_4ae55f57964247279a5340510c5e1349\~mv2.webp)
+
+{% embed url="https://vimeo.com/7983664" %}
+plyLight
+{% endembed %}
+
+### Others
+
+[Red Paper Heart's Expression Wall](https://redpaperheart.com/work/expressionwall)
+
+{% embed url="https://vimeo.com/252741449" %}
+
+* [Studio Roosegaard - Beyond Lenticular](https://www.studioroosegaarde.net/project/beyond)
