@@ -66,6 +66,10 @@ There are also some tricks that can be pulled off with laser projectors when com
 Precision Lasers with Childish Gambino on SNL.
 {% endembed %}
 
+{% embed url="https://www.youtube.com/watch?list=PLbOq6ny6I6_ng5Rau-6hV2Q1J75V_rWr1&v=ZTLKNizke2o" %}
+Another Laser banding example
+{% endembed %}
+
 ### Laser Diodes and other uses of Lasers
 
 ![Matthew Schreiber's Focal Point](../.gitbook/assets/Ontario.jpg)
