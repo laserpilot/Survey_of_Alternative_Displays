@@ -10,17 +10,17 @@
 * [LED](standard-displays/led.md)
 * [Projector](standard-displays/projector.md)
 
-## Displays
+## Alternative Displays
 
-* [Overview](displays/overview.md)
-* [Transparent](displays/transparent.md)
-* [Volumetric Displays](displays/volumetric.md)
-* [Modified Polarizers](displays/modified-polarizers.md)
-* [Electronic Paper/E-Ink](displays/electronic-paper-e-ink.md)
-* [Flexible Displays](displays/flexible-displays.md)
-* [Lasers and Laser Projectors](displays/laser-projectors.md)
-* [Light Field Displays](displays/light-field-displays.md)
-* [Head Mounted Displays](displays/head-mounted-displays.md)
+* [Overview](alternative-displays/overview.md)
+* [Transparent](alternative-displays/transparent.md)
+* [Volumetric Displays](alternative-displays/volumetric.md)
+* [Modified Polarizers](alternative-displays/modified-polarizers.md)
+* [Electronic Paper/E-Ink](alternative-displays/electronic-paper-e-ink.md)
+* [Flexible Displays](alternative-displays/flexible-displays.md)
+* [Lasers and Laser Projectors](alternative-displays/laser-projectors.md)
+* [Light Field Displays](alternative-displays/light-field-displays.md)
+* [Head Mounted Displays](alternative-displays/head-mounted-displays.md)
 
 ## Techniques
 

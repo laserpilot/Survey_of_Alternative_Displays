@@ -10,7 +10,7 @@
 
 ### Photosensitive Display
 
-Harvey Moon of MBLabs created [Persistence](http://www.mblabs.org/projects#/persistence/), a piece that uses an array of ultraviolet LED's on a radial arm to draw things on a "glow in the dark" canvas. There is some similar work with Lasers on the [laser projector section](../displays/laser-projectors.md#lasers-and-photosensitive-surfaces).
+Harvey Moon of MBLabs created [Persistence](http://www.mblabs.org/projects#/persistence/), a piece that uses an array of ultraviolet LED's on a radial arm to draw things on a "glow in the dark" canvas. There is some similar work with Lasers on the [laser projector section](../alternative-displays/laser-projectors.md#lasers-and-photosensitive-surfaces).
 
 {% embed url="https://youtu.be/IeoKp3sgJsY" %}
 

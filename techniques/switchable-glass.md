@@ -43,7 +43,7 @@ This also operates under similar principles as the others. It is primarily a cha
 
 ### LCD
 
-LCD is a bit of a different class here and has been discussed briefly in the [transparent ](../displays/transparent.md)section, but it uses large LCD panels as individual pixels to turn different grayscale colors. The switching of the LCD opacity can happen rapidly just as in normal LCD monitors.\
+LCD is a bit of a different class here and has been discussed briefly in the [transparent ](../alternative-displays/transparent.md)section, but it uses large LCD panels as individual pixels to turn different grayscale colors. The switching of the LCD opacity can happen rapidly just as in normal LCD monitors.\
 \
 It has been used for projects such as Sosolimited and Hypersonic's [Patterned by Nature](https://www.hypersonic.cc/art#/patterned-by-nature/)&#x20;
 

@@ -11,27 +11,28 @@ description: This is an overview of everything that is covered in the following 
   * [Projector](standard-displays/projector.md)
   * [OLED](broken-reference)
 * **Displays**
-  * [Transparent](displays/transparent.md)
-    * LCD
-    * OLED
-    * LED
-  * [Modified LCD Polarizer](displays/modified-polarizers.md)
-  * [Volumetric Displays](displays/volumetric.md)
+  * [Transparent](alternative-displays/transparent.md)
+    * Transparent LCD and OLED (T-OLED)
+    * Transparent LED
+    * Spinning Fan Displays/Persistence of Vision
+    * Electroluminescent Displays
+  * [Modified LCD Polarizer](alternative-displays/modified-polarizers.md)
+  * [Volumetric Displays](alternative-displays/volumetric.md)
     * Mechanical/Persistence of Vision
     * Layered screens
-  * [Electronic Paper/E-Ink](displays/electronic-paper-e-ink.md)
+  * [Electronic Paper/E-Ink](alternative-displays/electronic-paper-e-ink.md)
     * Standard
       * Visionect
     * Sculptural/Architectural
-  * [Flexible Displays](displays/flexible-displays.md)
+  * [Flexible Displays](alternative-displays/flexible-displays.md)
     * Small Scale
     * Large Scale
       * LG
-  * [Laser Projectors](displays/laser-projectors.md)
-  * [Light Field displays](displays/light-field-displays.md)
+  * [Laser Projectors](alternative-displays/laser-projectors.md)
+  * [Light Field displays](alternative-displays/light-field-displays.md)
     * Solidlight
     * Looking glass factory
-  * [Head Mounted Displays (VR/AR/Mixed Reality)](displays/head-mounted-displays.md)
+  * [Head Mounted Displays (VR/AR/Mixed Reality)](alternative-displays/head-mounted-displays.md)
 * **Techniques:**
   * [Pepper’s Ghost](techniques/peppers-ghost.md)
   * [Projection on Static Transparent Materials/Scrims](techniques/projection-on-static-material.md)
@@ -42,16 +43,16 @@ description: This is an overview of everything that is covered in the following 
   * [Diffusion and Distortion](techniques/diffusion-and-distortion.md)
 * **Experimental/Artistic Exploration/Other**
   * [Physical/Mechanical Displays](experimental-other/physical-mechanical-displays.md)
-    * Augmentl Morph
-    * Mischer 'Traxler Plural
-    * Lickable Display
-    * TanvasTouch
-    * Hap2U
+    * [Flip-dot](experimental-other/physical-mechanical-displays.md#flipdot)
+    * [Split Flap](experimental-other/physical-mechanical-displays.md#split-flap)
+    * [Other Mechanical Approaches](experimental-other/physical-mechanical-displays.md#other-mechanical-displays)
+    * [Interactive Haptics](experimental-other/physical-mechanical-displays.md#interactive-haptics)
+    * [Ferrofluid](experimental-other/physical-mechanical-displays.md#ferrofluid-displays)
   * [Switchable Glass](techniques/switchable-glass.md)
-    * PDLC
-    * SPD
-    * Electrochromic
-    * LCD
+    * [PDLC](techniques/switchable-glass.md#pdlc)
+    * [SPD](techniques/switchable-glass.md#spd)
+    * [Electrochromic](techniques/switchable-glass.md#electrochromic-glass)
+    * [LCD](techniques/switchable-glass.md#lcd)
   * [Drone Displays](experimental-other/drone-displays.md)
   * [Electrochromic Paint](experimental-other/electrochromic-paint.md)
   * [Scanning fiber optics](experimental-other/scanning-fiber-optics.md)
@@ -62,8 +63,8 @@ description: This is an overview of everything that is covered in the following 
   * [High Refresh Rate Displays](experimental-other/high-refresh-rate-displays.md)
 * **Legacy/Vintage Curiosities**
   * [Cathode Ray Tube](legacy/cathode-ray-tube.md)
-  * [Eggcrate](legacy/eggcrate-and-other-numeric-displays.md)
-  * [d](legacy/pyrotechnics-and-other-curiosities.md)
+  * [Eggcrate and numeric displays](legacy/eggcrate-and-other-numeric-displays.md)
+  * [Pyrotechnics and other curiosities](legacy/pyrotechnics-and-other-curiosities.md)
 * [Closing Notes](closing-notes.md)
 * **Appendix and Other References**
   * [Misleading terms](appendix/misleading-terms.md)
