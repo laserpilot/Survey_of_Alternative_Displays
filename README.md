@@ -1,5 +1,7 @@
 # 2022 Update Notes
 
+(Original version from [Blair Neal](https://www.ablairneal.com))
+
 This article was originally [created and hosted on Medium](https://laserpilot.medium.com/survey-of-alternative-displays-82d928480b9d), but its length on a single page made it very unweildy to keep it updated with fresh content. Additionally, most of the information is from the original writeup from 2015 and needs a pretty serious update as many things have changed in 7 years.&#x20;
 
 This update will be ongoing and some sections may be more updated than others. Gitbook may not be the final resting place but it seems like the best approach for now.
