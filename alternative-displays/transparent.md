@@ -1,11 +1,12 @@
 # Transparent
 
-* Transparent LCD and OLED
-* Transparent LED
-* Spinning Fan Displays/Persistence of Vision
-* Electroluminescent Displays
+* [Transparent LCD ](transparent.md#5018)
+* [Transparent OLED](transparent.md#transparent-oled)
+* [Transparent LED](transparent.md#transparent-led)
+* [Spinning Fan Displays/Persistence of Vision](transparent.md#spinning-fan-peristence-of-vision-displays)
+* [Electroluminescent Displays](transparent.md#electroluminescent-displays)
 
-## Transparent LCD and OLED <a href="#5018" id="5018"></a>
+## Transparent LCD <a href="#5018" id="5018"></a>
 
 {% embed url="https://vimeo.com/50200308?embedded=true&owner=3549383&source=video_title" %}
 [https://vimeo.com/50200308?embedded=true\&source=video\_title\&owner=3549383](https://vimeo.com/50200308?embedded=true\&source=video\_title\&owner=3549383)

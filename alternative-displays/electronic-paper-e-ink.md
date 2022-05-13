@@ -22,7 +22,7 @@ Making use of E-ink displays in artworks is unfortunately impeded by the fact th
 
 {% embed url="https://vimeo.com/180645555?embedded=true&owner=994292&source=video_title" %}
 
-### E-Ink Prism
+### Architectural E-Ink Prism
 
 Below are some examples that use some of [E-Ink's Prism](https://www.eink.com/architecture.html?type=application\&id=10) material for large scale architectural installations.
 

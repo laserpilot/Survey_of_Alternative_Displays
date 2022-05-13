@@ -1,12 +1,12 @@
 # Eggcrate and other Numeric Displays
 
-(Work in progress)
-
 * Eggcrate
 * Nixie tubes
 * Others
 
 ### Eggcrate
+
+![Eggcrate Display](../.gitbook/assets/440px-Eggcrate.jpg)
 
 {% embed url="https://en.wikipedia.org/wiki/Text_display" %}
 
@@ -19,6 +19,10 @@
 ### Nixie Tubes
 
 * [Link](https://en.wikipedia.org/wiki/Nixie\_tube)
+
+{% embed url="https://www.youtube.com/watch?v=gERE4st1H0o" %}
+
+{% embed url="https://www.youtube.com/watch?v=wxL4ElboiuA" %}
 
 ### Others
 

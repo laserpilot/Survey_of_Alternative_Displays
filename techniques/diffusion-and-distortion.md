@@ -7,6 +7,8 @@
 * LED through wood veneer
 * Others
 
+### Artistic Approaches <a href="#1b74" id="1b74"></a>
+
 This is a challenging category to compartmentalize, but there is a lot of great work to consider here. Sometimes you don’t need a cutting edge display or experimental hardware to do something new. By placing different optical materials in front of a monitor, projection or LED video wall you can create something that doesn’t feel like a standard display at all. Of course it can be a little more challenging to show sharp coherent images with a techique like this, but sometimes a piece is much more about playing with texture and motion more than legibility.
 
 ![Mary Franck’s piece “Diffuse Objects”](https://miro.medium.com/max/670/1\*46LOyuIpsu6VBLfEZfVBfw.gif)

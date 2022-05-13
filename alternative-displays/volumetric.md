@@ -2,6 +2,11 @@
 
 There are many types of volumetric displays and various ways we could classify them. Below we'll cover volumetric displays that use the principles of using mechanical or persistence of vision illusions to create images, and another version that uses layered screens to create a sense of volume. In a separate section we'll cover [light field displays](light-field-displays.md) that have another take on this whole approach.
 
+* [Mechanical/Persistence of Vision](volumetric.md#2929)
+* [Layered Screens](volumetric.md#c28e)
+* [Volumetric LED](volumetric.md#volumetric-led)
+* [DIY](volumetric.md#undefined)
+
 ## Volumetric Displays (Mechanical/Persistence of Vision) <a href="#2929" id="2929"></a>
 
 

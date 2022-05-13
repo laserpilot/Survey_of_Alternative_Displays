@@ -16,7 +16,7 @@ This is currently using Gitbook's free plan. If there is enough interest, I coul
 * Re-organized content and added a new outline
 * Added new content and examples to almost every content page
 * Added separate sections for Legacy, Technique, and Experimental approaches
-* Added the following sections compared to the original:
+* Added the following sections compared to the original, and dozens of new examples and videos:
   * Switchable Glass
   * Drone Displays
   * Electrochromic Paint

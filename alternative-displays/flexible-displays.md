@@ -1,9 +1,9 @@
 # Flexible Displays
 
-🌟(this page is a WIP for 2022 - much has changed since 2015 in terms of flexible display technology and its availability to the public)
-
 * Flexible OLED
 * Flexible LED panels
+
+### Flexible OLED
 
 {% embed url="https://www.youtube.com/watch?v=P0wL65A3Iyo" %}
 
@@ -39,8 +39,12 @@ Rollable OLED
 
 ### Flexible LED
 
-(work in progress)
+Flexible LED is a very different thing from OLED. There are large scale [flexible LED displays](https://designledpro.com/amflex/) for architectural purposes (like wrapping a column) and there are [microLED displays](https://www.microled-info.com/tags/flexible-microled) that function similarly to OLED.&#x20;
 
-Flexible LED is sort of a different beast - there are large scale flexible LED displays for architectural purposes (like wrapping a column) and there are [microLED displays](https://www.microled-info.com/tags/flexible-microled) that function similarly to OLED.&#x20;
+{% embed url="https://www.youtube.com/watch?v=6r1WsqlXQK4" %}
+amFlex LED
+{% endembed %}
 
-[AmFlex flexible LED product](https://designledpro.com/amflex/)
+microLED stretchable prototype below:
+
+{% embed url="https://www.youtube.com/watch?v=jmrRxafeQ_0" %}

@@ -12,35 +12,51 @@ description: This is an overview of everything that is covered in the following 
   * [OLED](broken-reference)
 * **Displays**
   * [Transparent](alternative-displays/transparent.md)
-    * Transparent LCD and OLED (T-OLED)
-    * Transparent LED
-    * Spinning Fan Displays/Persistence of Vision
-    * Electroluminescent Displays
+    * [Transparent LCD](alternative-displays/transparent.md#5018)
+    * [Transparent OLED](alternative-displays/transparent.md#transparent-oled)
+    * [Transparent LED](alternative-displays/transparent.md#transparent-led)
+    * [Spinning Fan Displays/Persistence of Vision](alternative-displays/transparent.md#spinning-fan-peristence-of-vision-displays)
+    * [Electroluminescent Displays](alternative-displays/transparent.md#electroluminescent-displays)
   * [Modified LCD Polarizer](alternative-displays/modified-polarizers.md)
   * [Volumetric Displays](alternative-displays/volumetric.md)
-    * Mechanical/Persistence of Vision
-    * Layered screens
+    * [Mechanical/Persistence of Vision](alternative-displays/volumetric.md#2929)
+    * [Layered screens](alternative-displays/volumetric.md#c28e)
+    * [Volumetric LED](alternative-displays/volumetric.md#volumetric-led)
+    * [DIY](alternative-displays/volumetric.md#other-diy-approaches)
   * [Electronic Paper/E-Ink](alternative-displays/electronic-paper-e-ink.md)
-    * Standard
-      * Visionect
-    * Sculptural/Architectural
+    * [Standard](alternative-displays/electronic-paper-e-ink.md#b816)
+    * [Sculptural/Architectural](alternative-displays/electronic-paper-e-ink.md#architectural-e-ink-prism)
   * [Flexible Displays](alternative-displays/flexible-displays.md)
-    * Small Scale
-    * Large Scale
-      * LG
-  * [Laser Projectors](alternative-displays/laser-projectors.md)
+    * [Flexible OLED](alternative-displays/flexible-displays.md#flexible-oled)
+    * [Flexible LED](alternative-displays/flexible-displays.md#flexible-led)
+  * [Lasers and Laser Projectors](alternative-displays/laser-projectors.md)
+    * [Laser Projectors](alternative-displays/laser-projectors.md#0eb1)
+    * [Laser Projectors and Video Projection](outline.md#laser-projectors-with-video)
+    * [Laser Projectors and film techniques](outline.md#laser-projector-filming-techniques)
+    * [Laser Diodes and other approaches](outline.md#laser-diodes-and-other-uses-of-lasers)
+    * [Lasers and photosensitive surfaces](outline.md#lasers-and-photosensitive-surfaces)
   * [Light Field displays](alternative-displays/light-field-displays.md)
-    * Solidlight
-    * Looking glass factory
+    * [Looking Glass](alternative-displays/light-field-displays.md#looking-glass-factory-displays)
+    * [Solidlight](alternative-displays/light-field-displays.md#light-field-labs-solidlight-display)
+    * [Leia Lightfield](alternative-displays/light-field-displays.md#leia-lightfield-display)
+    * [Fovi3d](alternative-displays/light-field-displays.md#fovi3d)
+    * [Multilens Displays](alternative-displays/light-field-displays.md#multi-lens-display)
   * [Head Mounted Displays (VR/AR/Mixed Reality)](alternative-displays/head-mounted-displays.md)
 * **Techniques:**
   * [Pepper’s Ghost](techniques/peppers-ghost.md)
   * [Projection on Static Transparent Materials/Scrims](techniques/projection-on-static-material.md)
   * [Projection on Water or Fog](techniques/projection-on-water-or-fog.md)
+    * [Water Screens](techniques/projection-on-water-or-fog.md#water-screens)
+    * [Fog Screens](techniques/projection-on-water-or-fog.md#fog-screens-laminar-flow)
   * [Volumetric Projection](techniques/volumetric-projection.md)
-    * Kimchi and Chips
-    * Hovver Liminal Scope II
   * [Diffusion and Distortion](techniques/diffusion-and-distortion.md)
+    * [Artistic Approaches](techniques/diffusion-and-distortion.md#1b74)
+    * [Fiber Optics](techniques/diffusion-and-distortion.md#fiber-optics-and-acrylic)
+    * [Ulexite/TV Stone](techniques/diffusion-and-distortion.md#ulexite-tv-rock)
+    * [Computational Caustics](techniques/diffusion-and-distortion.md#computational-caustics)
+    * [LED through wood veneer](techniques/diffusion-and-distortion.md#wood-veneer-and-led)
+    * [Low Resolution Diffusion](techniques/diffusion-and-distortion.md#low-resolution-diffusion)
+    * [Others](techniques/diffusion-and-distortion.md#others)
 * **Experimental/Artistic Exploration/Other**
   * [Physical/Mechanical Displays](experimental-other/physical-mechanical-displays.md)
     * [Flip-dot](experimental-other/physical-mechanical-displays.md#flipdot)
@@ -58,8 +74,6 @@ description: This is an overview of everything that is covered in the following 
   * [Scanning fiber optics](experimental-other/scanning-fiber-optics.md)
   * [Acoustic Levitation](experimental-other/acoustic-levitation.md)
   * [Plasma Combustion](experimental-other/plasma-combustion.md)
-    * Aerial Burton
-    * Fairy Lights
   * [High Refresh Rate Displays](experimental-other/high-refresh-rate-displays.md)
 * **Legacy/Vintage Curiosities**
   * [Cathode Ray Tube](legacy/cathode-ray-tube.md)
@@ -68,9 +82,10 @@ description: This is an overview of everything that is covered in the following 
 * [Closing Notes](closing-notes.md)
 * **Appendix and Other References**
   * [Misleading terms](appendix/misleading-terms.md)
-    * Hologram
-    * Autostereoscopic Displays/3D TV's
-    * LED TV’s
+    * [Hologram](appendix/misleading-terms.md#holograms)
+    * [Autostereoscopic Displays/3D TV's](appendix/misleading-terms.md#autostereoscopic-displays-3d-tvs)
+    * [LED TV’s](appendix/misleading-terms.md#led-tvs)
+    * [3D LED/Forced Perspective](appendix/misleading-terms.md#3d-led-displays-and-forced-perspective)
   * [Touchscreens](appendix/notes-about-touch-screens.md)
   * [XR/"Virtual production"](appendix/virtual-production-and-xr.md)
   * [DIY LCD Polarizer Removal](appendix/lcd-polarizer-removal.md)

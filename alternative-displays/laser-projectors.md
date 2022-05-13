@@ -1,10 +1,10 @@
 # Lasers and Laser Projectors
 
-* Laser Projectors
-* Laser Projectors and Video
-* Laser Projectors and film techniques
-* Laser Diodes and other approaches
-* Lasers and photosensitive surfaces
+* [Laser Projectors](laser-projectors.md#0eb1)
+* [Laser Projectors and Video Projection](laser-projectors.md#laser-projectors-with-video)
+* [Laser Projectors and film techniques](laser-projectors.md#laser-projector-filming-techniques)
+* [Laser Diodes and other approaches](laser-projectors.md#laser-diodes-and-other-uses-of-lasers)
+* [Lasers and photosensitive surfaces](laser-projectors.md#lasers-and-photosensitive-surfaces)
 
 ## Laser Projectors <a href="#0eb1" id="0eb1"></a>
 
@@ -64,6 +64,10 @@ There are also some tricks that can be pulled off with laser projectors when com
 
 {% embed url="https://vimeo.com/279396312" %}
 Precision Lasers with Childish Gambino on SNL.
+{% endembed %}
+
+{% embed url="https://www.youtube.com/watch?list=PLbOq6ny6I6_ng5Rau-6hV2Q1J75V_rWr1&v=ZTLKNizke2o" %}
+Another Laser banding example
 {% endembed %}
 
 ### Laser Diodes and other uses of Lasers

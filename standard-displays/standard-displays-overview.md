@@ -17,3 +17,11 @@ Standard monitors are affordable for most applications, are high resolution whic
 Of course, these displays have their limitations. They are only viable up to a certain size for a single unit. Most of the largest max out at 120in or 305cm of diagonal image. Past this, they must be tiled together to form a larger video wall, and there are inevitable lines or bezels between adjacent units. Even those larger video walls start to reach a limitation at a certain point where Projectors or LED video walls are a more economical choice.&#x20;
 
 The color and dynamic range of these monitors appears to be decent, but it is [actually not as good as you might expect](http://www.newyorker.com/tech/elements/the-search-for-our-missing-colors)— we are missing out on a whole range of visible colors. Most standard displays are also locked at 60hz refresh rate (the speed that the screen is redrawn every second) which is perfectly fine for most applications like movie watching, but things like gaming monitors have started jumping to 240hz or more. Even though our brain’s visual refresh rate is about 60hz (a huge oversimplification), there are some intriguing things that can be done with a [higher refresh rate](../experimental-other/high-refresh-rate-displays.md). Imagine scrolling this page up and down and having it look as natural as a piece of paper moving up and down instead of the commonly jittery experience. There are also researchers looking into using high frame rate or high temporal resolution displays to do things like turning normal displays into higher resolution displays — here is an incredible [survey](http://people.csail.mit.edu/pdidyk/papers/ComputationalDisplaysSurvey.pdf) of a range of options with computationally augmented displays.&#x20;
+
+LCD's Explained
+
+{% embed url="https://www.youtube.com/watch?v=VamqtyatBss" %}
+
+OLED's explained:
+
+{% embed url="https://www.youtube.com/watch?v=xAMhX3Drq14" %}

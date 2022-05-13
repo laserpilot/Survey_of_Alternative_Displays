@@ -3,7 +3,13 @@
 * Pyrotechnics
 * Eidophor Projector
 
-Pyrotechnics could easily be considered as a precursor to modern digital display technology. See more information here: [https://laserpilot.medium.com/pyrotechnics-and-digital-spectacle-12bcbc5e4137](https://laserpilot.medium.com/pyrotechnics-and-digital-spectacle-12bcbc5e4137)
+### Pyrotechnics
+
+Pyrotechnics could easily be considered as a precursor to modern digital display technology for large scale displays. [See my deep dive here](https://laserpilot.medium.com/pyrotechnics-and-digital-spectacle-12bcbc5e4137)
+
+![A "living firework" with a bunch of lit up pixels as a precursor to LED's](../.gitbook/assets/IMG\_1534.jpg)
+
+![A large pyrotechnic display showing faces lit up in light.](../.gitbook/assets/IMG\_1535.jpg)
 
 ### Eidophor Projector
 
