@@ -10,9 +10,9 @@ This update will be ongoing and some sections may be more updated than others. G
 
 If you're on Gitbook, the link to the [Github for this article is here](https://github.com/laserpilot/Survey\_of\_Alternative\_Displays). Please contribute if you'd like!
 
-This is currently using Gitbook's free plan. If there is enough interest, I could set up a tipjar or something for this project and open it up as a paid project with multiple contributors and the ability to export the entire thing as a formatted PDF.
+If your project or image is featured here and you would prefer me to remove it, please send me a message/email/etc (contact info on [my website](https://www.ablairneal.com)). Additionally, if you have something you think needs to change or be added, please submit a pull request and I'll add it in.
 
-**Additions for 2022 compared to the original**
+**Additions for 2022 compared to the original 2015 version:**
 
 * Moved to github/gitbook
 * Re-organized content and added a new outline
@@ -38,3 +38,5 @@ This is currently using Gitbook's free plan. If there is enough interest, I coul
   * Touchscreen notes
   * XR and Virtual Production
   * ...and more?
+
+This is currently using Gitbook's free plan. If there is enough interest, I could set up a tipjar or something for this project and open it up as a paid project with multiple contributors and the ability to export the entire thing as a formatted PDF.
