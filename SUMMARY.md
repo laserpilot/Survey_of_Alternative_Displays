@@ -21,6 +21,7 @@
 * [Lasers and Laser Projectors](alternative-displays/laser-projectors.md)
 * [Lightfield Displays](alternative-displays/light-field-displays.md)
 * [Head Mounted Displays](alternative-displays/head-mounted-displays.md)
+* [Ultrasonic Atomization of Water](alternative-displays/ultrasonic-atomization-of-water.md)
 
 ## Techniques
 
