@@ -6,7 +6,7 @@ An ultrasonic atomizer is a device that converts a normal stream of liquid into 
 
 The ultrasonic atomizer has a power supply that converts low-frequency electrical energy to high-frequency electrical energy. This electrical energy is then converted into mechanical vibrations by a piezoelectric transducer, which is typically made of ceramic. The vibration is sent back to the piezoelectric transducer after it has bounced off the tip of the probe. This increases the strength of the vibration and creates a pumping action that draws liquid toward the center of the probe.
 
-Artist Rafael Lozano-Hemmer has used this techquie for multiple artworks. By creating large arrays of ultra sonic atomizeters horizontal as well as vertical displays where created.
+Artist Rafael Lozano-Hemmer has used this technique for multiple artworks. By creating large arrays of ultra sonic atomizers, horizontal as well as vertical displays where created.
 | ![Cloud Display](https://www.lozano-hemmer.com/image_sets/cloud_display/manchester_2019/cloud_display_manchester_2019_my_505A6784.jpg) | 
 |:--:| 
 | *Cloud Display* |
