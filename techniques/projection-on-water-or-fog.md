@@ -40,6 +40,6 @@ See also:
 
 * [Leia Display](http://leiadisplay.com) - Fog Screen product
 
-![Leia Display X300 - Fog Screen for projection](../.gitbook/assets/Leia\_X300\_visual\_7-3.png)
+![Leia Display X300 - Fog Screen for projection](<../.gitbook/assets/Leia\_X300\_visual\_7-3 (1).png>)
 
 [Projecting on clouds from a plane](https://www.engadget.com/2015-07-06-laser-projection-creates-galloping-horse-movie-on-the-clouds.html)

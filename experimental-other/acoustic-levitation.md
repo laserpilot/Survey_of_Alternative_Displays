@@ -20,7 +20,7 @@ Another example from the University of Tokyo that levitates small bits of foam w
 
 For the above: Yoichi Ochiai / 落合陽一(The University of Tokyo / 東京大学) Takayuki Hoshi / 星貴之(Nagoya Institute of Technology / 名古屋工業大学) Jun Rekimoto / 暦本純一 (The University of Tokyo / Sony CSL) White paper: [https://arxiv.org/abs/1312.4006](https://arxiv.org/abs/1312.4006)
 
-There are even [small DIY kits](https://www.stirlingkit.com/products/diy-acoustic-levitation-electronics-for-standing-waves-demonstration?currency=USD\&gclid=CjwKCAjw682TBhATEiwA9crl33uDnJuErEXVqS\_eOP7yGVmsIHgD1XfDmg-I9YCFdaWJiVnv8EqThBoCn1sQAvD\_BwE) that allow for home experimentation with standing waves on a micro scale.
+There are even [small DIY kits](https://www.stirlingkit.com/products/diy-acoustic-levitation-electronics-for-standing-waves-demonstration?currency=USD\&utm\_medium=cpc\&utm\_source=google\&utm\_campaign=Google%20Shopping\&gclid=CjwKCAjw682TBhATEiwA9crl33uDnJuErEXVqS\_eOP7yGVmsIHgD1XfDmg-I9YCFdaWJiVnv8EqThBoCn1sQAvD\_BwE) that allow for home experimentation with standing waves on a micro scale.
 
 
 

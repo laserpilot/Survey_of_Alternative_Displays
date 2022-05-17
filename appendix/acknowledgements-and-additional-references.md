@@ -8,7 +8,7 @@ description: >-
 
 ## Acknowledgements <a href="#e8aa" id="e8aa"></a>
 
-Thanks to a ton of people for taking the time to read this and give me comments and extra content, it is truly appreciated. A partial list: [Kyle McDonald](http://kylemcdonald.net), [Elliot Woods](http://www.kimchiandchips.com), [Deborah Johnson](http://www.candystations.com), [Matthew Ward](https://vimeo.com/superlumenary), [Jesse Garrison](http://takethefort.com), [Matt Parker](http://madparker.com), [Ali Tan Ucer](https://vimeo.com/alitan), [Dan Moore](http://makeitdoathing.com), [Sean Kean](https://about.me/seankean), [Jamie Zigelbaum](http://www.jamiezigelbaum.com) and others.
+Thanks to a ton of people for taking the time to read this and give me comments and extra content, it is truly appreciated. A partial list: [Kyle McDonald](http://kylemcdonald.net/), [Elliot Woods](http://www.kimchiandchips.com/), [Deborah Johnson](http://www.candystations.com/), [Matthew Ward](https://vimeo.com/superlumenary), [Jesse Garrison](http://takethefort.com/), [Matt Parker](http://madparker.com/), [Ali Tan Ucer](https://vimeo.com/alitan), [Dan Moore](http://makeitdoathing.com/), [Sean Kean](https://about.me/seankean), [Jamie Zigelbaum](http://www.jamiezigelbaum.com/) and others.
 
 ## Other resources, oddballs, optics, and more <a href="#e8aa" id="e8aa"></a>
 
@@ -16,12 +16,12 @@ Thanks to a ton of people for taking the time to read this and give me comments 
 
 
 
-* [Fog Screen](http://www.fogscreen.com)
+* [Fog Screen](http://www.fogscreen.com/)
 * [Heliodisplay](https://en.wikipedia.org/wiki/Heliodisplay)
-* [io2 Technology Mid Air Display](http://www.io2technology.com)
+* [io2 Technology Mid Air Display](http://www.io2technology.com/)
 * [Periscopista — interactive mist installation](https://www.youtube.com/watch?v=JvIRIUHJfp0)
 * [Tsunami Water Screen](http://www.effectspecialist.com/Tsunami-Water-Screen.htm)
-* [Silicon Rod Projection Surface](http://thecreatorsproject.vice.com/blog/ron-arad-curtain-call-5600-silicon-rods)
+* [Silicon Rod Projection Surface](http://thecreatorsproject.vice.com/blog/ron-arad-curtain-call-5600-silicon-rods?utm\_source=tcptwitterus)
 * [Aquatique Vendor](http://www.aquatic-show.com/en/Water-projection-119.html) of Water Curtains
 * [LCI Jet Screen](http://www.lci-uk.com/video/430/water-screens)
 * [DIY Fog Screen](http://prosauce.org/blog/2012/6/10/how-to-diy-improved-inexpensive-fog-screen.html)
@@ -44,7 +44,7 @@ Thanks to a ton of people for taking the time to read this and give me comments 
 * [Water and Oil Surfactant](https://vimeo.com/84654610)
 * [voLumen](https://www.youtube.com/watch?v=Ey-eO-H2\_Mk)
 * [Hublot Sphere](https://www.youtube.com/watch?v=Mza\_i-cxmxA)
-* [Holovizio](http://www.holografika.com)
+* [Holovizio](http://www.holografika.com/)
 * [Sony RayModeler](http://www.sparpointgroup.com/news/digital-visualization/a-new-take-on-3d-volumetric-display)
 * [Volumetric Display based on Mylar Beam Splitter and LED Backlit LCD](http://www.siggraph.org/s2011/content/volumetric-display-based-vibrating-mylar-beam-splitter-and-led-backlit-lcd)
 * [Patent on varifocal beamsplitter volumetric display](https://www.google.com/patents/US20140028663)
@@ -57,7 +57,7 @@ Thanks to a ton of people for taking the time to read this and give me comments 
 
 ### **Layered Volumetric Displays:** <a href="#ccf9" id="ccf9"></a>
 
-* [Lumarca](http://lumarca.info)
+* [Lumarca](http://lumarca.info/)
 * [Tensor Display](http://scitechdaily.com/tensor-display-uses-several-layers-of-lcds-to-produce-3-d-illusion/)
 * [Layered LCD with Polarization Layers](http://alumni.media.mit.edu/\~dlanman/research/polarization-fields/)
 * [Layered Pepper’s Ghost example](https://vimeo.com/110670707)
@@ -65,7 +65,7 @@ Thanks to a ton of people for taking the time to read this and give me comments 
 * [MIT Tensor Display](https://www.youtube.com/watch?t=45\&v=VJWJMh1PmR4)
 * [Puredepth](http://www.puredepth.com/platformDemo.php?l=en)
 * [DepthCube Info](http://electronicdesign.com/displays/desktop-displays-enter-new-dimension)
-* [LightSpace Tech — Maker of DepthCube](http://www.lightspacetech.com)
+* [LightSpace Tech — Maker of DepthCube](http://www.lightspacetech.com/)
 
 **Diffusion and Light Refraction techniques:**
 
@@ -88,7 +88,7 @@ Thanks to a ton of people for taking the time to read this and give me comments 
 * [Kvant Lasers](https://www.kvantlasers.sk/categories)
 * [United Laser](http://www.unitedlaser.net/id2.html)
 * [Phaenon projector](http://laseranimation.com/en/products/phaenon-accurate)
-* [X-Laser Projectors](http://x-laser.us)
+* [X-Laser Projectors](http://x-laser.us/)
 * [Guide to Laser Shows](http://www.laserist.org/guide-to-laser-shows.htm)
 * [Nightsun Specialized Illuminators](http://www.spectrolab.com/searchlights/products/prod\_sx16\_ns\_enh.html)
 
@@ -115,7 +115,7 @@ Thanks to a ton of people for taking the time to read this and give me comments 
 ### **Mechanical/Physical Volumetric Displays:** <a href="#81ed" id="81ed"></a>
 
 * [DIY Helical Display](https://thecriticaltechnologist.wordpress.com/audiovisual/)
-* [Lumarca](http://lumarca.info)
+* [Lumarca](http://lumarca.info/)
 * [Perspecta Systems Wired Article](http://www.wired.com/2002/01/bubble-vision/)
 * [Perspecta Systems Article](http://thefutureofthings.com/3029-the-return-of-the-3d-crystal-ball/)
 * [3D printed Helix Display](http://www.solidsmack.com/3d-cad-technology/open-source-volumetric-display-pushes-what-is-possible-with-3d-visualization/)
@@ -133,13 +133,13 @@ Thanks to a ton of people for taking the time to read this and give me comments 
 
 ### **Transparent LCD References:** <a href="#5eb2" id="5eb2"></a>
 
-* [Custom Display Manufacturer based in Korea](http://www.displayandlife.com)
+* [Custom Display Manufacturer based in Korea](http://www.displayandlife.com/)
 * [Transparent OLED 2.0" Panel Vendor](http://www.4dsystems.com.au/product/uTOLED\_20\_G2/)
 * [Iris by Hybe](https://www.youtube.com/watch?v=qhdG7OltXnU)
-* [Potential Vendor: Crystal Display Systems](http://crystal-display.com)
+* [Potential Vendor: Crystal Display Systems](http://crystal-display.com/)
 * [Hypebox Transparent LCD product](http://hypebox.io/transparent-lcd-screen-showcase/)
 * [Transparent LCD Bus to Mars Lockheed Martin Project](https://www.youtube.com/watch?v=ssk5mn19cpM)
-* [Evoluce for Transparent LCD and OLED](http://www.evoluce.com)
+* [Evoluce for Transparent LCD and OLED](http://www.evoluce.com/)
 * [CDS Transparent Faq](http://crystal-display.com/cds-have-launched-a-brand-new-and-revised-transparent-faqs-document/)
 * [Planar Transparent OLED](http://www.planar.com/products/transparent-displays/)
 * [Stimulant writeup on Planar Transparent OLED](https://stimulant.com/state-of-the-art-transparent-oled-displays/)
@@ -151,7 +151,7 @@ Thanks to a ton of people for taking the time to read this and give me comments 
 
 ### **LCD with Modified Polarizing layers:** <a href="#d7b0" id="d7b0"></a>
 
-* [Polarizing Filter Source — API Optics](http://www.apioptics.com)
+* [Polarizing Filter Source — API Optics](http://www.apioptics.com/)
 * [Polarized Light Explanation Video](https://www.youtube.com/watch?v=PJHCADY-Bio)
 * [Brewster’s angle](https://en.wikipedia.org/wiki/Brewster%27s\_angle)
 * [Lynx Modified Polarizer Advertisement](https://www.youtube.com/watch?v=cDwyia2MM5o)

@@ -42,3 +42,49 @@ If your project or image is featured here and you would prefer me to remove it, 
   * ...and more?
 
 This is currently using Gitbook's free plan. If there is enough interest, I could set up a tipjar or something for this project and open it up as a paid project with multiple contributors and the ability to export the entire thing as a formatted PDF.
+
+###
+
+### Notes on Contributing Updates
+
+Content contributions are encouraged and welcomed! Please submit a pull request and I'll get back to you.
+
+#### Categorizing:
+
+While there are a ton of top level categories and a bit of inconsitency in how I'm organizing, I'm going to do my best to keep things in certain places. If you have a display technology that only has a single example, it will most likely be a better for the "Experimental" category instead of just the alternative display category.
+
+In my (rough)categorization:&#x20;
+
+* Alternative Displays: mostly commercial products and things you can buy or rent right now
+* Techniques: a combination of a commercial product and a fabrication/optical technique
+* Experimental/Other: this is a catchall for one-off art projects and lab/research experiments. Not a clear line between this and the technique section - open to suggestions on clearer delineations.
+* Legacy: mostly for things that are discontinued or no longer used
+
+#### Images:
+
+I'd like to reduce the reliance on external images hosted that could eventually disappear. Please include images in the repo - just make sure they aren't overly large (<10-5mb please, aim for a compressed jpg if possible)
+
+Gitbook works a little differently with images and they are stored in the .gitbook asset directory and have relative paths. See this example from the page in `/Alternative Displays/Lasers and Laser Projectors.md`
+
+```
+![Matthew Schreiber's Focal Point](../.gitbook/assets/Ontario.jpg)
+```
+
+#### Content Embeds:
+
+One important note is for embedding content, Gitbook uses a custom format for embeds - html/iframe would also be fine, but for consistency I've mostly stuck with Gitbook's formatting which looks like this:
+
+```
+{% raw %}
+{% embed url="https://www.youtube.com/watch?v=WxgVYCxShvA" %}
+{% endraw %}
+```
+
+Note the odd spelling of "endembed" instead of embedded when adding a comment beneath an embed. Ideally adding a comment for what the video is will be hugely helpful later whenever youtube videos aren't visible.
+
+```
+{% raw %}
+{% embed url="https://www.youtube.com/watch?v=D1pa3UX89GA" %} Rollable OLED {% endembed %}
+{% endraw %}
+```
+

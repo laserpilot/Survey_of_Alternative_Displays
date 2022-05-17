@@ -83,7 +83,7 @@ Getting a video signal to each display is another technical challenge, depending
 
 There are some versions of layered screens or display volumes that don’t stack multiple LCDs but combine them with things like layered [Pepper’s Ghost](https://vimeo.com/110670658), multiple projections on scrims, [transparent acrylic](http://blairneal.com/portfolio\_page/crayolascope/), or LED cubes.
 
-Around 2016, [Looking Glass Factory](https://lookingglassfactory.com) developed [Volume](https://www.youtube.com/watch?v=Jv\_OEY2P8MA) which was poised to be an affordable multiplane display. It achieved its effect by means of a projector and about 12 layers of angled material that catches a small sliver of the projector’s raster. They used a custom plugin for Unity that allows you to drop a 3D scene into their renderer and have it slice it up appropriately for their volumetric display. Eventually the Volume was discontinued for their higher quality Looking Glass Portrait that uses a specialized [light field](light-field-displays.md) approach.
+Around 2016, [Looking Glass Factory](https://lookingglassfactory.com/) developed [Volume](https://www.youtube.com/watch?v=Jv\_OEY2P8MA) which was poised to be an affordable multiplane display. It achieved its effect by means of a projector and about 12 layers of angled material that catches a small sliver of the projector’s raster. They used a custom plugin for Unity that allows you to drop a 3D scene into their renderer and have it slice it up appropriately for their volumetric display. Eventually the Volume was discontinued for their higher quality Looking Glass Portrait that uses a specialized [light field](light-field-displays.md) approach.
 
 ### Volumetric LED
 

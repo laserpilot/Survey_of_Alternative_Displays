@@ -36,7 +36,7 @@ Transparent OLED’s are still very useful for a lot of creative applications li
 
 Transparent OLED's used to be available for a short time in the mid 2010's and then kind of disappeared from the market for some time. Some of the rumored reasons for this are that the displays produced back then had some serious manufacturing issues that led to them being very expensive and difficult to produce. They also had a limited or unknown lifespan and it was difficult to rely on them for permanent installations. As of 2022, [LG](https://www.lg.com/us/business/oled-displays/lg-55EW5F-A) and [Planar](https://www.planar.com/products/transparent-oled-displays/) currently offer transparent OLED solutions that top out at 55" 1920x1080p displays. The cost of transparent OLED is still considerable since it is a niche product - some estimates are in the $20,000-$25,000 range for a single 55" display.
 
-Also, be wary - while there may be other providers of transparent OLED, they are usually using Samsung or LG components. Some potential rental sources of some old transparent OLED I’ve come across are [ABComRents](https://www.abcomrents.com) and [Oxygen Eventworks](http://oxygeneventworks.com). These screens can also be made interactive with different touchscreen approaches.
+Also, be wary - while there may be other providers of transparent OLED, they are usually using Samsung or LG components. Some potential rental sources of some old transparent OLED I’ve come across are [ABComRents](https://www.abcomrents.com/) and [Oxygen Eventworks](http://oxygeneventworks.com/). These screens can also be made interactive with different touchscreen approaches.
 
 ### Transparent LED
 
@@ -74,7 +74,7 @@ There are also other ways to create the same persistence of vision effect using 
 
 ### Electroluminescent Displays
 
-These are similar to old LCD displays for calculators in that they are somewhat fixed in the images they can display as they rely on illuminating special layers of material as opposed to individual pixels. One provider is [Lumineq](https://www.lumineq.com/products/in-glass-laminated-displays?hsa\_acc=4647806447\&hsa\_cam=6925704645\&hsa\_grp=82442195409\&hsa\_ad=475601411255\&hsa\_src=g\&hsa\_tgt=kwd-296865476399\&hsa\_kw=transparent+touch+screen\&hsa\_mt=b\&hsa\_net=adwords\&hsa\_ver=3\&gclid=CjwKCAjw682TBhATEiwA9crl34288mEN7vergmIph-bqKr2Xv\_k5UpD0tTC6gyVPWmQ3mVbWGXRjJhoCXbQQAvD\_BwE).
+These are similar to old LCD displays for calculators in that they are somewhat fixed in the images they can display as they rely on illuminating special layers of material as opposed to individual pixels. One provider is [Lumineq](https://www.lumineq.com/products/in-glass-laminated-displays?utm\_term=transparent%20touch%20screen\&utm\_campaign=SEM+Transparent+display\&utm\_source=adwords\&utm\_medium=ppc\&hsa\_acc=4647806447\&hsa\_cam=6925704645\&hsa\_grp=82442195409\&hsa\_ad=475601411255\&hsa\_src=g\&hsa\_tgt=kwd-296865476399\&hsa\_kw=transparent%20touch%20screen\&hsa\_mt=b\&hsa\_net=adwords\&hsa\_ver=3\&gclid=CjwKCAjw682TBhATEiwA9crl34288mEN7vergmIph-bqKr2Xv\_k5UpD0tTC6gyVPWmQ3mVbWGXRjJhoCXbQQAvD\_BwE).
 
 ![Lumineq Electroluminescent Display](../.gitbook/assets/image.png)
 
