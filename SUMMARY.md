@@ -37,6 +37,7 @@
 * [Physical/Mechanical Displays](experimental-other/physical-mechanical-displays.md)
 * [Switchable Glass](techniques/switchable-glass.md)
 * [Drone Displays](experimental-other/drone-displays.md)
+* [Ultrasonic Atomization of Water](experimental-other/ultrasonic-atomization-of-water.md)
 * [Electrochromic Paint](experimental-other/electrochromic-paint.md)
 * [Scanning Fiber Optics](experimental-other/scanning-fiber-optics.md)
 * [Acoustic Levitation Display](experimental-other/acoustic-levitation.md)
