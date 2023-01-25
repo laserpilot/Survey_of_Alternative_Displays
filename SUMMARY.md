@@ -39,7 +39,7 @@
 * [Drone Displays](experimental-other/drone-displays.md)
 * [Ultrasonic Atomization of Water](experimental-other/ultrasonic-atomization-of-water.md)
 * [Electrochromic Paint](experimental-other/electrochromic-paint.md)
-* [Light Reactive Surfaces and Materials](experimental-other/light-reactive-surfaces-and-materials.md)
+* [Light activated and other Reactive Surfaces and Materials](experimental-other/light-activated-and-other-reactive-surfaces-and-materials.md)
 * [Scanning Fiber Optics](experimental-other/scanning-fiber-optics.md)
 * [Acoustic Levitation Display](experimental-other/acoustic-levitation.md)
 * [Plasma Combustion](experimental-other/plasma-combustion.md)
