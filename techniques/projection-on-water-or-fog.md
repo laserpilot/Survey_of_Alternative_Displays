@@ -36,6 +36,16 @@ Mistform Adaptive shape screen
 
 {% embed url="https://youtu.be/mwsOSaVNXks" %}
 
+### Projection on water droplets
+
+This is a specialized example using high speed projection and a special way of making drops appear to "levitate" or move in slow motion. This effect is achieved by carefully syncronizing the movement/dropping of water with a light source and create different phase relationships between the two movements.
+
+{% embed url="https://www.youtube.com/watch?v=BRLx4lMetu4" %}
+"drop" by annolab
+{% endembed %}
+
+
+
 See also:
 
 * [Leia Display](http://leiadisplay.com) - Fog Screen product
