@@ -1,6 +1,7 @@
 # Table of contents
 
 * [2022 Update Notes](README.md)
+* [2023 Update Notes](2023-update-notes.md)
 * [Introduction](<README (1).md>)
 * [Outline](outline.md)
 
