@@ -48,6 +48,8 @@ The most common and slightly cheaper solution are products that essentially have
 
 The other transparent LED solution out there uses LEDs that have been mounted on special glass panels. These LEDs are powered and controlled using very thin, nearly invisible eletrical leads on the glass. There are limitations on the pixel pitch, brightness and resolution with these products, but they provide a fairly convincing transparent effect. Due to brightness and reoslution limitations, they are best used on large scale architectural installations and intended primarily for evening and nighttime viewing as opposed to full daylight.
 
+See also: [Muxwave transparent LED](https://www.muxwave.com)
+
 [GLAAM's G-Glass](https://glaamamerica.com/products/) product is one example of a commercial product in this space:
 
 {% embed url="https://www.youtube.com/watch?v=9NT1ww4nMis" %}
