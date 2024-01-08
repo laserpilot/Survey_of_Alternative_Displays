@@ -20,6 +20,9 @@ To add:
 * One Plane Displays or projection displays
   * [https://www.industrialalchemy.org/articleview.php?item=511](https://www.industrialalchemy.org/articleview.php?item=511)
 * Nixie tubes to vintage area?
+* Add sections on:
+  * What is a "display"?
+  * How do I find the right kind of display for my use case? What environmental factors make some displays a better use than others?
 
 Already added since 2022:
 
