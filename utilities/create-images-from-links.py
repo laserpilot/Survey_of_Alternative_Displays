@@ -5,11 +5,13 @@ import subprocess
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse, unquote
 
+# This was written with ChatGPT, almost entirely
+
 # Define the directory where your Markdown files are located
 base_directory = '/Users/laser/Dropbox/Articles/Article_Gits/Survey_of_Alternative_Displays_gitbook'
 
 # Directory to save the thumbnail images
-image_directory = os.path.join(base_directory, 'utilities/video-embed-images')
+image_directory = os.path.join(base_directory, 'utilities/video_embed_images')
 
 # Regular expression to match embed tags
 embed_pattern = r'{% embed url="([^"]+)" %}'

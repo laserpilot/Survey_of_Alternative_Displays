@@ -1,0 +1,3 @@
+# Overview
+
+This section is meant for covering more vintage applications of displays. While most of these are no longer in use, that essentially makes them alternative displays as well at this point. Considering past display technologies still offer some valuable insights into what the future could hold as well. Also - there was some wild and crazy stuff that people used to get up to...
