@@ -5,6 +5,7 @@
 * Leia Displays
 * Fovi3D
 * Multi-lens experiments
+* Others
 
 This page showcases a collection of displays that use some other advanced optical techniques (such as lenticular, multilens arrays and other complex marketing terms) to create a sense of depth for a viewer. These displays often market themselves as holograms and holographic displays, but a more accurate term is a lightfield display.
 
@@ -91,3 +92,13 @@ A similar[ experiment from NVIDIA](https://research.nvidia.com/publication/2017-
 {% embed url="https://www.youtube.com/watch?v=NdTycenXID8" %}
 
 Related to the multi-lens experiments above, take a look at the [Misapplied Science's Parallel Reality LED display](../experimental-other/other-experiments.md#parallel-reality-display) that uses similar principles.
+
+### Other
+
+Some of these aren't strictly lightfield displays and might be better suited in other areas, but I'll list them here anyway
+
+* [ASKA-3D](https://aska3d.com/en/technology.html)
+  * The ASKA-3D material allows for some optical trickery to allow an LCD image to float in front with some limited viewing angles of effectiveness
+  * DIY video of material: [https://www.youtube.com/watch?v=cAEQ8pMc3pQ](https://www.youtube.com/watch?v=cAEQ8pMc3pQ)
+  * Distributer video: [https://www.youtube.com/watch?v=A-MMbHAX\_pw](https://www.youtube.com/watch?v=A-MMbHAX\_pw)
+  * Show floor video of a large scale implementation: [https://www.youtube.com/watch?v=NBLBHZ9W4K0](https://www.youtube.com/watch?v=NBLBHZ9W4K0)

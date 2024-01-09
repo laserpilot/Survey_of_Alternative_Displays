@@ -3,10 +3,11 @@
 * [Transparent LCD ](transparent.md#5018)
 * [Transparent OLED](transparent.md#transparent-oled)
 * [Transparent LED](transparent.md#transparent-led)
+* [Transparent microLED](transparent.md#transparent-microled)
 * [Spinning Fan Displays/Persistence of Vision](transparent.md#spinning-fan-peristence-of-vision-displays)
 * [Electroluminescent Displays](transparent.md#electroluminescent-displays)
 
-## Transparent LCD <a href="#5018" id="5018"></a>
+## Transparent LCD <a href="#id-5018" id="id-5018"></a>
 
 {% embed url="https://vimeo.com/50200308?embedded=true&owner=3549383&source=video_title" %}
 [https://vimeo.com/50200308?embedded=true\&source=video\_title\&owner=3549383](https://vimeo.com/50200308?embedded=true\&source=video\_title\&owner=3549383)
@@ -54,11 +55,19 @@ See also: [Muxwave transparent LED](https://www.muxwave.com)
 
 {% embed url="https://www.youtube.com/watch?v=9NT1ww4nMis" %}
 
+### Transparent microLED
+
+[Samsung debuted a transparent microLED display at CES 2024](https://www.engadget.com/samsung-debuts-the-worlds-first-transparent-microled-screen-at-ces-2024-042634398.html)
+
+Presumably microLED would be brighter than OLED and less impacted by ambient light, but the pricing on this brand new technology would be considerable in 2024.
+
 ### Spinning Fan Peristence of Vision Displays
 
 There are a lot of products out there for these kinds of "holographic" spinning fan displays that could be considered a different type of "transparent" display. [Hypervsn](https://hypervsn.com) comes up the most often for a single and multiple unit system. These products use a spinning mechanism and a strip of LEDs on each fan blade. When the fan spins fast enough, the LED's draw each frame and the persistence of vision illusion allows a user to see an image that appears to float in mid air.&#x20;
 
-By their nature, these displays are still just perceptually flat and not true 3D, but with the right content they can provide some convincing visual tricks. One nice element of these displays is that they are scalable in the sense that multiple units can be linked together to create larger images.
+By their nature, these displays are still just perceptually flat and not true 3D, but with the right content they can provide some convincing visual tricks. One nice element of these displays is that they are scalable in the sense that multipl
+
+e units can be linked together to create larger images.
 
 ![Hypervsn Wall
 

@@ -28,4 +28,7 @@
 
 * [Link to Friendlywire compendium](http://friendlywire.com/articles/displays/)
 * [Industrial Alchemy midcentury numeric displays](https://www.industrialalchemy.org/tubepage.php?item=10\&user=0)
+*   [One Plane Projector displays](https://www.industrialalchemy.org/articleview.php?item=511)
+
+    <figure><img src="../.gitbook/assets/ieeprojectioncutaway.jpg" alt=""><figcaption></figcaption></figure>
 

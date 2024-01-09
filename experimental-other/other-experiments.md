@@ -7,6 +7,7 @@
 * Desconstructed LCD
 * Colloidal Bubble Display
 * Parallel Reality Display
+* Stackable microLED
 * Phases Mirror Display
 * Robotics and Displays
 
@@ -55,6 +56,10 @@ Below is a demonstration of what 12 different viewpoints could look like to diff
 {% embed url="https://www.youtube.com/watch?v=ptXTSuMkuvA" %}
 Misapplied Sciences Parallel Reality Display
 {% endembed %}
+
+### Stacked microLED
+
+Most pixels are arranged as red, green, and blue pixels arranged horizontally side by side. In 2023, MIT unveiled a stacked vertical pixel arrangement that allows them to be stacked on top of eachother for greater horizontal density, an important component of higher resolution headset displays. [Link](https://news.mit.edu/2023/vertical-stacked-color-microscopic-leds-0201)
 
 ### Phases by AV\&C
 

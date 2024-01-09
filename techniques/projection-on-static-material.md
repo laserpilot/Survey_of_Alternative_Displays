@@ -28,3 +28,8 @@ This technique below uses thousands of hanging bits of material to create a sort
 
 {% embed url="https://vimeo.com/105428635" %}
 
+See also:
+
+* Carbon Black projection material, sometimes also called Carbonmesh Holo: [https://www.carbonblack.technology](https://www.carbonblack.technology)
+* Hologauze: [https://www.holotronica.com/hologauze/](https://www.holotronica.com/hologauze/)
+* Kaleida Holonet: [https://www.wearekaleida.com/holonet](https://www.wearekaleida.com/holonet)
