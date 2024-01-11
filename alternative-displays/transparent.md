@@ -25,6 +25,10 @@ Some artists and studios have also been able to source custom LCD elements that 
 
 A challenge with transparent LCD’s is sourcing usable ones. There is a [DIY route](../appendix/diy-transparent-screens.md) — but the visual results aren’t great. Only a few commercial vendors supply these screens, and because it is a specialty item, they tend to be more expensive than comparable screens with backlights. You may also be limited by certain available sizes — making it difficult to scale these to a large application. Even if the screens were tiled together, at least one edge needs to have the driver board on it, so its not as easy to tile them together like normal LCD walls. The color reproduction with these transparent LCD's tends to be a little duller than the vibrant colors you’re used to. Their transparency can be cloudier compared to regular glass since the polarizer and liquid crystal layers are sandwiched in there as well. I’ve found that black, white and gray content is the most striking on transparent LCD’s.
 
+Japan Display Inc (JDI) also has a Transparent LCD technology that is a bit unlike the ones listed above. It is viewable from both sides, features no color filter or polarizer, and is highly transparent at 80% transmission. [Link for more info](https://www.j-display.com/english/product/transparent\_display.html) They call it Rælclear (intentionally blended lettering to indicate both sides) and it seems like a purchasable item. There are some limitations on size and uniformity indicated in [this video ](https://www.youtube.com/watch?v=DCRWjV2u0As)around the 12min mark.&#x20;
+
+{% embed url="https://youtu.be/A0ZB5t4AXXg?si=jomyRZ7M-uhmTE2h" %}
+
 ### Transparent OLED
 
 {% embed url="https://www.youtube.com/watch?v=2wgLUDKSaTg" %}
@@ -38,6 +42,14 @@ Transparent OLED’s are still very useful for a lot of creative applications li
 Transparent OLED's used to be available for a short time in the mid 2010's and then kind of disappeared from the market for some time. Some of the rumored reasons for this are that the displays produced back then had some serious manufacturing issues that led to them being very expensive and difficult to produce. They also had a limited or unknown lifespan and it was difficult to rely on them for permanent installations. As of 2022, [LG](https://www.lg.com/us/business/oled-displays/lg-55EW5F-A) and [Planar](https://www.planar.com/products/transparent-oled-displays/) currently offer transparent OLED solutions that top out at 55" 1920x1080p displays. The cost of transparent OLED is still considerable since it is a niche product - some estimates are in the $20,000-$25,000 range for a single 55" display.
 
 Also, be wary - while there may be other providers of transparent OLED, they are usually using Samsung or LG components. Some potential rental sources of some old transparent OLED I’ve come across are [ABComRents](https://www.abcomrents.com/) and [Oxygen Eventworks](http://oxygeneventworks.com/). These screens can also be made interactive with different touchscreen approaches.
+
+In 2023 and 2024, there hav e been new entrants in Transparent OLED, mostly from LG. LG promises a new consumer line aimed for living rooms and likely with a smaller price point than listed above.
+
+Additionally, at CES 2023, [LG unveiled a transparent OLED](https://www.flatpanelshd.com/news.php?subaction=showfull\&id=1673336078) that does have a "Black Mode" and allows the transparent pixels to turn "black" and more opaque as shown in the video below.
+
+{% embed url="https://vimeo.com/787092028" %}
+LG OLED with "Black Mode"
+{% endembed %}
 
 ### Transparent LED
 

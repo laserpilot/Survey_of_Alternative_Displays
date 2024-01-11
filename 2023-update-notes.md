@@ -8,7 +8,6 @@ description: >-
 
 To add:
 
-* Transparent OLED with black pixels [https://www.flatpanelshd.com/news.php?subaction=showfull\&id=1673336078](https://www.flatpanelshd.com/news.php?subaction=showfull\&id=1673336078)
 * PJ-Link 3D LED TV Display - actuated LED panels&#x20;
   * : [https://www.youtube.com/watch?v=CNYp\_R1sriw](https://www.youtube.com/watch?v=CNYp\_R1sriw)
   * [https://www.youtube.com/watch?v=19l453Vj\_60](https://www.youtube.com/watch?v=19l453Vj\_60)
@@ -16,8 +15,11 @@ To add:
   * Mechanical overview: [https://www.youtube.com/watch?v=Swt6U6aD2OY](https://www.youtube.com/watch?v=Swt6U6aD2OY)
 * Add sections on:
   * What is a "display"?
-  * How do I find the right kind of display for my use case? What environmental factors make some displays a better use than others?
+  * How do I find the right kind of display for my use case? What environmental factors make some displays a better use than others? Perhaps a display matrix with different conditions that are highlighted?
+* JDI 8K Light Field Display from 2019
 * Added:
+  * JDI  Rælclear to transparent LCD section
+  * Transparent OLED with black pixels [https://www.flatpanelshd.com/news.php?subaction=showfull\&id=1673336078](https://www.flatpanelshd.com/news.php?subaction=showfull\&id=1673336078)
   * Nixie tubes to vintage area?
   * UV activated materials (photochromic pigments and paints) to light activated surfaces
   * ✅Rollable LG tv to flexible displays
