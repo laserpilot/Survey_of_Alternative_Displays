@@ -28,6 +28,7 @@ If your project or image is featured here and you would prefer me to remove it, 
   * [Sunlight driven and sustainable displays](https://www.designboom.com/art/pierre-brault-pop-sundial-installations-urban-spaces-10-20-2022/) (and add Joanie Lemercier's work too)
   * [Acoustic levitation addition](https://www.acoustofab.co.uk/)
   * [Meta Ray-ban Display](https://www.meta.com/ai-glasses/meta-ray-ban-display-shiny-sand-transitions-and-neural-band-sand/)
+  * [Vacuum microfluidic multiplexing display](https://www.youtube.com/watch?v=VZ2ZcOzLnGg)
 
 ## Added in 2024:
 
