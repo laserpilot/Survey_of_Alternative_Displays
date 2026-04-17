@@ -14,7 +14,7 @@ If you're on Gitbook, the link to the [Github for this article is here](https://
 
 If your project or image is featured here and you would prefer me to remove it, please send me a message/email/etc (contact info on [my website](https://www.ablairneal.com)). Additionally, if you have something you think needs to change or be added, please submit a pull request and I'll add it in (or send me an email!).
 
-## To add: 2025 and beyond:
+## To add: 2025/2026 and beyond:
 
 * Categories of things to add in various spots that haven't been formally added:
   * [Looking Glass HLD/Hololuminescent displays](https://lookingglassfactory.com/hld-overview)
@@ -28,7 +28,7 @@ If your project or image is featured here and you would prefer me to remove it, 
   * [Sunlight driven and sustainable displays](https://www.designboom.com/art/pierre-brault-pop-sundial-installations-urban-spaces-10-20-2022/) (and add Joanie Lemercier's work too)
   * [Acoustic levitation addition](https://www.acoustofab.co.uk/)
   * [Meta Ray-ban Display](https://www.meta.com/ai-glasses/meta-ray-ban-display-shiny-sand-transitions-and-neural-band-sand/)
-  * [Vacuum microfluidic multiplexing display](https://www.youtube.com/watch?v=VZ2ZcOzLnGg)
+  * [Vacuum microfluidic multiplexing display](https://www.youtube.com/watch?v=E1BLGpE5zH0)
 
 ## Added in 2024:
 
