@@ -157,6 +157,49 @@ tbody tr:focus { outline: 2px solid var(--accent); outline-offset: -2px; }
 .d-source { color: var(--muted); font-size: 12px; }
 code { background: var(--panel-2); padding: 1px 5px; border-radius: 4px; font-size: 12px; }
 
+/* view switch */
+.view-switch { max-width: 1100px; margin: 0 auto 14px; display: flex; gap: 6px; }
+.view-switch .tab {
+  background: var(--panel); color: var(--muted); border: 1px solid var(--line);
+  border-radius: 8px; padding: 8px 16px; font-size: 14px; font-weight: 600; cursor: pointer;
+}
+.view-switch .tab:hover { color: var(--text); border-color: var(--accent); }
+.view-switch .tab.active { color: var(--text); border-color: var(--accent); background: var(--panel-2); box-shadow: inset 0 -2px 0 var(--accent); }
+
+/* tensions view */
+.tns-controls {
+  max-width: 1100px; margin: 0 auto 12px; display: flex; flex-wrap: wrap; gap: 12px 18px; align-items: flex-end;
+  background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 12px 14px;
+}
+.axis-pick { display: flex; gap: 6px; }
+.axis-pick select { background: var(--panel-2); color: var(--text); border: 1px solid var(--line); border-radius: 7px; padding: 6px 8px; font-size: 14px; min-width: 150px; }
+.dir { width: 32px; border: 1px solid var(--line); border-radius: 7px; background: var(--panel-2); color: var(--accent); cursor: pointer; font-size: 13px; }
+.dir:hover { border-color: var(--accent); }
+.tns-presets { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-left: auto; }
+.control-label { font-size: 11px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); margin-right: 2px; }
+.preset { background: transparent; color: var(--accent-2); border: 1px solid var(--line); border-radius: 999px; padding: 5px 11px; font-size: 12.5px; cursor: pointer; }
+.preset:hover { border-color: var(--accent-2); }
+.tns-insight { max-width: 1100px; margin: 0 auto 8px; padding: 8px 12px; background: var(--panel); border: 1px solid var(--line); border-left: 3px solid var(--accent); border-radius: 8px; font-size: 14px; }
+.tns-caption { max-width: 1100px; margin: -2px auto 10px; padding: 0 4px; font-size: 13px; line-height: 1.5; color: var(--muted); }
+.tns-stage { max-width: 1100px; margin: 0 auto; display: flex; gap: 16px; align-items: flex-start; }
+.tns-plot { flex: 1; min-width: 0; background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 6px; }
+.tns-svg { width: 100%; height: auto; display: block; }
+.tns-svg .grid { stroke: var(--line); stroke-width: 1; }
+.tns-svg .tick { fill: var(--muted); font-size: 11px; font-family: inherit; }
+.tns-svg .axis-title { fill: var(--text); font-size: 12.5px; font-weight: 600; font-family: inherit; }
+.tns-svg .frontier { fill: none; stroke: var(--accent-2); stroke-width: 2; stroke-dasharray: 5 4; opacity: .9; }
+.tns-svg .pt { cursor: pointer; }
+.tns-svg .pt:hover { stroke: #fff; stroke-width: 2.5; }
+.tns-legend { width: 190px; flex: none; display: flex; flex-direction: column; gap: 5px; font-size: 12.5px; color: var(--text); }
+.lg-fam { display: flex; align-items: center; gap: 7px; }
+.lg-fam .sw { width: 12px; height: 12px; border-radius: 50%; flex: none; }
+.lg-fam .sw.hollow { background: transparent; border: 2px solid var(--muted); }
+.lg-fam .sw.line { width: 16px; height: 0; border-radius: 0; border-top: 2px dashed var(--accent-2); }
+.tns-missing { max-width: 1100px; margin: 10px auto 0; font-size: 13px; color: var(--text); }
+.tns-foot { max-width: 1100px; margin: 6px auto 0; font-size: 12.5px; }
+.tns-tip { position: fixed; z-index: 50; pointer-events: none; background: var(--panel-2); border: 1px solid var(--accent); border-radius: 8px; padding: 7px 10px; font-size: 12px; color: var(--text); max-width: 240px; box-shadow: 0 6px 20px rgba(0,0,0,.4); }
+@media (max-width: 720px) { .tns-stage { flex-direction: column; } .tns-legend { width: auto; flex-direction: row; flex-wrap: wrap; gap: 10px 16px; } }
+
 /* footer */
 .site-footer { max-width: 1100px; margin: 22px auto 0; color: var(--muted); font-size: 13px; }
 .site-footer a { color: var(--accent); }

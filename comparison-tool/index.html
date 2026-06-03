@@ -51,6 +51,12 @@
     </details>
   </header>
 
+  <div class="view-switch" role="tablist" aria-label="Views">
+    <button id="tab-matrix" class="tab active" role="tab" aria-selected="true">▦ Matrix</button>
+    <button id="tab-tensions" class="tab" role="tab" aria-selected="false">⤬ Tensions</button>
+  </div>
+
+  <div id="view-matrix">
   <section class="controls" aria-label="Filters">
     <div class="control">
       <label for="search">Search</label>
@@ -104,6 +110,35 @@
       <thead><tr id="head-row"></tr></thead>
       <tbody id="body"></tbody>
     </table>
+  </div>
+  </div><!-- /view-matrix -->
+
+  <div id="view-tensions" hidden>
+    <div class="tns-controls">
+      <div class="control">
+        <label for="tns-x">Horizontal axis</label>
+        <span class="axis-pick"><select id="tns-x"></select><button id="tns-fx" class="dir" type="button" title="Flip which end the frontier hugs">▲</button></span>
+      </div>
+      <div class="control">
+        <label for="tns-y">Vertical axis</label>
+        <span class="axis-pick"><select id="tns-y"></select><button id="tns-fy" class="dir" type="button" title="Flip which end the frontier hugs">▲</button></span>
+      </div>
+      <div class="tns-presets">
+        <span class="control-label">Try a tension</span>
+        <button class="preset" type="button" data-preset="bigsharp">Big or sharp</button>
+        <button class="preset" type="button" data-preset="bright">Bright &amp; see-through</button>
+        <button class="preset" type="button" data-preset="cheap">Cheap &amp; available</button>
+        <button class="preset" type="button" data-preset="surface">Leaving the surface</button>
+      </div>
+    </div>
+    <p id="tns-insight" class="tns-insight"></p>
+    <p id="tns-caption" class="tns-caption" hidden></p>
+    <div class="tns-stage">
+      <div id="tns-plot" class="tns-plot"></div>
+      <div id="tns-legend" class="tns-legend"></div>
+    </div>
+    <p id="tns-missing" class="tns-missing"></p>
+    <p class="tns-foot muted">A rough, qualitative map — positions come from coarse 0–3 affordance ratings, so points are jittered within each cell and many ties are real. The dashed line is the trade-off frontier (the best you can currently get); the ▲/▼ buttons flip which end counts as "more." Hover a dot for details; click to open its full entry.</p>
   </div>
 
   <aside id="detail" class="detail" hidden></aside>
