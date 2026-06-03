@@ -4,6 +4,10 @@ description: This is an overview of everything that is covered in the following 
 
 # Outline
 
+{% hint style="info" %}
+🧭 **New — [Display Chooser](https://laserpilot.github.io/Survey_of_Alternative_Displays/comparison-tool/):** an interactive matrix that compares these technologies by their real-world strengths — daylight readability, scale, transparency, 3D-ness, cost, and availability. Filter by what your experience needs. (Hosted on GitHub Pages; opens outside GitBook.)
+{% endhint %}
+
 * **Introduction**
 * **Brief Notes on Standard Displays**
   * [LCD/Standard displays](standard-displays/standard-displays-overview.md)
