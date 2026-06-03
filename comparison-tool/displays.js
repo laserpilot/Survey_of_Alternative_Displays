@@ -309,7 +309,7 @@ window.DISPLAYS = [
       color:          { value: "full", note: "RGB lasers; 7-color low end to wide gamut high end." },
       motion:         { score: 2, note: "Flicker risk if content too complex at 60fps." },
       transparency:   { score: 3, note: "Draws lines in mid-air/haze." },
-      dimensionality: { value: "volumetric", note: "2D outlines; volumetric possible with multiple units/haze." },
+      dimensionality: { value: "flat", note: "Draws 2D vector outlines; in haze the beams read as lines/cones in mid-air, but it isn't a controllable 3D volume." },
       availability:   { value: "buy", note: "Mature niche; vendors supply units and safety variances; licensed operators." },
       cost:           { score: 2, note: "Professional equipment (485mW, 1W, 2W+ classes)." },
       safety:         { score: 0, note: "Severe: 1mW can damage eyes; 5mW+ needs protection; fire/ozone; licensing required." }
