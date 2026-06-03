@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Display Chooser — Survey of Alternative Displays</title>
+  <meta name="description" content="A comparison matrix of alternative display technologies, rated on qualitative affordances for art and experience design.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Display Chooser</h1>
+    <p class="tagline">
+      A comparison matrix for the
+      <a href="https://blair-neal.gitbook.io/survey-of-alternative-displays/" target="_blank" rel="noopener">Survey of Alternative Displays</a>.
+      Pick what your experience needs; see which technologies fit.
+    </p>
+    <details class="disclaimer">
+      <summary>About these ratings &amp; the affordance scale</summary>
+      <div class="disclaimer-body">
+        <p>
+          These are <strong>qualitative affordances</strong> drawn from the survey's prose — a sense of
+          what each medium is <em>like</em> to work with — <strong>not lab benchmarks</strong>. Think of it
+          the way a painter weighs oil vs. watercolor, not a spec sheet.
+        </p>
+        <p>Each scored axis runs <strong>0–3</strong>:</p>
+        <ul class="legend-grid">
+          <li><span class="axis-name">Ambient light</span> 0 needs darkness → 3 readable in sunlight</li>
+          <li><span class="axis-name">Scale</span> 0 handheld → 3 architectural</li>
+          <li><span class="axis-name">Resolution</span> 0 blocky/points → 3 sharp</li>
+          <li><span class="axis-name">Motion</span> 0 static → 3 full video / high refresh</li>
+          <li><span class="axis-name">Transparency</span> 0 opaque → 3 see-through / floats in air</li>
+          <li><span class="axis-name">Cost</span> 0 DIY/cheap → 3 premium / six-figure+</li>
+          <li><span class="axis-name">Safety</span> 0 hazardous/licensed → 3 inherently safe</li>
+        </ul>
+        <p>
+          A dash (<span class="muted">—</span>) means the source text <strong>doesn't say</strong> — an
+          honest gap, not a zero. Every rating links back to the section it came from, so you can check it.
+          Spot something wrong? <a href="https://github.com/laserpilot/Survey_of_Alternative_Displays" target="_blank" rel="noopener">Corrections via PR or issue are welcome.</a>
+        </p>
+        <p>
+          <strong>Status tags:</strong> <em>comparable</em> means you could realistically choose and
+          deploy it today; <span class="badge badge-borderline">borderline</span> means the technology
+          is real but <strong>pre-commercial, one-off, or niche</strong> — treat its ratings as more provisional.
+        </p>
+        <p class="muted" style="font-size:13px;">
+          On sorting: equal dots mean the <strong>same tier</strong>. Ties are broken by rating confidence
+          then name — so the left-to-right order <em>inside</em> a band is not a finer ranking.
+        </p>
+      </div>
+    </details>
+  </header>
+
+  <section class="controls" aria-label="Filters">
+    <div class="control">
+      <label for="search">Search</label>
+      <input type="search" id="search" placeholder="name, family, keyword…">
+    </div>
+    <div class="control">
+      <label for="filter-family">Family</label>
+      <select id="filter-family"><option value="">All families</option></select>
+    </div>
+    <div class="control">
+      <label for="filter-availability">Availability</label>
+      <select id="filter-availability">
+        <option value="">Any</option>
+        <option value="buy">Buy today</option>
+        <option value="rent">Rent / service</option>
+        <option value="diy">DIY</option>
+        <option value="lab">Lab / pre-commercial</option>
+      </select>
+    </div>
+    <div class="control">
+      <label for="min-ambient">Daylight ≥</label>
+      <select id="min-ambient" data-axis="ambientLight">
+        <option value="0">any</option><option value="1">1</option><option value="2">2</option><option value="3">3</option>
+      </select>
+    </div>
+    <div class="control">
+      <label for="min-transparency">See-through ≥</label>
+      <select id="min-transparency" data-axis="transparency">
+        <option value="0">any</option><option value="1">1</option><option value="2">2</option><option value="3">3</option>
+      </select>
+    </div>
+    <div class="control">
+      <label for="min-scale">Scale ≥</label>
+      <select id="min-scale" data-axis="scale">
+        <option value="0">any</option><option value="1">1</option><option value="2">2</option><option value="3">3</option>
+      </select>
+    </div>
+    <button id="reset" type="button" class="reset">Reset</button>
+    <span id="count" class="count" aria-live="polite"></span>
+  </section>
+
+  <p class="matrix-legend">
+    <span class="lg"><span class="dots dots-2"><span class="dot on"></span><span class="dot on"></span><span class="dot off"></span></span> scored 0–3 · more = stronger</span>
+    <span class="lg"><span class="muted">—</span> not stated in the source</span>
+    <span class="lg"><span class="badge badge-borderline">borderline</span> real but pre-commercial / niche</span>
+    <span class="lg">Equal dots = same tier; order within a tier isn’t a ranking.</span>
+  </p>
+
+  <div class="table-wrap">
+    <table id="matrix">
+      <thead><tr id="head-row"></tr></thead>
+      <tbody id="body"></tbody>
+    </table>
+  </div>
+
+  <aside id="detail" class="detail" hidden></aside>
+
+  <footer class="site-footer">
+    <p>
+      Data layer: <code>displays.js</code> · Part of the
+      <a href="https://github.com/laserpilot/Survey_of_Alternative_Displays" target="_blank" rel="noopener">Survey of Alternative Displays</a>
+      by Blair Neal. Ratings are qualitative and community-correctable.
+    </p>
+  </footer>
+
+  <script src="displays.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
