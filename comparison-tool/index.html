@@ -54,6 +54,7 @@
   <div class="view-switch" role="tablist" aria-label="Views">
     <button id="tab-matrix" class="tab active" role="tab" aria-selected="true">▦ Matrix</button>
     <button id="tab-tensions" class="tab" role="tab" aria-selected="false">⤬ Tensions</button>
+    <button id="tab-constellation" class="tab" role="tab" aria-selected="false">✦ Constellation</button>
     <button id="tab-stories" class="tab" role="tab" aria-selected="false">◈ Stories</button>
   </div>
 
@@ -141,6 +142,18 @@
     </div>
     <p id="tns-missing" class="tns-missing"></p>
     <p class="tns-foot muted">A rough, qualitative map — positions come from coarse 0–3 affordance ratings, so points are jittered within each cell and many ties are real. The dashed line is the trade-off frontier (the best you can currently get); the ▲/▼ buttons flip which end counts as "more." Hover a dot for details; click to open its full entry.</p>
+  </div>
+
+  <div id="view-constellation" hidden>
+    <p class="cns-explainer" id="cns-explainer"></p>
+    <div class="tns-controls cns-controls">
+      <label class="cns-toggle"><input type="checkbox" id="cns-labels"> Show all labels</label>
+    </div>
+    <div class="tns-stage">
+      <div id="cns-plot" class="tns-plot"></div>
+      <div id="cns-legend" class="tns-legend"></div>
+    </div>
+    <p class="tns-foot muted" id="cns-note"></p>
   </div>
 
   <div id="view-stories" hidden>
