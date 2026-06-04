@@ -1086,28 +1086,6 @@ window.DISPLAYS = [
     }
   },
   {
-    id: "ulexite",
-    name: "Ulexite (TV Stone)",
-    family: "Diffusion / Distortion",
-    status: "borderline",
-    summary: "A natural fiber-optic-like mineral that projects whatever's behind it onto its top face. Tiny, static curiosity.",
-    source: "techniques/diffusion-and-distortion.md",
-    gitbookUrl: "https://blair-neal.gitbook.io/survey-of-alternative-displays/techniques/diffusion-and-distortion",
-    confidence: "low",
-    axes: {
-      ambientLight:   { score: 1, note: "Works with any correctly positioned light source." },
-      scale:          { score: 0, note: "Small polished pieces only; not scalable." },
-      resolution:     { score: 0, note: "Very low; more texture than image." },
-      color:          { value: "full", note: "Color comes from the light source." },
-      motion:         { score: 0, note: "Static; not suitable for video." },
-      transparency:   { score: 2, note: "Semi-transparent crystal; image carried to the top surface." },
-      dimensionality: { value: "flat", note: "Flat surface projection via natural fibers." },
-      availability:   { value: "buy", note: "Natural material sold as a novelty; not a commercial display." },
-      cost:           { score: 0, note: "Inexpensive small pieces." },
-      safety:         { score: 3, note: "Needs a point light source; safe." }
-    }
-  },
-  {
     id: "electrochromic-paint",
     name: "Electroluminescent Paint (Lumilor)",
     family: "Reactive / Light-Activated",

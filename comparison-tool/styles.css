@@ -200,6 +200,13 @@ code { background: var(--panel-2); padding: 1px 5px; border-radius: 4px; font-si
 .tns-tip { position: fixed; z-index: 50; pointer-events: none; background: var(--panel-2); border: 1px solid var(--accent); border-radius: 8px; padding: 7px 10px; font-size: 12px; color: var(--text); max-width: 240px; box-shadow: 0 6px 20px rgba(0,0,0,.4); }
 @media (max-width: 720px) { .tns-stage { flex-direction: column; } .tns-legend { width: auto; flex-direction: row; flex-wrap: wrap; gap: 10px 16px; } }
 
+/* constellation */
+.cns-explainer { max-width: 1100px; margin: 0 auto 10px; font-size: 13.5px; color: var(--text); line-height: 1.5; }
+.cns-controls { padding: 8px 14px; }
+.cns-toggle { display: flex; align-items: center; gap: 7px; font-size: 13px; color: var(--text); cursor: pointer; }
+.cns-svg .cns-label { fill: var(--muted); font-size: 9px; font-family: inherit; pointer-events: none; }
+.cns-quad { fill: var(--accent-2); font-size: 11px; font-family: inherit; opacity: .8; font-style: italic; }
+
 /* stories */
 .stories-intro { max-width: 1100px; margin: 0 auto 14px; color: var(--muted); font-size: 14px; max-width: 70ch; }
 .stories-grid { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 12px; }

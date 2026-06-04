@@ -236,6 +236,7 @@
 
     setupViews();
     initTensions();
+    initConstellation();
     render();
   }
 
@@ -270,7 +271,7 @@
       body: "<p>Transparency and brightness pull against each other: a see-through display has, by definition, less material with which to make light. Ask for both — readable in ambient light <em>and</em> see-through — and the corner nearly empties.</p><p>The only things sitting there comfortably are switchable glasses, which aren't image displays at all; they just turn opacity up and down. A bright, see-through picture remains one of the hardest asks in this whole survey.</p>" },
     { id: "accessible", title: "The accessible corner", x: "cost", y: "availability", flipX: true,
       teaser: "What you can actually get cheaply today — and why “alternative” rarely means “affordable.”",
-      body: "<p>Flip cost so cheaper is better, plot it against how easy a display is to obtain, and the welcoming corner is sparse — standard panels, small round screens, a curious mineral or two. Most of what's both cheap and buyable is, well, fairly ordinary.</p><p>The survey's lesson in a single chart: the further you wander from the everyday screen, the more you pay — in money, lead time, or DIY effort.</p>" }
+      body: "<p>Flip cost so cheaper is better, plot it against how easy a display is to obtain, and the welcoming corner is sparse — mostly standard panels and small round screens. Almost everything that's both cheap and buyable is, well, fairly ordinary.</p><p>The survey's lesson in a single chart: the further you wander from the everyday screen, the more you pay — in money, lead time, or DIY effort.</p>" }
   ];
   var FAMILY_COLORS = (function () {
     var fams = DATA.map(function (r) { return r.family; })
@@ -489,11 +490,156 @@
     showView("tensions"); // renders the plot for the story's axes
   }
 
+  // ===== Constellation view (PCA "map of display-space") ====================
+  var cEl = {}, pcaCache = null, cShowLabels = false;
+
+  // build a standardized feature matrix over all 10 axes (mean-impute gaps)
+  function buildFeatures() {
+    var axes = PLOT_AXES, n = DATA.length, d = axes.length;
+    var maxes = axes.map(function (k) { return axisMeta(k).max || 1; });
+    var raw = DATA.map(function (r) { return axes.map(function (k, j) { var v = numVal(r, k); return v === null ? null : v / maxes[j]; }); });
+    var colMeanImp = [];
+    for (var j = 0; j < d; j++) { var s = 0, c = 0; for (var i = 0; i < n; i++) if (raw[i][j] !== null) { s += raw[i][j]; c++; } colMeanImp[j] = c ? s / c : 0; }
+    var miss = [], M = [];
+    for (i = 0; i < n; i++) { miss[i] = 0; M[i] = []; for (j = 0; j < d; j++) { if (raw[i][j] === null) { M[i][j] = colMeanImp[j]; miss[i]++; } else M[i][j] = raw[i][j]; } }
+    // z-score each column so every axis contributes equally
+    var Z = [];
+    for (j = 0; j < d; j++) {
+      var m = 0; for (i = 0; i < n; i++) m += M[i][j]; m /= n;
+      var v2 = 0; for (i = 0; i < n; i++) { var dd = M[i][j] - m; v2 += dd * dd; } var sd = Math.sqrt(v2 / (n - 1)) || 1;
+      for (i = 0; i < n; i++) { (Z[i] = Z[i] || [])[j] = (M[i][j] - m) / sd; }
+    }
+    return { Z: Z, axes: axes, miss: miss };
+  }
+
+  // cyclic Jacobi eigensolver for a symmetric d×d matrix
+  function jacobi(Ain, d) {
+    var a = Ain.map(function (r) { return r.slice(); }), v = [];
+    for (var i = 0; i < d; i++) { v[i] = []; for (var j = 0; j < d; j++) v[i][j] = (i === j) ? 1 : 0; }
+    for (var iter = 0; iter < 100; iter++) {
+      var off = 0, p, q, k;
+      for (p = 0; p < d; p++) for (q = p + 1; q < d; q++) off += Math.abs(a[p][q]);
+      if (off < 1e-10) break;
+      for (p = 0; p < d; p++) for (q = p + 1; q < d; q++) {
+        if (Math.abs(a[p][q]) < 1e-14) continue;
+        var theta = (a[q][q] - a[p][p]) / (2 * a[p][q]);
+        var t = (theta >= 0 ? 1 : -1) / (Math.abs(theta) + Math.sqrt(theta * theta + 1));
+        var c = 1 / Math.sqrt(t * t + 1), s = t * c;
+        for (k = 0; k < d; k++) { var akp = a[k][p], akq = a[k][q]; a[k][p] = c * akp - s * akq; a[k][q] = s * akp + c * akq; }
+        for (k = 0; k < d; k++) { var apk = a[p][k], aqk = a[q][k]; a[p][k] = c * apk - s * aqk; a[q][k] = s * apk + c * aqk; }
+        for (k = 0; k < d; k++) { var vkp = v[k][p], vkq = v[k][q]; v[k][p] = c * vkp - s * vkq; v[k][q] = s * vkp + c * vkq; }
+      }
+    }
+    var vals = []; for (p = 0; p < d; p++) vals.push(a[p][p]);
+    return { vals: vals, vecs: v };
+  }
+
+  function computePCA() {
+    if (pcaCache) return pcaCache;
+    var f = buildFeatures(), Z = f.Z, n = Z.length, d = f.axes.length, i, j, k;
+    var C = []; for (i = 0; i < d; i++) { C[i] = []; for (j = 0; j < d; j++) C[i][j] = 0; }
+    for (k = 0; k < n; k++) for (i = 0; i < d; i++) for (j = 0; j < d; j++) C[i][j] += Z[k][i] * Z[k][j];
+    for (i = 0; i < d; i++) for (j = 0; j < d; j++) C[i][j] /= (n - 1);
+    var e = jacobi(C, d);
+    var order = e.vals.map(function (v, idx) { return idx; }).sort(function (x, y) { return e.vals[y] - e.vals[x]; });
+    var total = e.vals.reduce(function (sum, v) { return sum + Math.max(v, 0); }, 0) || 1;
+    function col(Mx, c) { return Mx.map(function (row) { return row[c]; }); }
+    function orient(vec) { var mi = 0; for (var t = 1; t < vec.length; t++) if (Math.abs(vec[t]) > Math.abs(vec[mi])) mi = t; return vec[mi] < 0 ? vec.map(function (x) { return -x; }) : vec; }
+    var pc1 = orient(col(e.vecs, order[0])), pc2 = orient(col(e.vecs, order[1]));
+    var coords = Z.map(function (z, idx) { var x = 0, y = 0; for (var jj = 0; jj < d; jj++) { x += z[jj] * pc1[jj]; y += z[jj] * pc2[jj]; } return { id: DATA[idx].id, x: x, y: y }; });
+    pcaCache = { coords: coords, pc1: pc1, pc2: pc2, axes: f.axes, miss: f.miss,
+                 var1: Math.max(e.vals[order[0]], 0) / total, var2: Math.max(e.vals[order[1]], 0) / total };
+    return pcaCache;
+  }
+
+  function axisDirs(vec, axes) {
+    var arr = axes.map(function (a, i) { return { label: axisMeta(a).label, w: vec[i] }; })
+      .sort(function (a, b) { return Math.abs(b.w) - Math.abs(a.w); });
+    return arr.filter(function (t) { return t.w > 0; }).slice(0, 3).map(function (t) { return t.label; });
+  }
+  function shortName(n) { n = n.replace(/\s*\(.*?\)\s*/g, " ").trim(); return n.length > 20 ? n.slice(0, 19) + "…" : n; }
+  // plain-language high/low words per axis, for readable quadrant labels
+  var HILO = {
+    ambientLight: ["daylight", "dim-only"], scale: ["large", "small"], resolution: ["sharp", "low-res"],
+    motion: ["full-motion", "static"], transparency: ["see-through", "opaque"], color: ["full-color", "mono"],
+    dimensionality: ["volumetric", "flat"], availability: ["easy to get", "lab-only"], cost: ["costly", "cheap"], safety: ["safe", "risky"]
+  };
+  // top-k contributing axes for a corner, phrased high/low by that corner's side
+  function pcWords(vec, axes, sideSign, k) {
+    return axes.map(function (a, i) { return { a: a, w: vec[i] }; })
+      .sort(function (x, y) { return Math.abs(y.w) - Math.abs(x.w); }).slice(0, k)
+      .map(function (t) { return HILO[t.a][(sideSign * t.w) > 0 ? 0 : 1]; });
+  }
+
+  function renderConstellation() {
+    var pca = computePCA(), W = 760, H = 560, pad = 72;
+    var xs = pca.coords.map(function (c) { return c.x; }), ys = pca.coords.map(function (c) { return c.y; });
+    var xmin = Math.min.apply(null, xs), xmax = Math.max.apply(null, xs), ymin = Math.min.apply(null, ys), ymax = Math.max.apply(null, ys);
+    function sx(x) { return pad + (xmax > xmin ? (x - xmin) / (xmax - xmin) : 0.5) * (W - 2 * pad); }
+    function sy(y) { return H - pad - (ymax > ymin ? (y - ymin) / (ymax - ymin) : 0.5) * (H - 2 * pad); }
+    var pts = pca.coords.map(function (c) { return { id: c.id, row: rowById(c.id), sx: sx(c.x), sy: sy(c.y) }; });
+    // light overlap relaxation so coincident displays stay readable
+    var minD = 14;
+    for (var it = 0; it < 80; it++) for (var i = 0; i < pts.length; i++) for (var j = i + 1; j < pts.length; j++) {
+      var dx = pts[j].sx - pts[i].sx, dy = pts[j].sy - pts[i].sy, dist = Math.sqrt(dx * dx + dy * dy) || 0.01;
+      if (dist < minD) { var push = (minD - dist) / 2, ux = dx / dist, uy = dy / dist; pts[i].sx -= ux * push; pts[i].sy -= uy * push; pts[j].sx += ux * push; pts[j].sy += uy * push; }
+    }
+    pts.forEach(function (p) { p.sx = Math.max(pad - 14, Math.min(W - pad + 14, p.sx)); p.sy = Math.max(pad - 14, Math.min(H - pad + 14, p.sy)); });
+
+    var s = '<svg viewBox="0 0 ' + W + ' ' + H + '" class="tns-svg cns-svg" preserveAspectRatio="xMidYMid meet">';
+    s += '<line class="grid" x1="' + pad + '" y1="' + (H / 2) + '" x2="' + (W - pad) + '" y2="' + (H / 2) + '"/>';
+    s += '<line class="grid" x1="' + (W / 2) + '" y1="' + pad + '" x2="' + (W / 2) + '" y2="' + (H - pad) + '"/>';
+    // readable quadrant labels: what displays in each corner tend to be like
+    function quadText(qx, qy, anchor, s1, s2) {
+      var a = pcWords(pca.pc1, pca.axes, s1, 2), b = pcWords(pca.pc2, pca.axes, s2, 2);
+      return '<text class="cns-quad" x="' + qx + '" y="' + qy + '" text-anchor="' + anchor + '">' +
+        '<tspan x="' + qx + '">' + esc(a.join(", ")) + '</tspan>' +
+        '<tspan x="' + qx + '" dy="13">' + esc(b.join(", ")) + '</tspan></text>';
+    }
+    s += quadText(pad + 4, pad + 10, "start", -1, 1);        // top-left
+    s += quadText(W - pad - 4, pad + 10, "end", 1, 1);       // top-right
+    s += quadText(pad + 4, H - pad - 22, "start", -1, -1);   // bottom-left
+    s += quadText(W - pad - 4, H - pad - 22, "end", 1, -1);  // bottom-right
+    pts.forEach(function (p) {
+      var col = FAMILY_COLORS[p.row.family] || "#888", low = p.row.confidence === "low";
+      s += '<circle class="pt' + (low ? " low" : "") + '" data-id="' + esc(p.id) + '" cx="' + p.sx.toFixed(1) + '" cy="' + p.sy.toFixed(1) + '" r="6" ' +
+        (low ? ('fill="none" stroke="' + col + '" stroke-width="2"') : ('fill="' + col + '" stroke="rgba(0,0,0,.35)"')) + '/>';
+      if (cShowLabels) s += '<text class="cns-label" x="' + p.sx.toFixed(1) + '" y="' + (p.sy - 9).toFixed(1) + '" text-anchor="middle">' + esc(shortName(p.row.name)) + '</text>';
+    });
+    s += '</svg>';
+    cEl.plot.innerHTML = s;
+
+    var pct = Math.round((pca.var1 + pca.var2) * 100);
+    cEl.explainer.innerHTML = 'Each dot is a display; <strong>nearby dots are similar overall</strong>. The map blends all ten affordances into two abstract directions (PCA) and captures about <strong>' + pct + '%</strong> of what makes these displays differ — so read it as a rough neighbourhood map, not exact coordinates. The corner labels describe what displays in each region tend to be like.';
+    cEl.note.textContent = "An impressionistic map, not a coordinate grid — the axes have no units. Hollow dots are low-confidence ratings; displays missing some ratings are placed approximately. Hover for names, click to open an entry.";
+
+    var fams = pts.map(function (p) { return p.row.family; }).filter(function (v, i, a) { return a.indexOf(v) === i; }).sort();
+    var lh = fams.map(function (ff) { return '<span class="lg-fam"><span class="sw" style="background:' + FAMILY_COLORS[ff] + '"></span>' + esc(ff) + '</span>'; }).join("");
+    lh += '<span class="lg-fam"><span class="sw hollow"></span>low-confidence rating</span>';
+    cEl.legend.innerHTML = lh;
+  }
+
+  function initConstellation() {
+    cEl.plot = byId("cns-plot"); cEl.legend = byId("cns-legend");
+    cEl.explainer = byId("cns-explainer"); cEl.note = byId("cns-note"); cEl.labels = byId("cns-labels");
+    cEl.labels.addEventListener("change", function () { cShowLabels = cEl.labels.checked; renderConstellation(); });
+    cEl.plot.addEventListener("mouseover", function (e) {
+      var c = e.target; if (!c.classList || !c.classList.contains("pt") || !tnsTip) return;
+      var r = rowById(c.getAttribute("data-id")); if (!r) return;
+      tnsTip.innerHTML = "<strong>" + esc(r.name) + "</strong><br><span class='muted'>" + esc(r.family) + "</span><br><span class='muted'>click to open ↗</span>";
+      tnsTip.hidden = false;
+    });
+    cEl.plot.addEventListener("mousemove", function (e) { if (tnsTip && !tnsTip.hidden) { tnsTip.style.left = (e.clientX + 13) + "px"; tnsTip.style.top = (e.clientY + 13) + "px"; } });
+    cEl.plot.addEventListener("mouseout", function (e) { if (tnsTip && e.target.classList && e.target.classList.contains("pt")) tnsTip.hidden = true; });
+    cEl.plot.addEventListener("click", function (e) { var c = e.target; if (c.classList && c.classList.contains("pt")) { var r = rowById(c.getAttribute("data-id")); if (r) showDetail(r); } });
+  }
+
   function setupViews() {
     var views = {
-      matrix:   { tab: byId("tab-matrix"),   view: byId("view-matrix") },
-      tensions: { tab: byId("tab-tensions"), view: byId("view-tensions") },
-      stories:  { tab: byId("tab-stories"),  view: byId("view-stories") }
+      matrix:       { tab: byId("tab-matrix"),       view: byId("view-matrix") },
+      tensions:     { tab: byId("tab-tensions"),     view: byId("view-tensions") },
+      constellation:{ tab: byId("tab-constellation"),view: byId("view-constellation") },
+      stories:      { tab: byId("tab-stories"),      view: byId("view-stories") }
     };
     function show(name) {
       Object.keys(views).forEach(function (k) {
@@ -503,6 +649,7 @@
         views[k].tab.setAttribute("aria-selected", on);
       });
       if (name === "tensions") renderTensions();
+      if (name === "constellation") renderConstellation();
       if (name === "stories") renderStories();
     }
     showView = show;
