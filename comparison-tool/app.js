@@ -252,6 +252,26 @@
     surface:  { x: "dimensionality",y: "transparency", fx: false, fy: false,
       cap: "Images that leave the screen: both volumetric (true 3D) and see-through, so they float free in space rather than living on a surface." }
   };
+  var STORIES = [
+    { id: "bigsharp", title: "Big or sharp — pick one", x: "resolution", y: "scale",
+      teaser: "Why you can have an enormous image or a razor-sharp one, but rarely both.",
+      body: "<p>Plot every display by how sharp it looks up close against how large it can grow, and the top-right corner stays empty — nothing is both architectural and razor-sharp. As an image scales up, its pixels spread out.</p><p>Fine-pitch LED (around 0.7&nbsp;mm) is quietly closing this gap, but at a cost in money and power that keeps the trade-off real for most projects.</p>" },
+    { id: "daylight", title: "The daylight problem", x: "ambientLight", y: "motion",
+      teaser: "Sunlight kills most displays. The survivors tend to be slow.",
+      body: "<p>Step outside and most displays vanish — emissive screens can't outshine the sun. The ones that thrive in daylight are mostly <em>reflective</em>: e-ink, flip-dots, split-flaps. They borrow the sun's own light instead of fighting it.</p><p>But reflection brings inertia — these displays are slow, often nearly static. The great exception is the LED video wall, which brute-forces daylight visibility with sheer brightness, at a steep cost in money and power.</p>" },
+    { id: "holograms", title: "“Holograms aren't real”", x: "dimensionality", y: "availability",
+      teaser: "Most things sold as holograms are illusions; the genuinely volumetric ones are rare.",
+      body: "<p>“Hologram” is the most abused word in displays. Pepper's ghost is a 19th-century reflection; a spinning-fan sign is a flat persistence-of-vision trick. Plot how three-dimensional a display is against how easily you can get one, and the pattern is stark: the genuinely volumetric displays you can actually <em>buy</em> are a small, niche set, while the jaw-dropping light-field systems stay lab-bound or medical-only.</p><p>The closer a display gets to real, free-floating 3D, the harder it is to get your hands on.</p>" },
+    { id: "surface", title: "Leaving the surface", x: "dimensionality", y: "transparency",
+      teaser: "The displays whose image escapes the screen and floats in space.",
+      body: "<p>Most images live on a surface; a few escape it. Plot dimensionality against transparency and a distinct family gathers in the corner — drone swarms, fog projection, light-field panels, levitated mist — images that hang in the air with nothing visibly holding them.</p><p>This is the frontier the word “hologram” is really reaching for, and almost all of it is still expensive, temporary, or experimental.</p>" },
+    { id: "seethrough", title: "The see-through paradox", x: "ambientLight", y: "transparency",
+      teaser: "Bright AND transparent is nearly impossible — and the exceptions aren't really screens.",
+      body: "<p>Transparency and brightness pull against each other: a see-through display has, by definition, less material with which to make light. Ask for both — readable in ambient light <em>and</em> see-through — and the corner nearly empties.</p><p>The only things sitting there comfortably are switchable glasses, which aren't image displays at all; they just turn opacity up and down. A bright, see-through picture remains one of the hardest asks in this whole survey.</p>" },
+    { id: "accessible", title: "The accessible corner", x: "cost", y: "availability", flipX: true,
+      teaser: "What you can actually get cheaply today — and why “alternative” rarely means “affordable.”",
+      body: "<p>Flip cost so cheaper is better, plot it against how easy a display is to obtain, and the welcoming corner is sparse — standard panels, small round screens, a curious mineral or two. Most of what's both cheap and buyable is, well, fairly ordinary.</p><p>The survey's lesson in a single chart: the further you wander from the everyday screen, the more you pay — in money, lead time, or DIY effort.</p>" }
+  ];
   var FAMILY_COLORS = (function () {
     var fams = DATA.map(function (r) { return r.family; })
       .filter(function (v, i, a) { return a.indexOf(v) === i; }).sort();
@@ -390,7 +410,8 @@
     tEl.plot = document.getElementById("tns-plot"); tEl.legend = document.getElementById("tns-legend");
     tEl.insight = document.getElementById("tns-insight"); tEl.missing = document.getElementById("tns-missing");
     tEl.caption = document.getElementById("tns-caption");
-    function clearCaption() { tEl.caption.hidden = true; tEl.caption.textContent = ""; }
+    tEl.story = document.getElementById("tns-story");
+    function clearCaption() { tEl.caption.hidden = true; tEl.caption.textContent = ""; if (tEl.story) tEl.story.hidden = true; }
 
     PLOT_AXES.forEach(function (k) {
       var label = axisMeta(k).label;
@@ -411,6 +432,7 @@
         tEl.x.value = p.x; tEl.y.value = p.y;
         tEl.fx.textContent = p.fx ? "▼" : "▲"; tEl.fy.textContent = p.fy ? "▼" : "▲";
         tEl.caption.textContent = p.cap || ""; tEl.caption.hidden = !p.cap;
+        if (tEl.story) tEl.story.hidden = true;
         renderTensions();
       });
     });
@@ -437,17 +459,54 @@
     });
   }
 
+  function byId(id) { return document.getElementById(id); }
+  var showView = function () {};
+
+  function renderStories() {
+    var grid = byId("stories-grid"); if (!grid) return;
+    grid.innerHTML = STORIES.map(function (s) {
+      return '<button class="story-card" type="button" data-story="' + esc(s.id) + '">' +
+        '<span class="story-card-title">' + esc(s.title) + '</span>' +
+        '<span class="story-card-teaser">' + esc(s.teaser) + '</span>' +
+        '<span class="story-card-axes">' + esc(axisMeta(s.x).label) + ' × ' + esc(axisMeta(s.y).label) + '</span>' +
+        '</button>';
+    }).join("");
+    Array.prototype.forEach.call(grid.querySelectorAll(".story-card"), function (b) {
+      b.addEventListener("click", function () { openStory(b.getAttribute("data-story")); });
+    });
+  }
+
+  function openStory(id) {
+    var st = STORIES.filter(function (s) { return s.id === id; })[0]; if (!st) return;
+    tState.x = st.x; tState.y = st.y; tState.flipX = !!st.flipX; tState.flipY = !!st.flipY;
+    tEl.x.value = st.x; tEl.y.value = st.y;
+    tEl.fx.textContent = st.flipX ? "▼" : "▲"; tEl.fy.textContent = st.flipY ? "▼" : "▲";
+    tEl.caption.hidden = true; tEl.caption.textContent = "";
+    tEl.story.hidden = false;
+    tEl.story.innerHTML = '<button class="story-back" type="button">‹ All stories</button>' +
+      '<h3>' + esc(st.title) + '</h3><div class="story-body">' + st.body + '</div>';
+    tEl.story.querySelector(".story-back").addEventListener("click", function () { showView("stories"); });
+    showView("tensions"); // renders the plot for the story's axes
+  }
+
   function setupViews() {
-    var tabM = document.getElementById("tab-matrix"), tabT = document.getElementById("tab-tensions");
-    var vM = document.getElementById("view-matrix"), vT = document.getElementById("view-tensions");
-    function show(matrix) {
-      vM.hidden = !matrix; vT.hidden = matrix;
-      tabM.classList.toggle("active", matrix); tabT.classList.toggle("active", !matrix);
-      tabM.setAttribute("aria-selected", matrix); tabT.setAttribute("aria-selected", !matrix);
-      if (!matrix) renderTensions();
+    var views = {
+      matrix:   { tab: byId("tab-matrix"),   view: byId("view-matrix") },
+      tensions: { tab: byId("tab-tensions"), view: byId("view-tensions") },
+      stories:  { tab: byId("tab-stories"),  view: byId("view-stories") }
+    };
+    function show(name) {
+      Object.keys(views).forEach(function (k) {
+        var on = k === name;
+        views[k].view.hidden = !on;
+        views[k].tab.classList.toggle("active", on);
+        views[k].tab.setAttribute("aria-selected", on);
+      });
+      if (name === "tensions") renderTensions();
+      if (name === "stories") renderStories();
     }
-    tabM.addEventListener("click", function () { show(true); });
-    tabT.addEventListener("click", function () { show(false); });
+    showView = show;
+    Object.keys(views).forEach(function (k) { views[k].tab.addEventListener("click", function () { show(k); }); });
   }
 
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init);

@@ -54,6 +54,7 @@
   <div class="view-switch" role="tablist" aria-label="Views">
     <button id="tab-matrix" class="tab active" role="tab" aria-selected="true">▦ Matrix</button>
     <button id="tab-tensions" class="tab" role="tab" aria-selected="false">⤬ Tensions</button>
+    <button id="tab-stories" class="tab" role="tab" aria-selected="false">◈ Stories</button>
   </div>
 
   <div id="view-matrix">
@@ -114,6 +115,7 @@
   </div><!-- /view-matrix -->
 
   <div id="view-tensions" hidden>
+    <div id="tns-story" class="tns-story" hidden></div>
     <div class="tns-controls">
       <div class="control">
         <label for="tns-x">Horizontal axis</label>
@@ -139,6 +141,11 @@
     </div>
     <p id="tns-missing" class="tns-missing"></p>
     <p class="tns-foot muted">A rough, qualitative map — positions come from coarse 0–3 affordance ratings, so points are jittered within each cell and many ties are real. The dashed line is the trade-off frontier (the best you can currently get); the ▲/▼ buttons flip which end counts as "more." Hover a dot for details; click to open its full entry.</p>
+  </div>
+
+  <div id="view-stories" hidden>
+    <p class="stories-intro">Guided explorations — each opens a live view with a short read, then leaves you free to keep poking. Every claim is backed by the same survey you can browse in the Matrix.</p>
+    <div id="stories-grid" class="stories-grid"></div>
   </div>
 
   <aside id="detail" class="detail" hidden></aside>
