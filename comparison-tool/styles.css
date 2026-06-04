@@ -200,6 +200,21 @@ code { background: var(--panel-2); padding: 1px 5px; border-radius: 4px; font-si
 .tns-tip { position: fixed; z-index: 50; pointer-events: none; background: var(--panel-2); border: 1px solid var(--accent); border-radius: 8px; padding: 7px 10px; font-size: 12px; color: var(--text); max-width: 240px; box-shadow: 0 6px 20px rgba(0,0,0,.4); }
 @media (max-width: 720px) { .tns-stage { flex-direction: column; } .tns-legend { width: auto; flex-direction: row; flex-wrap: wrap; gap: 10px 16px; } }
 
+/* stories */
+.stories-intro { max-width: 1100px; margin: 0 auto 14px; color: var(--muted); font-size: 14px; max-width: 70ch; }
+.stories-grid { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 12px; }
+.story-card { text-align: left; display: flex; flex-direction: column; gap: 6px; padding: 14px 16px; background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); cursor: pointer; color: var(--text); }
+.story-card:hover { border-color: var(--accent); box-shadow: 0 4px 16px rgba(0,0,0,.25); }
+.story-card-title { font-weight: 700; font-size: 15px; }
+.story-card-teaser { font-size: 13px; color: var(--muted); line-height: 1.45; }
+.story-card-axes { margin-top: 2px; font-size: 11px; text-transform: uppercase; letter-spacing: .04em; color: var(--accent-2); }
+.tns-story { max-width: 1100px; margin: 0 auto 12px; padding: 12px 16px 14px; background: var(--panel); border: 1px solid var(--line); border-left: 3px solid var(--accent-2); border-radius: var(--radius); }
+.tns-story h3 { margin: 8px 0 6px; font-size: 18px; }
+.tns-story .story-body { font-size: 14px; line-height: 1.55; color: var(--text); }
+.tns-story .story-body p { margin: 6px 0; }
+.story-back { background: transparent; border: 1px solid var(--line); color: var(--muted); border-radius: 7px; padding: 4px 10px; font-size: 12px; cursor: pointer; }
+.story-back:hover { color: var(--text); border-color: var(--accent); }
+
 /* footer */
 .site-footer { max-width: 1100px; margin: 22px auto 0; color: var(--muted); font-size: 13px; }
 .site-footer a { color: var(--accent); }
