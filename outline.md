@@ -5,7 +5,7 @@ description: This is an overview of everything that is covered in the following 
 # Outline
 
 {% hint style="info" %}
-🧭 **New — [Display Chooser](https://laserpilot.github.io/Survey_of_Alternative_Displays/comparison-tool/):** an interactive matrix that compares these technologies by their real-world strengths — daylight readability, scale, transparency, 3D-ness, cost, and availability. Filter by what your experience needs. (Hosted on GitHub Pages; opens outside GitBook.)
+🧭 **New — [The Display Atlas](https://laserpilot.github.io/Survey_of_Alternative_Displays/comparison-tool/):** an interactive way to explore these technologies across four lenses — a comparison matrix, a trade-off explorer, a map of "display-space," and guided stories. A companion [Interactive Installation Multitool](https://laserpilot.github.io/interactive-installation-multitool/) covers the practical install side (screen height, sizing, ADA). (Hosted on GitHub Pages; opens outside GitBook.)
 {% endhint %}
 
 * **Introduction**

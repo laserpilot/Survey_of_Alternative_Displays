@@ -1,4 +1,4 @@
-/* Display Chooser — render / sort / filter the comparison matrix.
+/* The Display Atlas — render / sort / filter the comparison matrix.
  * No framework, no build step. Reads window.DISPLAYS from displays.js. */
 (function () {
   "use strict";
