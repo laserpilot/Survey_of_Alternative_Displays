@@ -15,7 +15,7 @@ If you're on Gitbook, the link to the [Github for this article is here](https://
 If your project or image is featured here and you would prefer me to remove it, please send me a message/email/etc (contact info on [my website](https://www.ablairneal.com)). Additionally, if you have something you think needs to change or be added, please submit a pull request and I'll add it in (or send me an email!).
 
 {% hint style="info" %}
-🧭 **Try the [Display Chooser](https://laserpilot.github.io/Survey_of_Alternative_Displays/comparison-tool/)** — an interactive matrix that compares the displays in this survey by their real-world strengths (daylight readability, scale, transparency, 3D-ness, cost, and more), so you can optimize a choice for a given experience or intention.
+🧭 **Explore [The Display Atlas](https://laserpilot.github.io/Survey_of_Alternative_Displays/comparison-tool/)** — an interactive companion that maps the displays in this survey by their real-world strengths (daylight readability, scale, transparency, 3D-ness, cost, and more) across four lenses: a comparison matrix, a trade-off explorer, a map of "display-space," and guided stories. Pair it with the [Interactive Installation Multitool](https://laserpilot.github.io/interactive-installation-multitool/) for the practical install specs — screen height, sizing, ADA.
 {% endhint %}
 
 ## To add: 2025 and beyond:

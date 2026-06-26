@@ -1,4 +1,4 @@
-# Display Chooser — comparison tool
+# The Display Atlas
 
 A small, dependency-free web tool that turns the *Survey of Alternative Displays* from a
 **taxonomy** (organized by how each display works) into a **decision aid** (organized by what each
