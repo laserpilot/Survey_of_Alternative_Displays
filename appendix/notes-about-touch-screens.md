@@ -11,3 +11,4 @@ Types:
 * Surface Capacitive
 * LIDAR
 * Object/Marker recognition on screens
+* Frustrated Total Internal Reflection + Vision (e.g. https://sethsandler.com/multitouch/ftir/)
